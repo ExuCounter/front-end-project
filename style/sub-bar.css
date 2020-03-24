@@ -18,3 +18,17 @@
     color: #FFF !important;
     border: solid 1px #FFF;
 }
+
+.sub-bar__col-result{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.sub-bar__col-result__span{
+    font-size: 18px;
+    color: #FFF;
+    font-weight: 600;
+    margin-right: 60px;
+
+}
