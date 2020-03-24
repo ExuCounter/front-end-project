@@ -7,18 +7,25 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Register</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300i,400,500,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style/fonts.css">
+    <link rel="stylesheet" href="/style/base.css">
+    <link rel="stylesheet" href="/style/top-bar.css">
+    <link rel="stylesheet" href="/style/footer.css">
+    <link rel="stylesheet" href="/style/buttons.css">
+    <link rel="stylesheet" href="/style/auth.css">
+    <link rel="stylesheet" href="/style/text.css">
 </head>
 <body>
 
-    <!-- TOP BAR -->
+   <!-- TOP BAR -->
    <div class="top-bar">
     <div class="container">
         <div class="top-bar__row row">
             <div class="col-6">
-                <img src="" alt="logo" class="top-bar__logo-img">
+                <a href="home.html" class="top-bar__logo">Logo</a>
             </div>
-            <div class="col-4">
-                <nav class='top-bar__nav'>
+            <div class="col-3 top-bar__row__nav-col">
                     <ul class='top-bar__nav-menu'>
                         <li>
                             <a href="home.html" class='active'>Home</a>
@@ -32,15 +39,15 @@
                     </ul>
                </nav>
             </div>
-            <div class="col-2 top-bar__menu">
+            <div class="col-3 top-bar__menu">
                 <ul>
                     <li>
-                        <a class="xs-btn" href='index.html'>
+                        <a class="xs-btn xs-btn-login" href='login.html'>
                             Login
                         </a>
                     </li>
                     <li>
-                        <a class="xs-btn" href='signup.html'>
+                        <a class="xs-btn xs-btn-signup" href='signup.html'>
                             Signup
                         </a>
                     </li>
@@ -51,40 +58,57 @@
     </div>
 
     <!-- HOME AUTH -->
-    <section class="home-auth-section home-auth-section_register">
+    <section class="home-auth-section home-auth-section_signup">
         <div class="container">
             <div class="home-auth-section__row row">
                 <div class="col-6 home-auth-section__row__left-col">
                     <h1>Company Name</h1>
-                    <h2>Welcome</h2>
-                    <p>Lorem Ispum is simply dummy text of the printing and typesetting industry</p>
-                    <a href="index.html" class="home-auth-section__login-btn">
+                    <h2 class="main-page-heading">Welcome!</h2>
+                    <p class="main-page-paragraph">Lorem Ispum is simply dummy text of the printing and<br> typesetting industry</p>
+                    <a href="login.html" class="home-auth-section__login-btn">
                         Login
                     </a>
                 </div>
                 <div class="col-6 home-auth-section__row__right-col">
-                    <h2>Register</h2>
+                    <h2>Login to your account</h2>
                     <form action="#">
-                        <div class="input-container">
-                            <input type="text" placeholder="First Name">
-                        </div>
-                        <div class="input-container">
+                        <label class="input-container">
+                            <div class="input-container__svg-container">
+                                <img src="img/user.svg" alt="user image">
+                            </div>
+                            <input type="text" placeholder="Username">
+                        </label>
+                        <label class="input-container">
+                            <div class="input-container__svg-container">
+                                <img src="img/email.svg" alt="email image">
+                            </div>
                             <input type="email" placeholder="Email">
-                        </div>
-                        <div class="input-container">
-                            <input type="number" placeholder="Phone">
-                        </div>
-                        <div class="input-container">
-                            <input type="password" placeholder="Password">
-                        </div>
+                        </label>
+                        <label class="input-container">
+                            <div class="input-container__svg-container">
+                                <img src="img/phone.svg" alt="phone image">
+                            </div>
+                            <input type="number" placeholder="Phone Number">
+                        </label>
+                        <label class="input-container">
+                            <div class="input-container__svg-container">
+                                <img src="img/password.svg" alt="user password">
+                                <div class="d-flex" class="input-container__svg-container__show-btn">
+                                    <img class="input-container__svg-container__show-btn" src="/img/eye.svg" alt="eye icon">
+                                </div>
+                            </div>
+                            <input type="password" placeholder="Password" class="input-container__input-password">
+                        </label>
                         <button class="sign-up-btn">
                             Signup
                         </button>
                         <div class="social-signup-container">
-                            <button class="social-signup-container__button">
+                            <button class="social-signup-container__button social-signup-container__button_facebook">
+                                <img src="img/facebook.svg" alt="facebook icon">
                                 Signup with Facebook
                             </button>
-                            <button class="social-signup-container__button">
+                            <button class="social-signup-container__button social-signup-container__button_google">
+                                <img src="img/google-cloud-search.svg" alt="google icon">
                                 Signup with Google
                             </button>
                         </div>
@@ -98,8 +122,8 @@
     <footer class="footer">
         <div class="container">
             <div class="footer__row row">
-                <div class="col-4 footer__col">
-                    <img src="" class='top-bar__logo-img' alt="logo">
+                <div class="col-5 footer__col">
+                    <a href="home.html" class="footer__logo">Logo</a>
                     <p class='footer__company-description'>
                         Lorem Ipsum is simply dummy text of the
                         printing and typesetting industry. Lorem
@@ -109,7 +133,7 @@
                         and typesetting industry.
                     </p>
                 </div>
-                <div class="col-4 footer__col">
+                <div class="col-3 footer__col">
                     <span class="footer__col-title">Important Links</span>
                     <ul class="footer__menu">
                         <li>
@@ -127,7 +151,7 @@
                     </ul>
                 </div>
                 <div class="col-4 footer__col">
-                    <span class="footer__col-title">Important Links</span>
+                    <span class="footer__col-title">Contact Us</span>
                     <ul class="footer__menu">
                         <li>
                             <a href="mailto:sample@mail.com">Contact Us</a>
@@ -136,13 +160,9 @@
                             <a href="tel:971123464788">+971 123 464788</a>
                         </li>
                         <li>
-                            <a href="privacy.html">Privacy Policy</a>
-                        </li>
-                        <li>
-                            <a href="contact-us.html">Contact Us</a>
-                        </li>
-                        <li>
-                            <a href='write-review.html'>Write a Review</a>
+                            <a class="write-review__btn" href="write-review.html">
+                                Write a Review
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -152,5 +172,6 @@
 
 
 <script src="js/script.js"></script>
+<script src="js/password-input.js"></script>
 </body>
 </html>

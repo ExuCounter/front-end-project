@@ -7,37 +7,49 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Home</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300i,400,500,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style/fonts.css">
+    <link rel="stylesheet" href="/style/base.css">
+    <link rel="stylesheet" href="/style/top-bar.css">
+    <link rel="stylesheet" href="/style/footer.css">
+    <link rel="stylesheet" href="/style/buttons.css">
+    <link rel="stylesheet" href="/style/auth.css">
+    <link rel="stylesheet" href="/style/text.css">
+    <link rel="stylesheet" href="/style/sub-bar.css">
+    <link rel="stylesheet" href="/style/home.css">
 </head>
 <body>
 
-    <!-- TOP BAR -->
-   <div class="top-bar">
-    <div class="container">
-        <div class="top-bar__row row">
-            <div class="col-6">
-                <img src="" alt="logo" class="top-bar__logo-img">
-            </div>
-            <div class="col-4">
-                <nav class='top-bar__nav'>
-                    <ul class='top-bar__nav-menu'>
-                        <li>
-                            <a href="home.html" class='active'>Home</a>
-                        </li>
-                        <li>
-                            <a href="about-us.html">About Us</a>
-                        </li>
-                        <li>
-                            <a href="contact-us.html">Contact Us</a>
-                        </li>
-                    </ul>
-               </nav>
-            </div>
-            <div class="col-2 top-bar__user">
-                <p class="top-bar__user-name">User name</p>
 
+    <!-- TOP BAR -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="top-bar__row row">
+                <div class="col-6">
+                    <a href="home.html" class="top-bar__logo">Logo</a>
+                </div>
+                <div class="col-3 top-bar__row__nav-col">
+                        <ul class='top-bar__nav-menu'>
+                            <li>
+                                <a href="home.html" class='active'>Home</a>
+                            </li>
+                            <li>
+                                <a href="about-us.html">About Us</a>
+                            </li>
+                            <li>
+                                <a href="contact-us.html">Contact Us</a>
+                            </li>
+                        </ul>
+                   </nav>
+                </div>
+                <div class="col-3 top-bar__user">
+                    <a href="user.html">
+                        <p class="top-bar__user-name">User Name</p>
+                        <img src="/img/b80249235cab344d4fa92087b0a4b61c029ad6f1.png" alt="user image">
+                    </a>
+                </div>
             </div>
         </div>
-    </div>
     </div>
 
     <!-- SUB BAR -->
@@ -53,8 +65,8 @@
                 <div class="col-2 sub-bar__col ">
 
                 </div>
-                <div class="col-2 sub-bar__col ">
-                    <a class="write-review__btn">
+                <div class="col-2 sub-bar__col sub-bar__col-review">
+                    <a class="write-review__btn" href='write-review.html'>
                         Write a Review
                     </a>
                 </div>
@@ -73,9 +85,14 @@
                     Every Review is an Experience!
                 </h1>
                 <p>Check Ratings of Apartments, Read & Reviews</p>
-                <div class="input-container">
-                    <input type="text" placeholder="Search by location">
-                </div>
+                <form action="#">
+                    <label class="input-container">
+                        <button type="submit" class="input-container__svg-container">
+                            <img src="img/search.svg" alt="search image">
+                        </button>
+                        <input type="text" placeholder="Search by location">
+                    </label>
+                </form>
             </div>   
         </div>
     </section>
@@ -89,29 +106,32 @@
                 </h2>
                 <div class="home-instructions__steps-container">
                     <div class="home-instructions__step">
-                        <span class="home-insctructions__step-title">
+                        <img src="img/group.svg">
+                        <span class="home-instructions__step-title">
                             Login to account
                         </span>
                         <p>
-                            Lorem Ipsum is simply dummy text of the printing
+                            Lorem Ipsum is simply<br> dummy text of the printing<br>
                             any typesetting industry.
                         </p>
                     </div>
                     <div class="home-instructions__step">
-                        <span class="home-insctructions__step-title">
+                        <img src="img/choose.svg">
+                        <span class="home-instructions__step-title">
                             Submit Review
                         </span>
                         <p>
-                            Lorem Ipsum is simply dummy text of the printing
+                            Lorem Ipsum is simply<br> dummy text of the printing<br>
                             any typesetting industry.
                         </p>
                     </div>
                     <div class="home-instructions__step">
-                        <span class="home-insctructions__step-title">
+                        <img src="img/group-5.svg">
+                        <span class="home-instructions__step-title">
                             Publish
                         </span>
                         <p>
-                            Lorem Ipsum is simply dummy text of the printing
+                            Lorem Ipsum is simply<br> dummy text of the printing<br>
                             any typesetting industry.
                         </p>
                     </div>
@@ -127,10 +147,13 @@
                 <div class="col-2">
 
                 </div>
-                <div class="col-5">
-                    <h3 class="home-search-section__title">
-                        How do I know I can trust these reviews ?
-                    </h3>
+                <div class="col-4">
+                    <div class="d-flex home-trust-section__title">
+                        <img src="/img/verified-protection.svg">
+                        <h3 class="home-trust-section__title">
+                            How do I know I can<br> trust these reviews ?
+                        </h3>
+                    </div>
                     <ul class="home-trust-section__list">
                         <li>
                             Lorem Ipsum is simply dummy text of the
@@ -159,8 +182,8 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-5">
-                    <img src="" alt="trust reviews image">
+                <div class="col-6 home-trust-section__right-col">
+                    <img src="img/c22ceea33c588020255e96dcf337f54369aeddf6.png" alt="trust reviews image">
                 </div>
             </div>   
         </div>
@@ -170,8 +193,8 @@
     <footer class="footer">
         <div class="container">
             <div class="footer__row row">
-                <div class="col-4 footer__col">
-                    <img src="" class='top-bar__logo-img' alt="logo">
+                <div class="col-5 footer__col">
+                    <a href="home.html" class="footer__logo">Logo</a>
                     <p class='footer__company-description'>
                         Lorem Ipsum is simply dummy text of the
                         printing and typesetting industry. Lorem
@@ -181,7 +204,7 @@
                         and typesetting industry.
                     </p>
                 </div>
-                <div class="col-4 footer__col">
+                <div class="col-3 footer__col">
                     <span class="footer__col-title">Important Links</span>
                     <ul class="footer__menu">
                         <li>
@@ -199,7 +222,7 @@
                     </ul>
                 </div>
                 <div class="col-4 footer__col">
-                    <span class="footer__col-title">Important Links</span>
+                    <span class="footer__col-title">Contact Us</span>
                     <ul class="footer__menu">
                         <li>
                             <a href="mailto:sample@mail.com">Contact Us</a>
@@ -208,13 +231,9 @@
                             <a href="tel:971123464788">+971 123 464788</a>
                         </li>
                         <li>
-                            <a href="privacy.html">Privacy Policy</a>
-                        </li>
-                        <li>
-                            <a href="contact-us.html">Contact Us</a>
-                        </li>
-                        <li>
-                            <a href='write-review.html' class='write-review__btn'>Write a Review</a>
+                            <a class="write-review__btn" href="write-review.html">
+                                Write a Review
+                            </a>
                         </li>
                     </ul>
                 </div>

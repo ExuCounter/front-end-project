@@ -1,7 +1,6 @@
 let passwordInput = document.querySelector(".input-container__input-password");
 let eyeButton = document.querySelector(".input-container__svg-container__show-btn");
-  
-alert(eyeButton);
+ 
 eyeButton.addEventListener('click', ()=>{
   if(passwordInput.getAttribute('type') == 'password') {
     passwordInput.removeAttribute('type');

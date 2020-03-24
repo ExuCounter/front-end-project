@@ -1,0 +1,20 @@
+.sub-bar{
+    background-color: #0989d2;
+    padding: 15px 0px 12px 0px;
+}
+
+.sub-bar .write-review__btn{
+    font-size: 14px;
+    display: block;
+    width: fit-content;
+    padding: 13px 10px;
+}
+
+.sub-bar__col-review{
+    padding: 0;
+}
+
+.sub-bar .write-review__btn:hover{
+    color: #FFF !important;
+    border: solid 1px #FFF;
+}

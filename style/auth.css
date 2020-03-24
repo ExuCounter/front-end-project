@@ -1,10 +1,30 @@
-.home-auth-section__row__left-col{
+.home-auth-section_login .home-auth-section__row__left-col{
     background: url('/img/1.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
     border-top-right-radius: 430px;
     border-bottom-right-radius: 90px;
+}
 
+.home-auth-section .home-auth-section__row__left-col{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.home-auth-section_signup .home-auth-section__row__left-col{
+    background: url('/img/2.jpg');
+    border-top-right-radius: 350px;
+    border-bottom-right-radius: 150px;
+}
+
+.home-auth-section_signup .social-signup-container{
+    margin-bottom: 90px;
+}
+
+.home-auth-section_signup .sign-up-btn{
+    margin: 15px 0px 18px 0px;
+}
+
+.home-auth-section_signup .social-signup-container__button{
+    padding: 19px 6px;
 }
 
 .home-auth-section__row__left-col h1{
