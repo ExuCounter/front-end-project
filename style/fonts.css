@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "SFCompact Heavy";
+    src: url("/fonts/sf-compact-text-heavy-58646f645b774.otf") format("otf");
+   }
+
+@font-face {
+font-family: "SFCompact Semibold";
+src: url("/fonts/SF-Compact-Text-Semibold.otf") format("otf");
+}

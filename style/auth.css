@@ -1,0 +1,122 @@
+.home-auth-section__row__left-col{
+    background: url('/img/1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-right-radius: 430px;
+    border-bottom-right-radius: 90px;
+
+}
+
+.home-auth-section__row__left-col h1{
+    font-size: 32px;
+    color: #FFF;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-bottom: 105px;
+}
+
+.home-auth-section__login-btn{
+    font-size: 22px;
+    background-color: #FFF;
+    text-align: center;
+    padding: 19px 51px;
+    text-transform: uppercase;
+    font-weight: 500;
+    display: block;
+    margin: 0 auto;
+    width:fit-content;
+    color: #0c97d9;
+    border-radius: 3px;
+    border: solid 1px transparent;
+}
+
+.home-auth-section__login-btn:hover{
+    color: #FFF !important;
+    background-color: transparent;
+    border: solid 1px #FFF;
+
+}
+
+.home-auth-section__row__left-col{
+    padding: 138px 0px 160px 0px;
+}
+
+.home-auth-section__row__right-col h2{
+    font-size: 28.8px;
+    font-weight: 600;
+    text-align: center;
+    padding: 98px 0px 25px 0px;
+}
+
+.home-auth-section__row__right-col form{
+    width: 470px;
+}
+
+.home-auth-section__row__right-col{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.home-auth-section__forgot-password{
+    font-size: 13px;
+    color: #8f8f8f;
+    font-weight: 600;
+    text-align: center;
+    margin: 24px 0px;
+    text-decoration: underline;
+}
+
+.home-auth-section__forgot-password:hover{
+    color: #ff4a49;
+
+}
+
+.social-signup-container{
+    display: flex;
+}
+
+.social-signup-container__button{
+    font-size: 13px;
+    color: #FFF;
+    font-weight: 600;
+    font-size: 15.7px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    padding: 19px 11px;
+    border-radius: 6px;
+    border: solid 1px transparent;
+}
+
+.social-signup-container__button img{
+    height: 24px;
+    margin-right: 6px;
+}
+
+.social-signup-container__button_facebook{
+    background-color: #4480cd;
+    margin-right: 15px;
+}
+
+.social-signup-container__button_google{
+    background-color: #eaeaea;
+    color: #232323;
+}
+
+.social-signup-container__button_facebook:hover{
+    background-color: #2466bd;
+
+}
+
+.social-signup-container__button_google:hover{
+    background-color: #dfd9d9;
+
+}
+
+.social-signup-container__button_google img{
+    margin-right: 11px;
+}

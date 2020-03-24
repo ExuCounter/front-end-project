@@ -1,0 +1,13 @@
+.main-page-heading{
+    font-weight: 600;
+    color: #FFF;
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: 32px;
+}
+.main-page-paragraph{
+    text-align: center;
+    color: #FFF; 
+    font-size: 16px;
+    margin-bottom: 50px;
+}

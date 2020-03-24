@@ -1,0 +1,53 @@
+*, p, ul, li, a{
+    margin: 0;
+    padding: 0;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1566px;
+    margin: 0 auto;
+}
+
+html, body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+}
+
+li{
+    list-style: none;
+}
+
+.input-container{
+    border: solid 0.7px #d3d3d3;
+    border-radius: 6px;
+    font-size: 17.3px;
+    padding: 18px;
+    display: flex;
+    margin-top: 16px;
+    position: relative;
+}
+
+.input-container input{
+    border: none;
+    outline: none;
+    font-weight: 600;
+}
+
+.input-container__svg-container{
+    width: 26px;
+    display: flex;
+    justify-content: center;
+    margin-right: 26px;
+}
+
+.input-container__svg-container__show-btn{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translate(0%, -50%);
+    cursor: pointer;
+}
