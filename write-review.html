@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Search Result</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="style/checkbox.css"> -->
+</head>
+
+<body>
+
+    <!-- TOP BAR -->
+   <div class="top-bar">
+     <div class="container">
+        <div class="top-bar__row row">
+            <div class="col-6">
+                <img src="" alt="logo" class="top-bar__logo-img">
+            </div>
+            <div class="col-4">
+                <nav class='top-bar__nav'>
+                    <ul class='top-bar__nav-menu'>
+                        <li>
+                            <a href="home.html" class='active'>Home</a>
+                        </li>
+                        <li>
+                            <a href="about-us.html">About Us</a>
+                        </li>
+                        <li>
+                            <a href="contact-us.html">Contact Us</a>
+                        </li>
+                    </ul>
+               </nav>
+            </div>
+            <div class="col-2 top-bar__user">
+                <div class="col-2 top-bar__user">
+                    <p class="top-bar__user-name">User name</p>
+                    
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SUB BAR -->
+    <div class="sub-bar">
+        <div class="container">
+            <div class="sub-bar__row row">
+                <div class="col-3 sub-bar__col">
+                    <span class="sub-bar__result-span">
+                        Write a review
+                    </span>
+                </div>
+                <div class="col-3 sub-bar__col">
+
+                </div>
+                <div class="col-2 sub-bar__col ">
+                    <div class="search-container-sm">
+                        <input type="text" placeholder="New York">
+                    </div>
+                </div>
+                <div class="col-2 sub-bar__col ">
+
+                </div>
+                <div class="col-2 sub-bar__col ">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SINGLE APARTAMENT SECTION -->
+    <section class="single-apartament-section">
+        <div class="single-apartament-section__row row">
+            <div class="col-4">
+                <img src="" alt="Apartament Image" class="single-apartament-section__img">
+            </div>
+            <div class="col-8">
+                <h3 class="single-apartament-section__title">Building Name</h3>
+                <p class="single-apartament-section__address">21/2 Address New York</p>
+                <span class="single-apartament-section__params-span">Floor No.1</span>
+                <span class="single-apartament-section__params-span">Apartament 101</span>
+
+                <p class="single-apartament-section__auth">Before writing a review you have to 
+                    <a href="login.html">
+                        Login
+                    </a>
+                    <a href="register.html">
+                        Signup
+                    </a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- MAIN -->
+    <main class="main main-write-review">
+        <div class="main-write-review__occupants">
+            <div class="d-flex">
+                <p class="default-text">I`m a</p>
+                <button class="main-write-review__occupants-btn active">Previous occupant</button>
+            </div>
+            <div class="d-flex">
+                <p class="default-text">I`m a</p>
+                <button class="main-write-review__occupants-btn">Actual occupant</button>
+            </div>
+        </div>
+        <div class="main-write-review__date">
+            <div class="d-flex">
+                <p class="default-text">From</p>
+                <input type="date">
+            </div>
+            <div class="d-flex">
+                <p class="default-text">To</p>
+                <input type="date">
+            </div>
+            <div class="d-flex">
+                <div class="custom-theme-select" style="width:200px;">
+                    <select>
+                      <option selected name="search-default">Floor Number 1</option>
+                      <option>Floor Number 1</option>
+                      <option>Floor Number 2</option>
+                      <option>Floor Number 3</option>
+                    </select>
+                  </div>
+            </div>
+        </div>
+        <form class="main-write-review__form">
+            <h1 class="main-title">
+                Ratings and reviews
+            </h1>
+            <div class="d-flex flex-column">
+                <div class="d-flex">
+                    <label class="checkbox-container">
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                        <p>Add basic info</p>
+                    </label>
+                    <label class="checkbox-container">
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                        <p>Add advanced info</p>
+                    </label>
+                </div>
+                <div class="d-flex flex-column">
+                    <p class="default-text">
+                        How many people stayed in this apartment?
+                    </p>
+                    <div class="custom-theme-select" style="width:200px;">
+                        <select>
+                          <option selected name="search-default">Floor Number 1</option>
+                          <option>Floor Number 1</option>
+                          <option>Floor Number 2</option>
+                          <option>Floor Number 3</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="d-flex flex-column">
+                    <p class="default-text">
+                        Contact preference
+                    </p>
+                    <label class="checkbox-container">
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                        <p>Phone</p>
+                    </label>
+                    <label class="checkbox-container">
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                        <p>Email</p>
+                    </label>
+                    <label class="checkbox-container">
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                        <p>None</p>
+                    </label>
+                </div>
+                <div class="d-flex flex-column">
+                    <p class="default-text">
+                        Your experience
+                    </p>
+                    <div class="main-write-review__experience-rating">
+                        <div class="d-flex">
+                            <div class="main-write-review__experience-rating__block">
+                                <p>
+                                    How did you like living in apartment?
+                                </p>
+                                <div class="d-flex ">
+    
+                                </div>
+                            </div>
+                            <div class="main-write-review__experience-rating__block">
+                                <p>
+                                    How is the communication with the Landlort
+                                </p>
+                                <div class="d-flex ">
+    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-column">
+                    <p class="default-text">
+                        Your review
+                    </p>
+                    <textarea type="text" name='textarea'></textarea>
+                </div>
+                <div class="d-flex flex-column">
+                    <p class="default-text">
+                        Would you recommend living in 12/2 Light street to a friend
+                    </p>
+                    <div class="d-flex">
+                        <button class="main-write-review__agree-btn main-write-review__btn">
+                            yes
+                        </button>
+                        <button class="main-write-review__agree-btn main-write-review__btn">
+                            no
+                        </button>
+                    </div>
+                </div>
+                <div class="d-flex flex-column">
+                    <p class="default-text">
+                        Add your photo ( optional )
+                    </p>
+                    <input type="file">
+                </div>
+                <div class="d-flex flex-row main-write-review__agree-container">
+                    <label class="checkbox-container">
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                    <span>
+                        Lorem Ipsum is simply dummy text of the
+                        printing and typesetting industry. Lorem
+                        Ipsum has been the industry`s 
+                    </span>
+                </div>
+                <button class="main-write-review__submit-btn lg-btn">
+                    Submit review
+                </button>
+            </div>
+        </form>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__row row">
+                <div class="col-4 footer__col">
+                    <img src="" class='top-bar__logo-img' alt="logo">
+                    <p class='footer__company-description'>
+                        Lorem Ipsum is simply dummy text of the
+                        printing and typesetting industry. Lorem
+                        Ipsum has been the industry`s standart 
+                        dummy text ever since the 1500s Lorem
+                        Ipsum is simply dummy text of the printing
+                        and typesetting industry.
+                    </p>
+                </div>
+                <div class="col-4 footer__col">
+                    <span class="footer__col-title">Important Links</span>
+                    <ul class="footer__menu">
+                        <li>
+                            <a href="about-us.html">About Us</a>
+                        </li>
+                        <li>
+                            <a href="terms.html">Terms and Conditions</a>
+                        </li>
+                        <li>
+                            <a href="privacy.html">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="contact-us.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-4 footer__col">
+                    <span class="footer__col-title">Important Links</span>
+                    <ul class="footer__menu">
+                        <li>
+                            <a href="mailto:sample@mail.com">Contact Us</a>
+                        </li>
+                        <li>
+                            <a href="tel:971123464788">+971 123 464788</a>
+                        </li>
+                        <li>
+                            <a href="privacy.html">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="contact-us.html">Contact Us</a>
+                        </li>
+                        <li>
+                            <a href='write-review.html' class='write-review__btn'>Write a Review</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
