@@ -37,6 +37,26 @@ li{
     position: relative;
 }
 
+.input-container-sm{
+    font-size: 11.5px;
+    color: #9b9b9b;
+    padding: 15px;
+    margin: 0;
+}
+
+
+.input-container-sm .input-container__svg-container{
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    margin-right: 26px;
+}
+
+.input-container-sm button{
+    border: none;
+    background-color: transparent;
+}
+
 .input-container input{
     border: none;
     outline: none;
@@ -58,3 +78,4 @@ li{
     transform: translate(0%, -50%);
     cursor: pointer;
 }
+

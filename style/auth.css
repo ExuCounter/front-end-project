@@ -1,5 +1,5 @@
 .home-auth-section_login .home-auth-section__row__left-col{
-    background: url('/img/1.jpg');
+    background: url('img/1.jpg');
     border-top-right-radius: 430px;
     border-bottom-right-radius: 90px;
 }
@@ -10,7 +10,7 @@
 }
 
 .home-auth-section_signup .home-auth-section__row__left-col{
-    background: url('/img/2.jpg');
+    background: url('img/2.jpg');
     border-top-right-radius: 350px;
     border-bottom-right-radius: 150px;
 }
