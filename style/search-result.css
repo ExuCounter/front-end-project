@@ -1,0 +1,23 @@
+.main-search-result .lg-btn{
+    margin: 54px 30px 50px 30px;
+}
+
+.main-search-result__block-title{
+    font-size: 22px;
+    font-weight: 700;
+    color: #373737;
+    padding-bottom: 8px;
+}
+
+.main-search-result__block-address, .main-search-result__block__params-container p{
+    font-size: 16px;
+    color: #373737;
+    font-weight: 500;
+}
+
+.main-search-result__block__params-container{
+    display: flex;
+    padding-top: 30px;
+    align-items: center;
+    justify-content: space-between;
+}

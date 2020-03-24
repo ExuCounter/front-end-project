@@ -1,14 +1,8 @@
 @font-face {
-    font-family: "SFCompact Heavy";
-    src: url("../fonts/SF-Compact-Text-Semibold.otf") format("otf");
-}
-
-
-@font-face {
     font-family: "SF Text";
     font-weight: 600;
     src: url("https://sf.abarba.me/SF-UI-Text-Semibold.otf");
-  }
+}
   
 @font-face {
     font-family: "SF Text Bold";
