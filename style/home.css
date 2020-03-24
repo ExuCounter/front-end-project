@@ -108,9 +108,16 @@
 .home-trust-section__right-col{
     display: flex;
     justify-content: center;
+    position: relative;
 }
 
 .home-trust-section__right-col img{
-    max-width: 80%;
+    max-width: 90%;
     height: auto;
+}
+
+.home-trust-section__right-col__stars{
+    position: absolute;
+    left: 240px;
+    top: 20px;
 }

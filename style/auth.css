@@ -40,7 +40,7 @@
     font-size: 22px;
     background-color: #FFF;
     text-align: center;
-    padding: 19px 51px;
+    padding: 14px 41px;
     text-transform: uppercase;
     font-weight: 500;
     display: block;
@@ -49,6 +49,7 @@
     color: #0c97d9;
     border-radius: 3px;
     border: solid 1px transparent;
+    font-family: "SF Text";
 }
 
 .home-auth-section__login-btn:hover{
@@ -110,6 +111,7 @@
     padding: 19px 11px;
     border-radius: 6px;
     border: solid 1px transparent;
+    font-family: "SF Text";
 }
 
 .social-signup-container__button img{

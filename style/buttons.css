@@ -2,7 +2,7 @@
     font-size: 11.3px;
     padding: 6.5px 13.5px;
     color: #FFF;
-    font-family: "Montserrat";
+    font-family: "SF Text";
     text-transform: uppercase;
     border: solid 1px transparent;
 }
@@ -22,11 +22,13 @@
     color: #FFF !important;
     background-color: #ff4a49;
     border: solid 1px transparent;
+    font-family: "SF Text";
 }
 
 .sign-up-btn{
     width: 100%;
     border: solid 1px transparent;
+    font-family: "SF Text";
     background-color: #ff4a49;
     border: solid 1px transparent;
     color: #FFF;
