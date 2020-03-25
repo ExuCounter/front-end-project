@@ -13,7 +13,7 @@ a:hover{
 }
 
 .main{
-    max-width: 880px;
+    max-width: 856px;
     margin: 0 auto;
 }
 
@@ -77,48 +77,4 @@ li{
     top: 50%;
     transform: translate(0%, -50%);
     cursor: pointer;
-}
-
-.contact-reviewer-btn{
-    border: none;
-    background-color: #bdbdbd;
-    color: #FFF;
-    padding: 6px 9px;
-    font-size: 10.5px;
-    border-radius: 3px;
-
-}
-
-.useful-btn{
-    background: #d8d8d8;
-    color: #4a4a4a;
-    border: none;
-    display: flex;
-    align-items: center;
-    padding: 6px 10px;
-    font-size: 10px;
-    font-weight: 600;
-    border-radius: 4px;
-}
-
-.share-btn, .report-btn{
-    border: none;
-    background-color: transparent;
-    color: #787878;
-    font-size: 14.4px;
-    font-weight: 600;
-    display: flex;
-    justify-content: center;
-}
-
-.share-btn:hover, .report-btn:hover{
-    color: #ff4a49;
-}
-
-.share-btn img, .report-btn img{
-    margin-right: 15px !important;
-}
-
-.useful-btn_not img{
-    transform: rotate(180deg);
 }
