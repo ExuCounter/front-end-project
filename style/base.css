@@ -79,12 +79,28 @@ li{
     cursor: pointer;
 }
 
+.input-file__container{
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 0px 8px 0px rgba(176, 176, 176, 0.42);
+    border-radius: 4px;
+    width: fit-content;
+}
+
+.input-file__container span{
+    font-size: 15px;
+    color: #a5a5a5;
+    padding-left: 10px;
+}
+
 .input-file__container-inner{
     background-color: #ff4a49;
     color: #FFF;
     display: flex;
     align-items: center;
     width: fit-content;
+    margin: 0;
 }
 
 .input-file__container-inner p{

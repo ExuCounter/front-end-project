@@ -36,6 +36,12 @@
     border-radius: 4px;
 }
 
+.main-search-result__block__inner-block{
+    margin: 0px 8px 0px 0px;
+    outline: none;
+}
+
+
 .main-search-result__block__inner-block img{
     width: 100%;
     border-top-right-radius: 4px;
@@ -116,24 +122,26 @@
     border: solid 1px #ff4a49;
 }
 
-.main-search-result__block__inner-container .main-search-result__block__inner-block:nth-child(2){
-    margin: 0px 8px;
-}
+
 
 .main-search-result__block__pagination{
     display: flex;
     justify-content: center;
     align-items: center;
     padding-bottom: 20px;
+    margin-top: 30px;
 }
 
-.main-search-result__block__pagination li a{
+.main-search-result__block__pagination button{
     color: #767676;
     font-weight: 600;
     font-size: 16px;
     padding: 5px 11.5px;
     border-radius: 60px;
     margin: 0px 3px;
+    border: none;
+    background-color: transparent;
+    outline: none;
 }
 
 .main-search-result__block__pagination li a.active{
@@ -144,4 +152,67 @@
 .main-search-result__block__pagination li a:hover{
     color: #FFF;
     background-color: #f56161;
+}
+
+.main-search-result__block__pagination li.slick-active button{
+    color: #FFF;
+    background-color: #f56161;
+}
+
+.main-search-result .submit-review__btn{
+    cursor: default;
+}
+
+.main-search-result .submit-review__btn a {
+    color: #FFF;
+}
+
+.main-search-result .submit-review__btn a{
+    border: solid 0px transparent !important;
+}
+
+.submit-review__btn:hover a{
+    text-decoration: underline;
+}
+
+.slick-arrow{
+    z-index: 1;
+}
+
+.slick-prev{
+    z-index: 1;
+    top: unset;
+    bottom: 14px !important;
+    left:35%;
+}
+
+.slick-next{
+    z-index: 1;
+    top: unset;
+    bottom: 14px !important;
+    right:35%;
+}
+
+
+.slick-prev:before, .slick-next:before{
+    color: #000 !important;
+
+}
+
+.slick-prev:before{
+    content: '1';
+    background-image: url('../img/arrow-pagination.svg');
+    background-repeat: no-repeat;
+    color: transparent !important;
+    width: 20px;
+    height: 20px;
+}
+
+.slick-next:before{
+    content: '1';
+    background-image: url('../img/arrow-pagination-right.svg');
+    background-repeat: no-repeat;
+    color: transparent !important;
+    width: 20px;
+    height: 20px;
 }

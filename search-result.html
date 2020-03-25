@@ -8,6 +8,11 @@
     <title>Home</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300i,400,500,600,700&display=swap" rel="stylesheet">
+  
+    <!-- SLICK SLIDER-->
+     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+ 
     <link rel="stylesheet" href="style/fonts.css">
     <link rel="stylesheet" href="style/base.css">
     <link rel="stylesheet" href="style/top-bar.css">
@@ -93,9 +98,9 @@
     <!-- MAIN -->
     <main class='main main-search-result'>
         <div class="main__container">
-            <a class="lg-btn" href="submit-review.html">
-                Cannot find your Apartment? Submit a new review
-            </a>
+            <p class="lg-btn submit-review__btn" href="submit-review.html">
+                Cannot find your Apartment? <a href="submit-review.html"> Submit a new review</a>
+            </p>
             <div class="main-search-result__block">
                 <h5 class="main-search-result__block-title">Building Name</h5>
                 <p class="main-search-result__block-address">21/2 Address New York</p>
@@ -110,9 +115,9 @@
                         </select>
                       </div>
                 </div>
-                <div class="main-search-result__block__inner-container">
+                <div class="main-search-result__block__inner-container flex-column">
                     <!-- MAIN SEARCH RESULT BLOCK -->
-                    <div class="main-search-result__block__inner-block" href="single-apartament.html">
+                    <div class="main-search-result__block__inner-block">
                         <div class="d-flex flex-column">
                             <img src="img/a6d4d725ec2bd2f510c107a83c854752de8b93aa.png" alt="apartment image" class="main-search-result__block__inner-block__image">
                             <div class="d-flex main-search-result__block__inner-block__info">
@@ -153,7 +158,7 @@
                     </div>
 
                     <!-- MAIN SEARCH RESULT BLOCK -->
-                    <div class="main-search-result__block__inner-block" href="single-apartament.html">
+                    <div class="main-search-result__block__inner-block">
                         <div class="d-flex flex-column">
                             <img src="img/a6d4d725ec2bd2f510c107a83c854752de8b93aa.png" alt="apartment image" class="main-search-result__block__inner-block__image">
                             <div class="d-flex main-search-result__block__inner-block__info">
@@ -194,7 +199,89 @@
                     </div>
 
                     <!-- MAIN SEARCH RESULT BLOCK -->
-                    <div class="main-search-result__block__inner-block" href="single-apartament.html">
+                    <div class="main-search-result__block__inner-block">
+                        <div class="d-flex flex-column">
+                            <img src="img/a6d4d725ec2bd2f510c107a83c854752de8b93aa.png" alt="apartment image" class="main-search-result__block__inner-block__image">
+                            <div class="d-flex main-search-result__block__inner-block__info">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span class="main-search-result__block__inner-block__title">Floor No.1<br>Apartment 101</span>
+                                    <p class="main-search-result__block__inner-block__reviewed">John Matthew <span>Reviewed</span></p>
+                                </div>
+                                <div class="d-flex align-items-baseline">
+                                    <div class="d-flex">
+                                        <img src="img/star.svg" alt="star icon" class='star-icon active'>
+                                        <img src="img/star.svg" alt="star icon" class='star-icon active'>
+                                        <img src="img/star.svg" alt="star icon" class='star-icon active'>
+                                        <img src="img/star.svg" alt="star icon" class='star-icon'>
+                                        <img src="img/star.svg" alt="star icon" class='star-icon'>
+                                    </div>
+                                    <span class="main-search-result__block__inner-block__rating">
+                                        4.50/5.00
+                                    </span>
+                                </div>
+                                <span class="main-search-result__block__inner-block__description">
+                                    Lorem Ipsum is simply dummy text of the
+                                    printing and typesetting industry. Lorem
+                                    Ipsum has been the industry`s standart 
+                                    dummy text ever since the 1500s Lorem
+                                    Ipsum is simply dummy text of the printing
+                                    and typesetting industry.
+                                </span>
+                                <div class="d-flex justify-content-between pt-4 align-items-center">
+                                    <span class="main-search-result__block__inner-block__published-time">
+                                        Published: 26.08.2018-10:30 AM
+                                    </span>
+                                    <a class="main-search-result__block__inner-block__view-more__btn" href="single-apartament.html">
+                                        View more
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- MAIN SEARCH RESULT BLOCK -->
+                    <div class="main-search-result__block__inner-block">
+                        <div class="d-flex flex-column">
+                            <img src="img/a6d4d725ec2bd2f510c107a83c854752de8b93aa.png" alt="apartment image" class="main-search-result__block__inner-block__image">
+                            <div class="d-flex main-search-result__block__inner-block__info">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span class="main-search-result__block__inner-block__title">Floor No.1<br>Apartment 101</span>
+                                    <p class="main-search-result__block__inner-block__reviewed">John Matthew <span>Reviewed</span></p>
+                                </div>
+                                <div class="d-flex align-items-baseline">
+                                    <div class="d-flex">
+                                        <img src="img/star.svg" alt="star icon" class='star-icon active'>
+                                        <img src="img/star.svg" alt="star icon" class='star-icon active'>
+                                        <img src="img/star.svg" alt="star icon" class='star-icon active'>
+                                        <img src="img/star.svg" alt="star icon" class='star-icon'>
+                                        <img src="img/star.svg" alt="star icon" class='star-icon'>
+                                    </div>
+                                    <span class="main-search-result__block__inner-block__rating">
+                                        4.50/5.00
+                                    </span>
+                                </div>
+                                <span class="main-search-result__block__inner-block__description">
+                                    Lorem Ipsum is simply dummy text of the
+                                    printing and typesetting industry. Lorem
+                                    Ipsum has been the industry`s standart 
+                                    dummy text ever since the 1500s Lorem
+                                    Ipsum is simply dummy text of the printing
+                                    and typesetting industry.
+                                </span>
+                                <div class="d-flex justify-content-between pt-4 align-items-center">
+                                    <span class="main-search-result__block__inner-block__published-time">
+                                        Published: 26.08.2018-10:30 AM
+                                    </span>
+                                    <a class="main-search-result__block__inner-block__view-more__btn" href="single-apartament.html">
+                                        View more
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- MAIN SEARCH RESULT BLOCK -->
+                    <div class="main-search-result__block__inner-block">
                         <div class="d-flex flex-column">
                             <img src="img/a6d4d725ec2bd2f510c107a83c854752de8b93aa.png" alt="apartment image" class="main-search-result__block__inner-block__image">
                             <div class="d-flex main-search-result__block__inner-block__info">
@@ -234,29 +321,13 @@
                         </div>
                     </div>
                 </div>
-                <nav>
-                    <ul class="main-search-result__block__pagination ">
-                      <li><a class="main-search-result__block__pagination-link" href="#">
-                        <img src="img/arrow-pagination.svg" alt="">
-                      </a></li>
-                      <li><a class="main-search-result__block__pagination-link active" href="#">1</a></li>
-                      <li><a class="main-search-result__block__pagination-link" href="#">2</a></li>
-                      <li><a class="main-search-result__block__pagination-link" href="#">3</a></li>
-                      <li><a class="main-search-result__block__pagination-link" href="#">4</a></li>
-                      <li><a class="main-search-result__block__pagination-link" href="#">5</a></li>
-                      <li><a class="main-search-result__block__pagination-link" href="#">10</a></li>
-                      <li><a class="main-search-result__block__pagination-link" href="#">
-                        <img src="img/arrow-pagination-right.svg" alt="">
-                      </a></li>
-                    </ul>
-                  </nav>
             </div>
             <div class="main-search-result__block pt-4">
                 <h5 class="main-search-result__block-title">Building Name</h5>
                 <p class="main-search-result__block-address">21/2 Address New York</p>
                 <div class="main-search-result__block__params-container">
                     <p>10 floors with 50 apartments</p>
-                    <div class="custom-theme-select" style="width:200px;">
+                    <div class="custom-theme-select">
                         <select>
                           <option selected name="search-default">Floor Number 1</option>
                           <option>Floor Number 1</option>
@@ -265,9 +336,9 @@
                         </select>
                       </div>
                 </div>
-                <div class="main-search-result__block__inner-container">
+                <div class="main-search-result__block__inner-container flex-column">
                     <!-- MAIN SEARCH RESULT BLOCK -->
-                    <div class="main-search-result__block__inner-block" href="single-apartament.html">
+                    <div class="main-search-result__block__inner-block">
                         <div class="d-flex flex-column">
                             <img src="img/a6d4d725ec2bd2f510c107a83c854752de8b93aa.png" alt="apartment image" class="main-search-result__block__inner-block__image">
                             <div class="d-flex main-search-result__block__inner-block__info">
@@ -308,7 +379,7 @@
                     </div>
 
                     <!-- MAIN SEARCH RESULT BLOCK -->
-                    <div class="main-search-result__block__inner-block" href="single-apartament.html">
+                    <div class="main-search-result__block__inner-block">
                         <div class="d-flex flex-column">
                             <img src="img/a6d4d725ec2bd2f510c107a83c854752de8b93aa.png" alt="apartment image" class="main-search-result__block__inner-block__image">
                             <div class="d-flex main-search-result__block__inner-block__info">
@@ -349,7 +420,89 @@
                     </div>
 
                     <!-- MAIN SEARCH RESULT BLOCK -->
-                    <div class="main-search-result__block__inner-block" href="single-apartament.html">
+                    <div class="main-search-result__block__inner-block">
+                        <div class="d-flex flex-column">
+                            <img src="img/a6d4d725ec2bd2f510c107a83c854752de8b93aa.png" alt="apartment image" class="main-search-result__block__inner-block__image">
+                            <div class="d-flex main-search-result__block__inner-block__info">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span class="main-search-result__block__inner-block__title">Floor No.1<br>Apartment 101</span>
+                                    <p class="main-search-result__block__inner-block__reviewed">John Matthew <span>Reviewed</span></p>
+                                </div>
+                                <div class="d-flex align-items-baseline">
+                                    <div class="d-flex">
+                                        <img src="img/star.svg" alt="star icon" class='star-icon active'>
+                                        <img src="img/star.svg" alt="star icon" class='star-icon active'>
+                                        <img src="img/star.svg" alt="star icon" class='star-icon active'>
+                                        <img src="img/star.svg" alt="star icon" class='star-icon'>
+                                        <img src="img/star.svg" alt="star icon" class='star-icon'>
+                                    </div>
+                                    <span class="main-search-result__block__inner-block__rating">
+                                        4.50/5.00
+                                    </span>
+                                </div>
+                                <span class="main-search-result__block__inner-block__description">
+                                    Lorem Ipsum is simply dummy text of the
+                                    printing and typesetting industry. Lorem
+                                    Ipsum has been the industry`s standart 
+                                    dummy text ever since the 1500s Lorem
+                                    Ipsum is simply dummy text of the printing
+                                    and typesetting industry.
+                                </span>
+                                <div class="d-flex justify-content-between pt-4 align-items-center">
+                                    <span class="main-search-result__block__inner-block__published-time">
+                                        Published: 26.08.2018-10:30 AM
+                                    </span>
+                                    <a class="main-search-result__block__inner-block__view-more__btn" href="single-apartament.html">
+                                        View more
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- MAIN SEARCH RESULT BLOCK -->
+                    <div class="main-search-result__block__inner-block">
+                        <div class="d-flex flex-column">
+                            <img src="img/a6d4d725ec2bd2f510c107a83c854752de8b93aa.png" alt="apartment image" class="main-search-result__block__inner-block__image">
+                            <div class="d-flex main-search-result__block__inner-block__info">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span class="main-search-result__block__inner-block__title">Floor No.1<br>Apartment 101</span>
+                                    <p class="main-search-result__block__inner-block__reviewed">John Matthew <span>Reviewed</span></p>
+                                </div>
+                                <div class="d-flex align-items-baseline">
+                                    <div class="d-flex">
+                                        <img src="img/star.svg" alt="star icon" class='star-icon active'>
+                                        <img src="img/star.svg" alt="star icon" class='star-icon active'>
+                                        <img src="img/star.svg" alt="star icon" class='star-icon active'>
+                                        <img src="img/star.svg" alt="star icon" class='star-icon'>
+                                        <img src="img/star.svg" alt="star icon" class='star-icon'>
+                                    </div>
+                                    <span class="main-search-result__block__inner-block__rating">
+                                        4.50/5.00
+                                    </span>
+                                </div>
+                                <span class="main-search-result__block__inner-block__description">
+                                    Lorem Ipsum is simply dummy text of the
+                                    printing and typesetting industry. Lorem
+                                    Ipsum has been the industry`s standart 
+                                    dummy text ever since the 1500s Lorem
+                                    Ipsum is simply dummy text of the printing
+                                    and typesetting industry.
+                                </span>
+                                <div class="d-flex justify-content-between pt-4 align-items-center">
+                                    <span class="main-search-result__block__inner-block__published-time">
+                                        Published: 26.08.2018-10:30 AM
+                                    </span>
+                                    <a class="main-search-result__block__inner-block__view-more__btn" href="single-apartament.html">
+                                        View more
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- MAIN SEARCH RESULT BLOCK -->
+                    <div class="main-search-result__block__inner-block">
                         <div class="d-flex flex-column">
                             <img src="img/a6d4d725ec2bd2f510c107a83c854752de8b93aa.png" alt="apartment image" class="main-search-result__block__inner-block__image">
                             <div class="d-flex main-search-result__block__inner-block__info">
@@ -389,29 +542,13 @@
                         </div>
                     </div>
                 </div>
-                <nav>
-                    <ul class="main-search-result__block__pagination ">
-                      <li><a class="main-search-result__block__pagination-link" href="#">
-                        <img src="img/arrow-pagination.svg" alt="">
-                      </a></li>
-                      <li><a class="main-search-result__block__pagination-link active" href="#">1</a></li>
-                      <li><a class="main-search-result__block__pagination-link" href="#">2</a></li>
-                      <li><a class="main-search-result__block__pagination-link" href="#">3</a></li>
-                      <li><a class="main-search-result__block__pagination-link" href="#">4</a></li>
-                      <li><a class="main-search-result__block__pagination-link" href="#">5</a></li>
-                      <li><a class="main-search-result__block__pagination-link" href="#">10</a></li>
-                      <li><a class="main-search-result__block__pagination-link" href="#">
-                        <img src="img/arrow-pagination-right.svg" alt="">
-                      </a></li>
-                    </ul>
-                  </nav>
             </div>
             <div class="main-search-result__block pt-4 pb-4">
                 <h5 class="main-search-result__block-title">Building Name</h5>
                 <p class="main-search-result__block-address">21/2 Address New York</p>
                 <div class="main-search-result__block__params-container">
                     <p>10 floors with 50 apartments</p>
-                    <div class="custom-theme-select" style="width:200px;">
+                    <div class="custom-theme-select">
                         <select>
                           <option selected name="search-default">Floor Number 1</option>
                           <option>Floor Number 1</option>
@@ -420,9 +557,9 @@
                         </select>
                       </div>
                 </div>
-                <div class="main-search-result__block__inner-container">
+                <div class="main-search-result__block__inner-container flex-column">
                     <!-- MAIN SEARCH RESULT BLOCK -->
-                    <div class="main-search-result__block__inner-block" href="single-apartament.html">
+                    <div class="main-search-result__block__inner-block">
                         <div class="d-flex flex-column">
                             <img src="img/a6d4d725ec2bd2f510c107a83c854752de8b93aa.png" alt="apartment image" class="main-search-result__block__inner-block__image">
                             <div class="d-flex main-search-result__block__inner-block__info">
@@ -463,7 +600,7 @@
                     </div>
 
                     <!-- MAIN SEARCH RESULT BLOCK -->
-                    <div class="main-search-result__block__inner-block" href="single-apartament.html">
+                    <div class="main-search-result__block__inner-block">
                         <div class="d-flex flex-column">
                             <img src="img/a6d4d725ec2bd2f510c107a83c854752de8b93aa.png" alt="apartment image" class="main-search-result__block__inner-block__image">
                             <div class="d-flex main-search-result__block__inner-block__info">
@@ -504,7 +641,89 @@
                     </div>
 
                     <!-- MAIN SEARCH RESULT BLOCK -->
-                    <div class="main-search-result__block__inner-block" href="single-apartament.html">
+                    <div class="main-search-result__block__inner-block">
+                        <div class="d-flex flex-column">
+                            <img src="img/a6d4d725ec2bd2f510c107a83c854752de8b93aa.png" alt="apartment image" class="main-search-result__block__inner-block__image">
+                            <div class="d-flex main-search-result__block__inner-block__info">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span class="main-search-result__block__inner-block__title">Floor No.1<br>Apartment 101</span>
+                                    <p class="main-search-result__block__inner-block__reviewed">John Matthew <span>Reviewed</span></p>
+                                </div>
+                                <div class="d-flex align-items-baseline">
+                                    <div class="d-flex">
+                                        <img src="img/star.svg" alt="star icon" class='star-icon active'>
+                                        <img src="img/star.svg" alt="star icon" class='star-icon active'>
+                                        <img src="img/star.svg" alt="star icon" class='star-icon active'>
+                                        <img src="img/star.svg" alt="star icon" class='star-icon'>
+                                        <img src="img/star.svg" alt="star icon" class='star-icon'>
+                                    </div>
+                                    <span class="main-search-result__block__inner-block__rating">
+                                        4.50/5.00
+                                    </span>
+                                </div>
+                                <span class="main-search-result__block__inner-block__description">
+                                    Lorem Ipsum is simply dummy text of the
+                                    printing and typesetting industry. Lorem
+                                    Ipsum has been the industry`s standart 
+                                    dummy text ever since the 1500s Lorem
+                                    Ipsum is simply dummy text of the printing
+                                    and typesetting industry.
+                                </span>
+                                <div class="d-flex justify-content-between pt-4 align-items-center">
+                                    <span class="main-search-result__block__inner-block__published-time">
+                                        Published: 26.08.2018-10:30 AM
+                                    </span>
+                                    <a class="main-search-result__block__inner-block__view-more__btn" href="single-apartament.html">
+                                        View more
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- MAIN SEARCH RESULT BLOCK -->
+                    <div class="main-search-result__block__inner-block">
+                        <div class="d-flex flex-column">
+                            <img src="img/a6d4d725ec2bd2f510c107a83c854752de8b93aa.png" alt="apartment image" class="main-search-result__block__inner-block__image">
+                            <div class="d-flex main-search-result__block__inner-block__info">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span class="main-search-result__block__inner-block__title">Floor No.1<br>Apartment 101</span>
+                                    <p class="main-search-result__block__inner-block__reviewed">John Matthew <span>Reviewed</span></p>
+                                </div>
+                                <div class="d-flex align-items-baseline">
+                                    <div class="d-flex">
+                                        <img src="img/star.svg" alt="star icon" class='star-icon active'>
+                                        <img src="img/star.svg" alt="star icon" class='star-icon active'>
+                                        <img src="img/star.svg" alt="star icon" class='star-icon active'>
+                                        <img src="img/star.svg" alt="star icon" class='star-icon'>
+                                        <img src="img/star.svg" alt="star icon" class='star-icon'>
+                                    </div>
+                                    <span class="main-search-result__block__inner-block__rating">
+                                        4.50/5.00
+                                    </span>
+                                </div>
+                                <span class="main-search-result__block__inner-block__description">
+                                    Lorem Ipsum is simply dummy text of the
+                                    printing and typesetting industry. Lorem
+                                    Ipsum has been the industry`s standart 
+                                    dummy text ever since the 1500s Lorem
+                                    Ipsum is simply dummy text of the printing
+                                    and typesetting industry.
+                                </span>
+                                <div class="d-flex justify-content-between pt-4 align-items-center">
+                                    <span class="main-search-result__block__inner-block__published-time">
+                                        Published: 26.08.2018-10:30 AM
+                                    </span>
+                                    <a class="main-search-result__block__inner-block__view-more__btn" href="single-apartament.html">
+                                        View more
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- MAIN SEARCH RESULT BLOCK -->
+                    <div class="main-search-result__block__inner-block">
                         <div class="d-flex flex-column">
                             <img src="img/a6d4d725ec2bd2f510c107a83c854752de8b93aa.png" alt="apartment image" class="main-search-result__block__inner-block__image">
                             <div class="d-flex main-search-result__block__inner-block__info">
@@ -544,22 +763,6 @@
                         </div>
                     </div>
                 </div>
-                <nav>
-                    <ul class="main-search-result__block__pagination ">
-                      <li><a class="main-search-result__block__pagination-link" href="#">
-                        <img src="img/arrow-pagination.svg" alt="">
-                      </a></li>
-                      <li><a class="main-search-result__block__pagination-link active" href="#">1</a></li>
-                      <li><a class="main-search-result__block__pagination-link" href="#">2</a></li>
-                      <li><a class="main-search-result__block__pagination-link" href="#">3</a></li>
-                      <li><a class="main-search-result__block__pagination-link" href="#">4</a></li>
-                      <li><a class="main-search-result__block__pagination-link" href="#">5</a></li>
-                      <li><a class="main-search-result__block__pagination-link" href="#">10</a></li>
-                      <li><a class="main-search-result__block__pagination-link" href="#">
-                        <img src="img/arrow-pagination-right.svg" alt="">
-                      </a></li>
-                    </ul>
-                  </nav>
             </div>
         </div>
     </main>
@@ -620,7 +823,9 @@
     src="https://code.jquery.com/jquery-3.4.1.js"
     integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
     crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src='js/select.js'></script>
+    <script src="js/slick-apartments.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>

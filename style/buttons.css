@@ -24,6 +24,11 @@
     border: solid 1px transparent;
 }
 
+.lg-btn a{
+    color: #FFF;
+    margin-left: 5px;
+}
+
 .xs-btn-signup{
     background: #0989d2;
 }
@@ -53,7 +58,7 @@
     transition: 0.1s ease-out;
 }
 
-.sign-up-btn:hover, .lg-btn:hover, .write-review__btn:hover, .write-review__btn:hover, .xs-btn-login:hover{
+.sign-up-btn:hover, .lg-btn:hover, .write-review__btn:hover, .write-review__btn:hover, .xs-btn-login:hover, .lg-btn:hover {
     color: #ff4a49 !important;
     background-color: transparent;
     border: solid 1px #ff4a49;
