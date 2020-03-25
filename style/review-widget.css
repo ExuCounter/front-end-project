@@ -1,0 +1,21 @@
+.review-widget{
+    background-color: #eef3f7;
+    padding: 48px 99px 43px 99px;
+    display: flex;
+    justify-content: space-between;
+    margin: 70px 0px 20px 0px;
+    align-items: center;
+
+}
+
+.review-widget .main-title{
+    padding: 0;
+    text-transform: unset;
+    line-height: 1;
+}
+
+.review-widget__description{
+    font-size: 22.4px;
+    font-weight: 500;
+    line-height: 1;
+}
