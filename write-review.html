@@ -5,61 +5,78 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Search Result</title>
+    <title>Write Review</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <!-- <link rel="stylesheet" href="style/checkbox.css"> -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300i,400,500,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/fonts.css">
+    <link rel="stylesheet" href="style/base.css">
+    <link rel="stylesheet" href="style/top-bar.css">
+    <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="style/buttons.css">
+    <link rel="stylesheet" href="style/text.css">
+    <link rel="stylesheet" href="style/sub-bar.css">
+    <link rel="stylesheet" href="style/select.css">
+    <link rel="stylesheet" href="style/search-result.css">
+    <link rel="stylesheet" href="style/single-apartment.css">
+    <link rel="stylesheet" href="style/review-widget.css">
+    <link rel="stylesheet" href="style/checkbox.css">
+    <link rel="stylesheet" href="style/write-review.css">
 </head>
-
+<body>
 <body>
 
     <!-- TOP BAR -->
-   <div class="top-bar">
-     <div class="container">
-        <div class="top-bar__row row">
-            <div class="col-6">
-                <img src="" alt="logo" class="top-bar__logo-img">
-            </div>
-            <div class="col-4">
-                <nav class='top-bar__nav'>
-                    <ul class='top-bar__nav-menu'>
-                        <li>
-                            <a href="home.html" class='active'>Home</a>
-                        </li>
-                        <li>
-                            <a href="about-us.html">About Us</a>
-                        </li>
-                        <li>
-                            <a href="contact-us.html">Contact Us</a>
-                        </li>
-                    </ul>
-               </nav>
-            </div>
-            <div class="col-2 top-bar__user">
-                <div class="col-2 top-bar__user">
-                    <p class="top-bar__user-name">User name</p>
-                    
+    <div class="top-bar">
+        <div class="container">
+            <div class="top-bar__row row">
+                <div class="col-6">
+                    <a href="home.html" class="top-bar__logo">Logo</a>
+                </div>
+                <div class="col-3 top-bar__row__nav-col">
+                        <ul class='top-bar__nav-menu'>
+                            <li>
+                                <a href="home.html">Home</a>
+                            </li>
+                            <li>
+                                <a href="about-us.html">About Us</a>
+                            </li>
+                            <li>
+                                <a href="contact-us.html">Contact Us</a>
+                            </li>
+                        </ul>
+                   </nav>
+                </div>
+                <div class="col-3 top-bar__user">
+                    <a href="user.html">
+                        <p class="top-bar__user-name">User Name</p>
+                        <img src="img/b80249235cab344d4fa92087b0a4b61c029ad6f1.png" alt="user image">
+                    </a>
                 </div>
             </div>
         </div>
-      </div>
     </div>
 
     <!-- SUB BAR -->
     <div class="sub-bar">
         <div class="container">
             <div class="sub-bar__row row">
-                <div class="col-3 sub-bar__col">
-                    <span class="sub-bar__result-span">
-                        Write a review
+                <div class="col-5 sub-bar__col sub-bar__col-result">
+                    <span class="sub-bar__col-result__span pr-4">
+                        Ratings and Reviews
                     </span>
                 </div>
-                <div class="col-3 sub-bar__col">
+                <div class="col-1 sub-bar__col">
 
                 </div>
-                <div class="col-2 sub-bar__col ">
-                    <div class="search-container-sm">
-                        <input type="text" placeholder="New York">
-                    </div>
+                <div class="col-2 sub-bar__col sub-bar__col-search">
+                    <form action="#">
+                        <label class="input-container input-container-sm">
+                            <button type="submit" class="input-container__svg-container">
+                                <img src="img/search.svg" alt="search image">
+                            </button>
+                            <input type="text" placeholder="New York">
+                        </label>
+                    </form>
                 </div>
                 <div class="col-2 sub-bar__col ">
 
@@ -72,26 +89,25 @@
     </div>
 
     <!-- SINGLE APARTAMENT SECTION -->
-    <section class="single-apartament-section">
-        <div class="single-apartament-section__row row">
-            <div class="col-4">
-                <img src="" alt="Apartament Image" class="single-apartament-section__img">
-            </div>
-            <div class="col-8">
-                <h3 class="single-apartament-section__title">Building Name</h3>
-                <p class="single-apartament-section__address">21/2 Address New York</p>
-                <span class="single-apartament-section__params-span">Floor No.1</span>
-                <span class="single-apartament-section__params-span">Apartament 101</span>
+    <section class="single-apartament-section single-apartament-section_review">
+        <div class="single-apartament-section__container">
+            <div class="single-apartament-section__row row">
+                <div class="col-4 pl-0">
+                    <img src="img/a6d4d725ec2bd2f510c107a83c854752de8b93aa.png" alt="Apartament Image" class="single-apartament-section__img">
+                </div>
+                <div class="col-8">
+                    <h3 class="single-apartament-section__title">Building Name</h3>
+                    <p class="single-apartament-section__address">21/2 Address New York</p>
+                    <div class="d-flex flex-column">
+                        <span class="single-apartament-section__params-span w-100">Floor No.1</span>
+                        <span class="single-apartament-section__params-span">Apartament 101</span>
+                     </div>
 
-                <p class="single-apartament-section__auth">Before writing a review you have to 
-                    <a href="login.html">
-                        Login
-                    </a>
-                    <a href="register.html">
-                        Signup
-                    </a>
-                </p>
-            </div>
+                    <p class="single-apartament-section__auth">Before writing a review you have to 
+                        <a href="login.html">Login /</a>
+                        <a href="register.html">Signup</a>
+                    </p>
+                </div>
         </div>
     </section>
 
@@ -99,30 +115,36 @@
     <main class="main main-write-review">
         <div class="main-write-review__occupants">
             <div class="d-flex">
-                <p class="default-text">I`m a</p>
+                <p class="default-text">I'm a</p>
                 <button class="main-write-review__occupants-btn active">Previous occupant</button>
             </div>
             <div class="d-flex">
-                <p class="default-text">I`m a</p>
+                <p class="default-text">I'm a</p>
                 <button class="main-write-review__occupants-btn">Actual occupant</button>
             </div>
         </div>
         <div class="main-write-review__date">
             <div class="d-flex">
                 <p class="default-text">From</p>
-                <input type="date">
+                <div class="input-container">
+                    <img src="img/date.svg">
+                    <input type="date">
+                </div>
             </div>
             <div class="d-flex">
                 <p class="default-text">To</p>
-                <input type="date">
+                <div class="input-container">
+                    <img src="img/date.svg">
+                    <input type="date">
+                </div>
             </div>
-            <div class="d-flex">
-                <div class="custom-theme-select" style="width:200px;">
+            <div class="d-flex justify-content-end">
+                <div class="custom-theme-select">
                     <select>
-                      <option selected name="search-default">Floor Number 1</option>
-                      <option>Floor Number 1</option>
-                      <option>Floor Number 2</option>
-                      <option>Floor Number 3</option>
+                      <option selected name="search-default">Housing types</option>
+                      <option>Housing type 1</option>
+                      <option>Housing type 2 </option>
+                      <option>Housing type 3 </option>
                     </select>
                   </div>
             </div>
@@ -132,9 +154,9 @@
                 Ratings and reviews
             </h1>
             <div class="d-flex flex-column">
-                <div class="d-flex">
+                <div class="d-flex justify-content-between mr-5">
                     <label class="checkbox-container">
-                        <input type="checkbox">
+                        <input type="checkbox" checked>
                         <span class="checkmark"></span>
                         <p>Add basic info</p>
                     </label>
@@ -145,7 +167,7 @@
                     </label>
                 </div>
                 <div class="d-flex flex-column">
-                    <p class="default-text">
+                    <p class="main-write-review__form__sub-title">
                         How many people stayed in this apartment?
                     </p>
                     <div class="custom-theme-select" style="width:200px;">
@@ -158,11 +180,11 @@
                     </div>
                 </div>
                 <div class="d-flex flex-column">
-                    <p class="default-text">
+                    <p class="main-write-review__form__sub-title">
                         Contact preference
                     </p>
                     <label class="checkbox-container">
-                        <input type="checkbox">
+                        <input type="checkbox" checked>
                         <span class="checkmark"></span>
                         <p>Phone</p>
                     </label>
@@ -178,42 +200,355 @@
                     </label>
                 </div>
                 <div class="d-flex flex-column">
-                    <p class="default-text">
+                    <p class="main-write-review__form__sub-title">
                         Your experience
                     </p>
                     <div class="main-write-review__experience-rating">
                         <div class="d-flex">
                             <div class="main-write-review__experience-rating__block">
                                 <p>
-                                    How did you like living in apartment?
+                                    How did you like living<br> in the apartment?
                                 </p>
-                                <div class="d-flex ">
-    
+                                <div class="d-flex rating-container">
+                                    <label class="checkbox-container">
+                                        <input type="checkbox" value="1">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="checkbox-container">
+                                        <input type="checkbox" value="2">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="checkbox-container">
+                                        <input type="checkbox" value="3">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="checkbox-container">
+                                        <input type="checkbox" value="4">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="checkbox-container">
+                                        <input type="checkbox" value="5">
+                                        <span class="checkmark"></span>
+                                    </label>
                                 </div>
                             </div>
                             <div class="main-write-review__experience-rating__block">
                                 <p>
-                                    How is the communication with the Landlort
+                                    How is the communication <br>with the Landlord?
                                 </p>
-                                <div class="d-flex ">
-    
+                                <div class="d-flex rating-container">
+                                    <label class="checkbox-container">
+                                        <input type="checkbox" value="1">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="checkbox-container">
+                                        <input type="checkbox" value="2">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="checkbox-container">
+                                        <input type="checkbox" value="3">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="checkbox-container">
+                                        <input type="checkbox" value="4">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="checkbox-container">
+                                        <input type="checkbox" value="5">
+                                        <span class="checkmark"></span>
+                                    </label>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="d-flex flex-column">
-                    <p class="default-text">
-                        Your review
-                    </p>
-                    <textarea type="text" name='textarea'></textarea>
+                    <div class="main-write-review__experience-rating">
+                        <div class="d-flex">
+                            <div class="main-write-review__experience-rating__block pt-5">
+                                <p>
+                                    How is your relationship<br> with your neighbours
+                                </p>
+                                <div class="d-flex rating-container">
+                                    <label class="checkbox-container">
+                                        <input type="checkbox" value="1">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="checkbox-container">
+                                        <input type="checkbox" value="2">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="checkbox-container">
+                                        <input type="checkbox" value="3">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="checkbox-container">
+                                        <input type="checkbox" value="4">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="checkbox-container">
+                                        <input type="checkbox" value="5">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="main-write-review__experience-rating__block pt-5">
+                                <p>
+                                    How is the noise from<br>the street?
+                                </p>
+                                <div class="d-flex rating-container">
+                                    <label class="checkbox-container">
+                                        <input type="checkbox" value="1">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="checkbox-container">
+                                        <input type="checkbox" value="2">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="checkbox-container">
+                                        <input type="checkbox" value="3">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="checkbox-container">
+                                        <input type="checkbox" value="4">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="checkbox-container">
+                                        <input type="checkbox" value="5">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="d-flex flex-column">
-                    <p class="default-text">
+                    <div class="main-write-review__experience-rating">
+                        <div class="d-flex">
+                            <div class="main-write-review__experience-rating__block pt-5">
+                                <p>
+                                    How were your electricity<br> bills?
+                                </p>
+                                <div class="d-flex rating-container">
+                                    <label class="checkbox-container">
+                                        <input type="checkbox" value="1">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="checkbox-container">
+                                        <input type="checkbox" value="2">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="checkbox-container">
+                                        <input type="checkbox" value="3">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="checkbox-container">
+                                        <input type="checkbox" value="4">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="checkbox-container">
+                                        <input type="checkbox" value="5">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="main-write-review__experience-rating__block pt-5">
+                                <p>
+                                    Did you experience any visitors<br>inside your apartment as (rats,cockroach,ants,etc)?
+                                </p>
+                                <div class="d-flex rating-container">
+                                    <label class="checkbox-container">
+                                        <input type="checkbox" value="1">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="checkbox-container">
+                                        <input type="checkbox" value="2">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="checkbox-container">
+                                        <input type="checkbox" value="3">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="checkbox-container">
+                                        <input type="checkbox" value="4">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="checkbox-container">
+                                        <input type="checkbox" value="5">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-column">
+                    <div class="main-write-review__experience-rating">
+                        <div class="d-flex">
+                            <div class="main-write-review__experience-rating__block pt-5">
+                                <p>
+                                    How are the amenties<br> maintained?
+                                </p>
+                                <div class="d-flex rating-container">
+                                    <label class="checkbox-container">
+                                        <input type="checkbox" value="1">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="checkbox-container">
+                                        <input type="checkbox" value="2">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="checkbox-container">
+                                        <input type="checkbox" value="3">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="checkbox-container">
+                                        <input type="checkbox" value="4">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="checkbox-container">
+                                        <input type="checkbox" value="5">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="main-write-review__experience-rating__block pt-5">
+                                <p>
+                                    How effective were the<br>managment team for<br>resolving problems?
+                                </p>
+                                <div class="d-flex rating-container">
+                                    <label class="checkbox-container">
+                                        <input type="checkbox" value="1">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="checkbox-container">
+                                        <input type="checkbox" value="2">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="checkbox-container">
+                                        <input type="checkbox" value="3">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="checkbox-container">
+                                        <input type="checkbox" value="4">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="checkbox-container">
+                                        <input type="checkbox" value="5">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-column">
+                    <div class="main-write-review__experience-rating">
+                        <div class="d-flex">
+                            <div class="main-write-review__experience-rating__block pt-5">
+                                <p>
+                                   How is your neighbourhood<br>life?
+                                </p>
+                                <div class="d-flex rating-container">
+                                    <label class="checkbox-container">
+                                        <input type="checkbox" value="1">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="checkbox-container">
+                                        <input type="checkbox" value="2">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="checkbox-container">
+                                        <input type="checkbox" value="3">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="checkbox-container">
+                                        <input type="checkbox" value="4">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="checkbox-container">
+                                        <input type="checkbox" value="5">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="main-write-review__experience-rating__block pt-5">
+                                <p>
+                                    How effective were the are the security<br>practices in your neighbourhood?
+                                </p>
+                                <div class="d-flex rating-container">
+                                    <label class="checkbox-container">
+                                        <input type="checkbox" value="1">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="checkbox-container">
+                                        <input type="checkbox" value="2">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="checkbox-container">
+                                        <input type="checkbox" value="3">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="checkbox-container">
+                                        <input type="checkbox" value="4">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="checkbox-container">
+                                        <input type="checkbox" value="5">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-column">
+                    <div class="main-write-review__experience-rating">
+                        <div class="d-flex">
+                            <div class="main-write-review__experience-rating__block pt-5">
+                                <p>
+                                   How is your neighbourhood<br>life?
+                                </p>
+                                <div class="d-flex rating-container">
+                                    <label class="checkbox-container">
+                                        <input type="checkbox" value="1">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="checkbox-container">
+                                        <input type="checkbox" value="2">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="checkbox-container">
+                                        <input type="checkbox" value="3">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="checkbox-container">
+                                        <input type="checkbox" value="4">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="checkbox-container">
+                                        <input type="checkbox" value="5">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="d-flex flex-column">
+                    <p class="main-write-review__form__sub-title">
+                        Your review
+                    </p>
+                    <textarea type="text" rows="10" placeholder="Describe your experience about Apartment Name" name='textarea'></textarea>
+                </div>
+                <div class="d-flex flex-column">
+                    <p class="main-write-review__form__sub-title">
                         Would you recommend living in 12/2 Light street to a friend
                     </p>
                     <div class="d-flex">
-                        <button class="main-write-review__agree-btn main-write-review__btn">
+                        <button class="main-write-review__agree-btn main-write-review__btn active">
                             yes
                         </button>
                         <button class="main-write-review__agree-btn main-write-review__btn">
@@ -222,10 +557,16 @@
                     </div>
                 </div>
                 <div class="d-flex flex-column">
-                    <p class="default-text">
-                        Add your photo ( optional )
+                    <p class="main-write-review__form__sub-title">
+                        Add your photo (optional)
                     </p>
-                    <input type="file">
+                    <div class="input-file__container">
+                        <input type="file" id="file">
+                        <label class="input-file__container-inner" for="file">
+                            <img src="img/camera.svg">
+                            <p>Choose file</p>
+                        </label>
+                    </div>
                 </div>
                 <div class="d-flex flex-row main-write-review__agree-container">
                     <label class="checkbox-container">
@@ -242,8 +583,7 @@
                     Submit review
                 </button>
             </div>
-        </form><svgxmlns="http://www.w3.org/2000/svg" width="1566" height="304" viewBox="0 0 1566 304">
-        <path fill="#000" fill-rule="evenodd" d="M0 184H1566.069V487.426H0z" transform="translate(0 -184)"/>
+        </form>
     </svg>
      
     </main>
@@ -304,6 +644,12 @@
         </div>
     </footer>
 
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+    <script src="js/checkbox.js"></script>
+    <script src='js/select.js'></script>
     <script src="js/script.js"></script>
 </body>
 </html>

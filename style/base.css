@@ -78,3 +78,29 @@ li{
     transform: translate(0%, -50%);
     cursor: pointer;
 }
+
+.input-file__container-inner{
+    background-color: #ff4a49;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+}
+
+.input-file__container-inner p{
+    font-size: 15px !important;
+    padding: 0px 0px 0px 10px !important;
+    margin: 0;
+
+}
+
+.input-file__container-inner{
+    padding: 20px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.input-file__container input{
+    display: none;
+
+}

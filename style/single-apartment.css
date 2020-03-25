@@ -16,7 +16,7 @@
 
 .single-apartament-section__title{
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 700;
     color: #373737;
     margin: 0;
     padding-top: 25px;
@@ -234,4 +234,22 @@
     font-size: 12.8px;
     font-weight: 700;
     color: #4a4a4a;
+}
+
+.single-apartament-section__auth{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.single-apartament-section__auth a{
+    text-transform: uppercase;
+}
+
+.single-apartament-section__auth a:nth-child(1){
+    color: #ff4a49;
+}
+
+.single-apartament-section__auth a:nth-child(2){
+    color: #008acd;
+    font-weight: 700;
 }

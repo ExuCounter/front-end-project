@@ -1,5 +1,6 @@
 .custom-theme-select {
     position: relative;
+    width: 200px;
 }
 
 .custom-theme-select select {
