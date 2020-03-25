@@ -7,6 +7,10 @@ a:hover{
     text-decoration: none;
 }
 
+html{
+    font-size: 18px;
+}
+
 .container{
     max-width: 1566px;
     margin: 0 auto;

@@ -1,7 +1,8 @@
 .top-bar{
-    padding: 15px 43px;
+    padding: 0.83rem 2.38rem;
     background-color: #FFF;
     border-bottom: solid 1px #e2e2e2;
+    justify-content: center;
 }
 
 .top-bar__nav-menu{
@@ -11,7 +12,7 @@
 }
 
 .top-bar__nav-menu li a{
-    font-size: 17.5px;
+    font-size: 0.97rem;
     font-weight: 600;
     color: #8c8c8c;
 }
@@ -24,7 +25,7 @@
 }
 
 .top-bar__logo{
-    font-size: 30px;
+    font-size: 1.66rem;
     font-weight: 600;
     text-transform: uppercase;
     font-family: "SF Text Bold";
@@ -44,7 +45,7 @@
 }
 
 .top-bar__menu a{
-    margin: 0px 2.8px;
+    margin: 0rem 0.155rem;
     font-weight: 500;
 }
 
@@ -66,15 +67,38 @@
 .top-bar__user a{
     display: flex;
     align-items: center;
-    font-size: 15.5px;
+    font-size: 0.86rem;
     font-weight: 600;
     color: #8c8c8c;
 }
 
 .top-bar__user img{
-    width: 40px;
-    height: 40px;
-    border-radius: 40px;
+    width: 2.22rem;
+    height: 2.22rem;
+    border-radius: 2.22rem;
     border: solid 1px #0989d2;
     margin-left: 15px;
+}
+
+.top-bar__row__nav-col.active{
+    background-color: #FFF;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    top: 5px;
+    z-index: 1;
+    height: 60px;
+    display: flex;
+    opacity: 1;
+}
+
+.top-bar__row__nav-col.active ul{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.top-bar__row__nav-col.active ul li{
+    margin-right: 25px;
 }

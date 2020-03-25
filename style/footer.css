@@ -1,33 +1,33 @@
 .footer{
     background-color: #eef3f7;
-    padding: 39px 85px;
+    padding: 2.16rem 4.72rem;
 }
 
 .footer__logo{
-    font-size: 32px;
+    font-size: 1.77rem;
     font-weight: 600;
     text-transform: uppercase;
     color: #1d1d1d;
 }
 
 .footer__company-description{
-    font-size: 16px;
-    padding: 14px 0px;
-    max-width: 400px;
+    font-size: 0.88rem;
+    padding: 0.77rem 0px;
+    max-width: 22.22rem;
 }
 
 .footer__col-title{
-    font-size: 24.5px;
+    font-size: 1.36rem;
     font-weight: 700;
 }
 
 .footer-menu{
-    padding-top: 10px;
+    padding-top: 1.8;
 }
 
 .footer__menu li{
-    font-size: 18px;
-    padding: 10px 0px;
+    font-size: 1rem;
+    padding: 0.55rem 0px;
     font-weight: 500;
 }
 
@@ -36,11 +36,11 @@
 }
 
 .footer__menu li:nth-child(1){
-    padding: 22px 0px 10px 0px;
+    padding: 1.22rem 0px 0.55rem 0px;
 }
 
 .footer__menu .write-review__btn{
-    margin: 10px 0px 0px 2px;
+    margin: 0.55rem 0px 0px 0.15rem;
     display: block;
     width: fit-content;
 }

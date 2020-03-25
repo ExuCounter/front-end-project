@@ -1,0 +1,68 @@
+@media screen and (max-width: 1200px){
+
+}
+
+@media screen and (max-width: 992px){
+    html{
+        font-size: 20px;
+    }
+    .home-auth-section_login .home-auth-section__row__left-col, .home-auth-section_signup .home-auth-section__row__left-col{
+        background-size: auto;
+        border-radius: 0px;
+    }
+    .home-auth-section__row__right-col h2{
+        padding-top: 70px;
+    }
+    .home-auth-section__row__right-col form{
+        margin-bottom: 60px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .top-bar__row__nav-col{
+        position: absolute;
+        opacity: 0;
+        overflow: hidden;
+        transition: 0.1s ease-in-out;
+        transform: translate(-50%, 0%);
+    }
+    .top-bar__menu{
+        margin-top: -6px;
+    }
+    .burger-menu{
+        display: block;
+    }
+    .footer{
+        padding: 1.7rem;
+    }
+    .footer__row .footer__col:nth-child(3){
+        padding-top: 20px;
+    }
+}
+
+@media screen and (max-width: 568px){
+    .main-page-paragraph{
+        padding: 0px 1.3rem;
+    }
+    .home-auth-section__row__right-col form {
+        width: 100%;
+    }
+    .social-signup-container__button p{
+        display: none;
+    }
+    .home-auth-section__row__left-col{
+        padding: 108px 0px 120px 0px;
+    }
+    .home-auth-section_signup .social-signup-container {
+        margin-bottom: 0px;
+    }
+}
+
+@media screen and (max-width: 440px){
+    .top-bar{
+        padding: 0.83rem 0.9rem 0.83rem 0rem;
+    }
+    .home-auth-section__row__left-col h1{
+        padding-bottom: 3rem;
+    }
+}
