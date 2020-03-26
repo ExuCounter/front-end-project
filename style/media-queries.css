@@ -57,6 +57,13 @@
         font-size: 1.55rem;
         text-align: center;
     }
+    .main-search-result__block{
+        padding: 0px 15px;
+    }
+    .sub-bar__col-result{
+        margin-left: 15px;
+        justify-content: flex-start;
+    }
 }
 
 @media screen and (max-width: 768px){
@@ -87,6 +94,43 @@
         text-align: center;
         margin: 0.8rem;
     }
+    .main-search-result__block__inner-block__description{
+        font-size: 10px;
+    }
+    .main-search-result__block__inner-block__reviewed{
+        font-size: 11px;
+    }
+    .select-selected, .select-items div{
+        font-size: 14px;
+    }
+    .main-search-result__block__inner-block__published-time{
+        font-size: 11px;
+    }
+    .main-search-result__block__inner-block__view-more__btn{
+        font-size: 13px;
+    }
+    .main-search-result__block__inner-block__rating{
+        font-size: 14px;
+    }
+    .main-search-result__block__inner-block__title{
+        font-size: 15px;
+    }
+    .main-search-result .lg-btn {
+        margin: 34px 15px 30px 15px;
+    }
+    .main-search-result .lg-btn{
+        font-size: 19px;
+        padding: 20px 20px;
+    }
+    .submit-review__btn span{
+        display: none;
+    }
+    .slick-prev{
+        left: 30%;
+    }
+    .slick-next{
+        right: 30%;
+    }
 }
 
 @media screen and (max-width: 568px){
@@ -115,6 +159,33 @@
     .home-search-section .input-container {
         width: auto;
     }
+    .main-search-result__block__inner-block__description{
+        font-size: 12px;
+    }
+    .main-search-result__block__inner-block__reviewed{
+        font-size: 13px;
+    }
+    .select-selected{
+        font-size: 16px;
+    }
+    .main-search-result__block__inner-block__published-time{
+        font-size: 14px;
+    }
+    .main-search-result__block__inner-block__view-more__btn{
+        font-size: 15px;
+    }
+    .main-search-result__block__inner-block__rating{
+        font-size: 16px;
+    }
+    .main-search-result__block__inner-block__title{
+        font-size: 17px;
+    }
+    .slick-prev{
+        left: 22%;
+    }
+    .slick-next{
+        right: 22%;
+    }
 }
 
 @media screen and (max-width: 440px){
@@ -133,5 +204,17 @@
     }
     .home-search-section .input-container {
         width: auto;
+    }
+    .select-selected, .select-items div{
+        font-size: 13px;
+    }
+    .main-search-result__block__inner-block__published-time{
+        font-size: 12px;
+    }
+    .slick-prev{
+        left: 15%;
+    }
+    .slick-next{
+        right: 15%;
     }
 }

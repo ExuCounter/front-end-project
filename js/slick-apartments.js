@@ -5,5 +5,19 @@ $('.main-search-result__block__inner-container').slick({
     dots: true,
     dotsClass: 'main-search-result__block__pagination',
     autoplaySpeed: 3000,
-    arrows: true
+    arrows: true,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2
+        }
+      },
+      {
+        breakpoint: 520,
+        settings: {
+          slidesToShow: 1
+        }
+      }
+    ]
   });
