@@ -17,6 +17,9 @@
     <link rel="stylesheet" href="style/text.css">
     <link rel="stylesheet" href="style/sub-bar.css">
     <link rel="stylesheet" href="style/home.css">
+
+    <link rel="stylesheet" href="style/burger-menu.css">
+    <link rel="stylesheet" href="style/media-queries.css">
 </head>
 <body>
 
@@ -25,24 +28,23 @@
     <div class="top-bar">
         <div class="container">
             <div class="top-bar__row row">
-                <div class="col-6">
+                <div class="col-3 col-sm-4 col-xl-6 col-md-3">
                     <a href="home.html" class="top-bar__logo">Logo</a>
                 </div>
-                <div class="col-3 top-bar__row__nav-col">
-                        <ul class='top-bar__nav-menu'>
-                            <li>
-                                <a href="home.html" class='active'>Home</a>
-                            </li>
-                            <li>
-                                <a href="about-us.html">About Us</a>
-                            </li>
-                            <li>
-                                <a href="contact-us.html">Contact Us</a>
-                            </li>
-                        </ul>
-                   </nav>
+                <div class="col-11 col-md-6 col-xl-3 top-bar__row__nav-col">
+                    <ul class='top-bar__nav-menu'>
+                        <li>
+                            <a href="home.html" class='active'>Home</a>
+                        </li>
+                        <li>
+                            <a href="about-us.html">About Us</a>
+                        </li>
+                        <li>
+                            <a href="contact-us.html">Contact Us</a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="col-3 top-bar__user">
+                <div class="col-md-3 col-sm-3 col-7 top-bar__user">
                     <a href="user.html">
                         <p class="top-bar__user-name">User Name</p>
                         <img src="img/b80249235cab344d4fa92087b0a4b61c029ad6f1.png" alt="user image">
@@ -50,27 +52,30 @@
                 </div>
             </div>
         </div>
+        <button class="burger-menu">
+            <span></span>
+        </button>
     </div>
 
     <!-- SUB BAR -->
     <div class="sub-bar">
         <div class="container">
             <div class="sub-bar__row row">
-                <div class="col-3 sub-bar__col">
+                <div class="col-lg-2 col-3 sub-bar__col">
 
                 </div>
-                <div class="col-3 sub-bar__col">
+                <div class="col-lg-3 col-1 sub-bar__col">
 
                 </div>
-                <div class="col-2 sub-bar__col ">
+                <div class="col-lg-3 col-2 sub-bar__col ">
 
                 </div>
-                <div class="col-2 sub-bar__col sub-bar__col-review">
+                <div class="col-lg-2 col-6 sub-bar__col sub-bar__col-review">
                     <a class="write-review__btn" href='write-review.html'>
                         Write a Review
                     </a>
                 </div>
-                <div class="col-2 sub-bar__col ">
+                <div class="col-lg-2 col-1 sub-bar__col ">
                     
                 </div>
             </div>
@@ -144,10 +149,10 @@
     <section class="home-trust-section">
         <div class="container">
             <div class="home-trust-section__container row">
-                <div class="col-2">
+                <div class="col-2 col-0">
 
                 </div>
-                <div class="col-4">
+                <div class="col-lg-4 col-12">
                     <div class="d-flex home-trust-section__title">
                         <img src="img/verified-protection.svg">
                         <h3 class="home-trust-section__title">
@@ -182,9 +187,8 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-6 home-trust-section__right-col">
-                    <img src="img/group-14.svg" class="home-trust-section__right-col__stars">
-                    <img src="img/c22ceea33c588020255e96dcf337f54369aeddf6.png" alt="trust reviews image">
+                <div class="col-lg-6 col-sm-8 col-12 home-trust-section__right-col">
+                    <img src="img/c22ceea33c588020255e96dcf337f54369aeddf6.jpg" alt="trust reviews image">
                 </div>
             </div>   
         </div>
@@ -194,7 +198,7 @@
     <footer class="footer">
         <div class="container">
             <div class="footer__row row">
-                <div class="col-5 footer__col">
+                <div class="col-sm-6 col-12 col-lg-5 footer__col">
                     <a href="home.html" class="footer__logo">Logo</a>
                     <p class='footer__company-description'>
                         Lorem Ipsum is simply dummy text of the
@@ -205,7 +209,7 @@
                         and typesetting industry.
                     </p>
                 </div>
-                <div class="col-4 footer__col">
+                <div class="col-sm-6 col-12 col-lg-3 col-4 footer__col">
                     <span class="footer__col-title">Important Links</span>
                     <ul class="footer__menu">
                         <li>
@@ -222,7 +226,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-3 footer__col">
+                <div class="col-12 col-lg-3 footer__col">
                     <span class="footer__col-title">Contact Us</span>
                     <ul class="footer__menu">
                         <li>

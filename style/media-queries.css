@@ -16,6 +16,47 @@
     .home-auth-section__row__right-col form{
         margin-bottom: 60px;
     }
+    .home-instructions__steps-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .home-instructions__step:nth-child(2) {
+        position: static;
+    }
+    .home-instructions__step{
+        align-self: center;
+        margin: 0px 0px 55px 0px;
+    }
+    .home-instructions__title{
+        padding: 4rem 0rem 3rem 0rem;
+    }
+    .home-instructions__steps-container{
+        padding-bottom: 4rem;
+    }
+    .home-trust-section__list{
+        padding-bottom: 30px;
+    }
+    .home-trust-section__list li{
+        text-align: center;
+        list-style: none;
+    }
+    .home-trust-section__title{
+        justify-content: center;
+    }
+    .home-trust-section__right-col{
+        margin: 0 auto;
+    }
+    .home-trust-section__right-col img{
+        margin: 0 auto;
+        display: block;
+        width: 100%;
+        
+    }
+    .home-search-section__container h1{
+        font-size: 1.55rem;
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 768px){
@@ -38,6 +79,14 @@
     .footer__row .footer__col:nth-child(3){
         padding-top: 20px;
     }
+    .home-search-section__container h1{
+        font-size: 1.2rem;
+    }
+    .home-search-section__container p{
+        font-size: 1rem;
+        text-align: center;
+        margin: 0.8rem;
+    }
 }
 
 @media screen and (max-width: 568px){
@@ -56,6 +105,16 @@
     .home-auth-section_signup .social-signup-container {
         margin-bottom: 0px;
     }
+    .home-search-section{
+        padding: 9rem 0rem;
+    }
+    .home-trust-section__list li{
+        font-size: 0.75rem;
+        margin-left: 0;
+    }
+    .home-search-section .input-container {
+        width: auto;
+    }
 }
 
 @media screen and (max-width: 440px){
@@ -64,5 +123,15 @@
     }
     .home-auth-section__row__left-col h1{
         padding-bottom: 3rem;
+    }
+    .sub-bar__col-review {
+        padding: 0rem 0.75rem;
+    }
+    .top-bar__row__nav-col.active ul li {
+        margin-right: 10px;
+        margin-top: 8px;
+    }
+    .home-search-section .input-container {
+        width: auto;
     }
 }
