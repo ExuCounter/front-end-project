@@ -1,23 +1,19 @@
-.main-search-result .lg-btn{
-    margin: 54px 30px 50px 30px;
-}
-
 .main-search-result__block-title{
-    font-size: 22px;
+    font-size: 2.2rem;
     font-weight: 700;
     color: #373737;
-    padding-bottom: 8px;
+    padding-bottom: 0.8rem;
 }
 
 .main-search-result__block-address, .main-search-result__block__params-container p{
-    font-size: 16px;
+    font-size: 1.6rem;
     color: #373737;
     font-weight: 500;
 }
 
 .main-search-result__block__params-container{
     display: flex;
-    padding: 30px 0px 10px 0px;
+    padding: 3rem 0px 1rem 0px;
     align-items: center;
     justify-content: space-between;
 }
@@ -25,49 +21,49 @@
 .main-search-result__block__inner-container{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 30px;
+    margin-bottom: 3rem;
 }
 
 .main-search-result__block__inner-block{
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    box-shadow: 0px 0px 4px 0px rgba(226, 226, 226, 0.5);
-    border-radius: 4px;
+    box-shadow: 0px 0px 0.4rem 0px rgba(226, 226, 226, 0.5);
+    border-radius: 0.4rem;
 }
 
 .main-search-result__block__inner-block{
-    margin: 0px 8px 0px 0px;
+    margin: 0px 0.8rem 0px 0px;
     outline: none;
 }
 
 
 .main-search-result__block__inner-block img{
     width: 100%;
-    border-top-right-radius: 4px;
-    border-top-left-radius: 4px;
+    border-top-right-radius: 0.4rem;
+    border-top-left-radius: 0.4rem;
 }
 
 .main-search-result__block__inner-block__info{
     display: flex;
     flex-direction: column;
-    padding: 14px;
+    padding: 1.4rem;
     background-color: #FFF;
 }
 
 .main-search-result__block__inner-block__title{
-    font-size: 12.4px;
+    font-size: 1.24rem;
     font-weight: 600;
-    padding-bottom: 9px;
+    padding-bottom: 0.9rem;
     line-height: 1.25;
 
 }
 
 .star-icon{
-    padding: 5px;
+    padding: 0.5rem;
     background-color: #bdbdbd;
-    margin-right: 5.5px;
-    border-radius: 4px;
+    margin-right: 0.55rem;
+    border-radius: 0.4rem;
 }
 
 .star-icon.active{
@@ -75,7 +71,7 @@
 }
 
 .main-search-result__block__inner-block__reviewed{
-    font-size: 8px;
+    font-size: 0.8rem;
     color: #4a4a4a;
     font-weight: 700;
 }
@@ -86,20 +82,20 @@
 
 .main-search-result__block__inner-block__rating{
     font-weight: 600;
-    font-size: 12px;
+    font-size: 1.2rem;
     color: #0989d2
 
 }
 
 .main-search-result__block__inner-block__description{
-    font-size: 9px;
+    font-size: 0.9rem;
     font-weight: 500;
     color: #373737;
-    margin-top: 17px;
+    margin-top: 1.7rem;
 }
 
 .main-search-result__block__inner-block__published-time{
-    font-size: 8px;
+    font-size: 0.8rem;
     color: #373737;
     font-weight: 500;
 }
@@ -107,9 +103,9 @@
 .main-search-result__block__inner-block__view-more__btn{
     background-color: #ff4a49;
     color: #FFF;
-    font-size: 10px;
-    padding: 8px 14px;
-    border-radius: 4px;
+    font-size: 1rem;
+    padding: 0.8rem 1.4rem;
+    border-radius: 0.4rem;
     border: solid 1px transparent;
     transition: 0.1s ease-out;
     font-weight: 500;
@@ -119,7 +115,7 @@
 .main-search-result__block__inner-block__view-more__btn:hover{
     color: #ff4a49;
     background-color: transparent;
-    border: solid 1px #ff4a49;
+    border: solid 0.1rem #ff4a49;
 }
 
 
@@ -128,17 +124,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 20px;
-    margin-top: 30px;
+    padding-bottom: 2rem;
+    margin-top: 3rem;
 }
 
 .main-search-result__block__pagination button, .main-search-result__block__pagination-link{
     color: #767676;
     font-weight: 600;
-    font-size: 16px;
-    padding: 5px 11.5px;
-    border-radius: 60px;
-    margin: 0px 3px;
+    font-size: 1.6rem;
+    padding: 0.5rem 1.15rem;
+    border-radius: 6rem;
+    margin: 0px 0.3rem;
     border: none;
     background-color: transparent;
     outline: none;
@@ -186,14 +182,14 @@
 .slick-prev{
     z-index: 1;
     top: unset;
-    bottom: 14px !important;
+    bottom: 1.4rem !important;
     left:35%;
 }
 
 .slick-next{
     z-index: 1;
     top: unset;
-    bottom: 14px !important;
+    bottom: 1.4rem !important;
     right:35%;
 }
 
@@ -208,8 +204,8 @@
     background-image: url('../img/arrow-pagination.svg');
     background-repeat: no-repeat;
     color: transparent !important;
-    width: 20px;
-    height: 20px;
+    width: 2rem;
+    height: 2rem;
 }
 
 .slick-next:before{
@@ -217,8 +213,8 @@
     background-image: url('../img/arrow-pagination-right.svg');
     background-repeat: no-repeat;
     color: transparent !important;
-    width: 20px;
-    height: 20px;
+    width: 2rem;
+    height: 2rem;
 }
 
 .submit-review__btn:hover a{
@@ -226,6 +222,6 @@
 }
 
 .other-searches__span{
-    font-size: 15.6px;
+    font-size: 1.56rem;
     color: #373737;
 }

@@ -1,9 +1,9 @@
 .review-widget{
     background-color: #eef3f7;
-    padding: 48px 99px 43px 99px;
+    padding: 4.8rem 9.9rem 4.3rem 9.9rem;
     display: flex;
     justify-content: space-between;
-    margin: 70px 0px 20px 0px;
+    margin: 7rem 0px 2rem 0px;
     align-items: center;
 
 }
@@ -15,7 +15,7 @@
 }
 
 .review-widget__description{
-    font-size: 22.4px;
+    font-size: 2.24rem;
     font-weight: 500;
     line-height: 1;
 }

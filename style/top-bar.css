@@ -1,5 +1,6 @@
 .top-bar{
-    padding: 0.83rem 2.38rem;
+    font-size: 100%;
+    padding: 1.4em 4.2em;
     background-color: #FFF;
     border-bottom: solid 1px #e2e2e2;
     justify-content: center;
@@ -12,7 +13,7 @@
 }
 
 .top-bar__nav-menu li a{
-    font-size: 0.97rem;
+    font-size: 1.75em;
     font-weight: 600;
     color: #8c8c8c;
 }
@@ -25,7 +26,7 @@
 }
 
 .top-bar__logo{
-    font-size: 1.66rem;
+    font-size: 2.99em;
     font-weight: 600;
     text-transform: uppercase;
     font-family: "SF Text Bold";
@@ -45,7 +46,7 @@
 }
 
 .top-bar__menu a{
-    margin: 0rem 0.155rem;
+    margin: 0rem 0.27em;
     font-weight: 500;
 }
 
@@ -67,17 +68,17 @@
 .top-bar__user a{
     display: flex;
     align-items: center;
-    font-size: 0.86rem;
+    font-size: 1.5em;
     font-weight: 600;
     color: #8c8c8c;
 }
 
 .top-bar__user img{
-    width: 2.22rem;
-    height: 2.22rem;
-    border-radius: 2.22rem;
-    border: solid 1px #0989d2;
-    margin-left: 15px;
+    width: 2.66em;
+    height: 2.66em;
+    border-radius: 2.66em;
+    border: solid 0.1em #0989d2;
+    margin-left: 1.5em;
 }
 
 .top-bar__row__nav-col.active{
@@ -87,9 +88,9 @@
     width: 100%;
     left: 50%;
     transform: translate(-50%, 0%);
-    top: 5px;
+    top: 6.48em;
     z-index: 1;
-    height: 60px;
+    height: 6em;
     display: flex;
     opacity: 1;
 }
@@ -100,5 +101,5 @@
 }
 
 .top-bar__row__nav-col.active ul li{
-    margin-right: 25px;
+    margin-right: 2.4em;
 }

@@ -1,4 +1,4 @@
-@media screen and (max-width: 1200px){
+/* @media screen and (max-width: 1200px){
 
 }
 
@@ -110,12 +110,6 @@
 }
 
 @media screen and (max-width: 768px){
-    .top-bar__row__nav-col{
-        position: absolute;
-        opacity: 0;
-        overflow: hidden;
-        transform: translate(-50%, 0%);
-    }
     .top-bar__menu{
         margin-top: -6px;
     }
@@ -418,5 +412,22 @@
     }
     .main-write-review__occupants .default-text {
         padding: 0px 17px 0px 10px;
+    }
+} */
+
+@media screen and (max-width: 720px){
+    .top-bar__row__nav-col{
+        position: absolute;
+        opacity: 0;
+        overflow: hidden;
+        transform: translate(-50%, 0%);
+    }
+    .burger-menu{
+        display: block;
+    }
+}
+@media screen and (max-width: 480px){
+    html{
+        font-size: 50%;
     }
 }

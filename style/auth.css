@@ -1,7 +1,7 @@
 .home-auth-section_login .home-auth-section__row__left-col{
     background: url('../img/1.jpg');
-    border-top-right-radius: 430px;
-    border-bottom-right-radius: 90px;
+    border-top-right-radius: 43rem;
+    border-bottom-right-radius: 9rem;
 }
 
 .home-auth-section .home-auth-section__row__left-col{
@@ -11,36 +11,36 @@
 
 .home-auth-section_signup .home-auth-section__row__left-col{
     background: url('../img/2.jpg');
-    border-top-right-radius: 350px;
-    border-bottom-right-radius: 150px;
+    border-top-right-radius: 35rem;
+    border-bottom-right-radius: 15rem;
 }
 
 .home-auth-section_signup .social-signup-container{
-    margin-bottom: 90px;
+    margin-bottom: 9rem;
 }
 
 .home-auth-section_signup .sign-up-btn{
-    margin: 15px 0px 18px 0px;
+    margin: 1.5rem 0px 1.8rem 0px;
 }
 
 .home-auth-section_signup .social-signup-container__button{
-    padding: 19px 6px;
+    padding: 1.9rem 0.6rem;
 }
 
 .home-auth-section__row__left-col h1{
-    font-size: 32px;
+    font-size: 3.2rem;
     color: #FFF;
     text-align: center;
     text-transform: uppercase;
     font-weight: 600;
-    padding-bottom: 105px;
+    padding-bottom: 11.6rem;
 }
 
 .home-auth-section__login-btn{
     font-size: 22px;
     background-color: #FFF;
     text-align: center;
-    padding: 14px 41px;
+    padding: 1.4rem 4.1rem;
     text-transform: uppercase;
     font-weight: 500;
     display: block;
@@ -48,30 +48,30 @@
     width:fit-content;
     color: #0c97d9;
     border-radius: 3px;
-    border: solid 1px transparent;
+    border: solid 0.1rem transparent;
     font-family: "SF Text", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .home-auth-section__login-btn:hover{
     color: #FFF !important;
     background-color: transparent;
-    border: solid 1px #FFF;
+    border: solid 0.1rem #FFF;
 
 }
 
 .home-auth-section__row__left-col{
-    padding: 138px 0px 160px 0px;
+    padding: 13.8rem 0px 16rem 0px;
 }
 
 .home-auth-section__row__right-col h2{
-    font-size: 28.8px;
+    font-size: 2.88rem;
     font-weight: 600;
     text-align: center;
-    padding: 98px 0px 25px 0px;
+    padding: 9.8rem 0px 2.5rem 0px;
 }
 
 .home-auth-section__row__right-col form{
-    width: 470px;
+    width: 47rem;
 }
 
 .home-auth-section__row__right-col{
@@ -81,11 +81,11 @@
 }
 
 .home-auth-section__forgot-password{
-    font-size: 13px;
+    font-size: 1.7rem;
     color: #8f8f8f;
     font-weight: 600;
     text-align: center;
-    margin: 24px 0px;
+    margin: 2.4rem 0rem;
     text-decoration: underline;
 }
 
@@ -99,29 +99,29 @@
 }
 
 .social-signup-container__button{
-    font-size: 13px;
+    font-size: 1.3rem;
     color: #FFF;
     font-weight: 600;
-    font-size: 15.7px;
+    font-size: 1.57rem;
     text-decoration: none;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 50%;
-    padding: 19px 11px;
+    padding: 1.9rem 1.1rem;
     border-radius: 6px;
     border: solid 1px transparent;
     font-family: "SF Text", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .social-signup-container__button img{
-    height: 24px;
-    margin-right: 6px;
+    height: 2.4rem;
+    margin-right: 0.6rem;
 }
 
 .social-signup-container__button_facebook{
     background-color: #4480cd;
-    margin-right: 15px;
+    margin-right: 1.5rem;
 }
 
 .social-signup-container__button_google{
@@ -140,5 +140,5 @@
 }
 
 .social-signup-container__button_google img{
-    margin-right: 11px;
+    margin-right: 1.1rem;
 }

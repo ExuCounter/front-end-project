@@ -1,6 +1,6 @@
 .custom-theme-select {
     position: relative;
-    width: 200px;
+    width: 20rem;
 }
 
 .custom-theme-select select {
@@ -9,10 +9,10 @@
 
 .select-selected {
     background-color: #FFF;
-    box-shadow: 0px 0px 6px 0px rgba(230, 230, 230, 0.5);
+    box-shadow: 0px 0px 0.6rem 0px rgba(230, 230, 230, 0.5);
     color: #000 !important;
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
+    border-top-left-radius: 0.4rem;
+    border-top-right-radius: 0.4rem;
 
 }
 
@@ -23,10 +23,10 @@
     background-image: url('../img/arrow.svg');
     background-repeat: no-repeat;
     top: 50%;
-    right: 12.5px;
+    right: 1.25rem;
     transform: translate(0%, -50%);
-    width: 14.5px;
-    height: 7.8px;
+    width: 1.45rem;
+    height: 0.78rem;
 }
 
 /*point the arrow upwards when the select box is open (active):*/
@@ -39,8 +39,8 @@
 /*style the items (options), including the selected item:*/
 .select-items div,.select-selected {
     color: #3c3c3c;
-    padding: 8px 16px;
-    border: 1px solid transparent;
+    padding: 0.8rem 1.6rem;
+    border: 0.1rem solid transparent;
     border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
     cursor: pointer;
     user-select: none;

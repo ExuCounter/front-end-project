@@ -1,6 +1,6 @@
 .single-apartament-section{
-    margin: 54px 0px;
-    padding: 27px 0px 30px 0px;
+    margin: 5.4rem 0px;
+    padding: 2.7rem 0px 3rem 0px;
     background-color: #eef3f7;
 }
 
@@ -15,32 +15,32 @@
 }
 
 .single-apartament-section__title{
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: 700;
     color: #373737;
     margin: 0;
-    padding-top: 25px;
+    padding-top: 2.5rem;
 }
 
 .single-apartament-section__address{
-    font-size: 12px;
+    font-size: 1.2rem;
     font-weight: 500;
-    padding-bottom: 13px;
+    padding-bottom: 1.3rem;
 }
 
 .single-apartament-section__params-span{
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 600;
     line-height: 1.1;
 
 }
 
 .single-apartament-section__params-span:nth-child(2){
-    margin-bottom: 30px;
+    margin-bottom: 3rem;
 }
 
 .single-apartament-section__overall-span{
-    font-size: 16px;
+    font-size: 1.6rem;
     color: #373737;
     font-weight: 500;
 
@@ -49,75 +49,69 @@
 .single-apartament-section__rating-span{
     color: #373737;
     font-weight: 600;
-    font-size: 12.5px;
+    font-size: 1.25rem;
 
 }
 
-.single-apartament-section__rating-list li{
-    font-size: 10.5px;
+.single-apartament-section__rating-list li, .single-apartament-section__rating-list li p{
+    font-size: 1.05rem;
     color: #373737;
-    padding: 3px 0px 0px 0px;
-}
-
-.single-apartament-section__rating-list li p{
-    font-size: 10.5px;
-    font-weight: bold;
-    padding: 3px 0px 0px 0px;
+    padding: 0.3rem 0px 0px 0px;
 }
 
 .single-apartament-section__rating-list-scale{
-    height: 11px;
-    width: 220px;
+    height: 1.1rem;
+    width: 22rem;
     background-color: #cacaca;
     position: relative;
-    border-radius: 4px;
-    margin: 5px 5px 0px 0px;
+    border-radius: 0.4rem;
+    margin: 0.5rem 0.5rem 0rem 0rem;
 
 }
 
 .single-apartament-section__rating-list-scale.services-scale-5:after{
     content: "";
     position: absolute;
-    height: 11px;
+    height: 1.1rem;
     width: 100%;
     background-color: #0989d2;
-    border-radius: 4px;
+    border-radius: 0.4rem;
 }
 
 .single-apartament-section__rating-list-scale.services-scale-4:after{
     content: "";
     position: absolute;
-    height: 11px;
+    height: 1.1rem;
     width: 80%;
     background-color: #0989d2;
-    border-radius: 4px;
+    border-radius: 0.4rem;
 }
 
 .single-apartament-section__rating-list-scale.services-scale-3:after{
     content: "";
     position: absolute;
-    height: 11px;
+    height: 1.1rem;
     width: 60%;
     background-color: #0989d2;
-    border-radius: 4px;
+    border-radius: 0.4rem;
 }
 
 .single-apartament-section__rating-list-scale.services-scale-2:after{
     content: "";
     position: absolute;
-    height: 11px;
+    height: 1.1rem;
     width: 30%;
     background-color: #0989d2;
-    border-radius: 4px;
+    border-radius: 0.4rem;
 }
 
 .single-apartament-section__rating-list-scale.services-scale-1:after{
     content: "";
     position: absolute;
-    height: 11px;
+    height: 1.1rem;
     width: 20%;
     background-color: #0989d2;
-    border-radius: 4px;
+    border-radius: 0.4rem;
 }
 
 .main-single-apartament__search-container button{
@@ -130,28 +124,28 @@
 }
 
 .main-single-apartament__block{
-    padding: 19px 26px;
+    padding: 1.9rem 2.6rem;
     background-color: #FFF;
     box-shadow: 0px 0px 4px 0px rgba(176, 176, 176, 0.42);
-    margin: 30px 0px;
+    margin: 3rem 0px;
 }
 
 .main-single-apartament__block__rating-list .single-apartament-section__rating-list-scale, .main-single-apartament__block__rating-list .single-apartament-section__rating-list-scale:after{
-    height: 8px;
+    height: 0.8rem;
 }
 
 .main-single-apartament__block__rating-list{
-    padding-bottom: 20px;
+    padding-bottom: 2rem;
 }
 
 .main-single-apartament__block__rating-list li{
-    font-size: 9.4px;
-    padding-top: 8px;
+    font-size: 0.94rem;
+    padding-top: 0.8rem;
 }
 
 .main-single-apartament__block__rating-list li p{
     font-weight: 700;
-    padding-top: 2px;
+    padding-top: 0.2rem;
 }
 
 .main-single-apartament__block__bottom{
@@ -161,42 +155,42 @@
 }
 
 .main-single-apartament__block__bottom img{
-    height: 20px;
-    margin-right: 5px;
+    height: 2rem;
+    margin-right: 0.5rem;
 }
 
 .main-single-apartament__block__bottom button:nth-child(1){
-    margin-right: 7px;
+    margin-right: 0.7rem;
 }
 
 .main-single-apartament__block__bottom .report-btn{
-    margin-left: 22px;
+    margin-left: 2.2rem;
 }
 
 .main-single-apartament__block__photos{
-    padding: 0px 0px 60px 0px;
+    padding: 0px 0px 6rem 0px;
 }
 
 .main-single-apartament__block__photos img{
-    max-height: 58px;
-    margin-right: 6px;
+    max-height: 5.8rem;
+    margin-right: 0.6rem;
 }
 
 .main-single-apartament__block__description{
-    font-size: 10.7px;
-    line-height: 14px;
+    font-size: 1.07rem;
+    line-height: 1.4rem;
     color: #373737;
-    max-width: 390px;
-    padding-top: 7px;
+    max-width: 39rem;
+    padding-top: 0.7rem;
 }
 
 .main-single-apartament__block__published-time, .main-single-apartament__block__verified, .main-single-apartament__block__recommended{
-    font-size: 14px;
+    font-size: 1.4rem;
     color: #4a4a4a;
     font-weight: 500;
     text-align: right;
     white-space: nowrap;
-    padding-bottom: 22px;
+    padding-bottom: 2.2rem;
 }
 
 .main-single-apartament__block__verified, .main-single-apartament__block__recommended{
@@ -204,23 +198,23 @@
 }
 
 .main-single-apartament__block__verified img, .main-single-apartament__block__recommended img{
-    margin-right: 3px;
+    margin-right: 0.3rem;
 }
 
 .main-single-apartament__block__recommended img{
-    max-width: 16px;
+    max-width: 1.6rem;
 }
 
 .main-single-apartament__block__autor-img{
-    width: 30px;
-    height: 30px;
-    border-radius: 30px;
-    border: solid 1px #0989d2;
-    margin-right: 10px;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 3rem;
+    border: solid 0.1rem #0989d2;
+    margin-right: 1rem;
 }
 
 .main-single-apartament__block__reviewed{
-    font-size: 12.8px;
+    font-size: 1.28rem;
     font-weight: 600;
     color: #4a4a4a;
 }
@@ -230,14 +224,14 @@
 }
 
 .main-single-apartament__block__stayed-span{
-    padding-left: 16px;
-    font-size: 12.8px;
+    padding-left: 1.6rem;
+    font-size: 1.28rem;
     font-weight: 700;
     color: #4a4a4a;
 }
 
 .single-apartament-section__auth{
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 600;
 }
 

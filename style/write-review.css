@@ -1,10 +1,10 @@
 .main-write-review__occupants button{
-    padding: 14px 51px;
+    padding: 1.4rem 5.1rem;
     color: #FFF;
-    border: solid 1px transparent;
+    border: solid 0.1rem transparent;
     background-color: #a5a5a5;
-    border-radius: 3px;
-    font-size: 17px;
+    border-radius: 0.3rem;
+    font-size: 1.7rem;
     font-weight: 700;
     font-family: "SF Text Bold", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -25,13 +25,13 @@
 }
 
 .main-write-review__occupants .default-text{
-    padding: 0px 52px 0px 26px;
+    padding: 0px 5.2rem 0px 2.6rem;
 }
 
 .main-write-review__date{
     display: flex;
     justify-content: space-between;
-    margin: 50px 0px 34px 0px;
+    margin: 5rem 0px 3.4rem 0px;
 }
 
 .main-write-review__date > div{
@@ -43,89 +43,89 @@
 
 .main-write-review__date > div:nth-child(1){
     width: 44%;
-    margin-right: 20px;
+    margin-right: 2rem;
 }
 
 .main-write-review__date > div:nth-child(2) .default-text{
-    margin-right: 20px;
+    margin-right: 2rem;
 }
 
 .main-write-review__date .input-container{
-    padding: 6px 14px;
+    padding: 0.6rem 1.4rem;
     margin: 0;
     border: none;
-    box-shadow: 0px 0px 8px 0px 
+    box-shadow: 0px 0px 0.8rem 0px 
     rgba(176, 176, 176, 0.32);
 }
 
 .main-write-review__date > div input{
-    padding-left: 8px;
-    max-width: 180px;
+    padding-left: 0.8rem;
+    max-width: 18rem;
     width: 100%;
     background-color: #FFF;
 }
 
 .main-write-review__form{
-    padding: 46px 42px;
-    box-shadow: 0px 0px 6px 0px rgba(176, 176, 176, 0.42);
-    border-radius: 4px;
-    margin-bottom: 33px;
+    padding: 4.6rem 4.2rem;
+    box-shadow: 0px 0px 0.6rem 0px rgba(176, 176, 176, 0.42);
+    border-radius: 0.4rem;
+    margin-bottom: 3.3rem;
 }
 
 .main-write-review__form .main-title{
     padding: 0;
-    margin-bottom: 70px;
+    margin-bottom: 7rem;
 }
 
 .main-write-review__form label p{
-    font-size: 24.5px;
+    font-size: 2.45rem;
     font-weight: 600;
-    padding-left: 65px;
-    padding-top: 10px;
+    padding-left: 6.5rem;
+    padding-top: 1rem;
 }
 
 .main-write-review__form textarea{
     outline: none;
-    padding: 28px 17px;
+    padding: 2.8rem 1.7rem;
     color: #a5a5a5;  
-    border-radius: 4px;
-    font-size: 17px;  
+    border-radius: 0.4rem;
+    font-size: 1.7rem;  
     
 }
 
 .main-write-review__form .main-write-review__form__sub-title{
-    font-size: 21px;
+    font-size: 2.1rem;
     font-weight: 700;
     color: #373737;
-    padding: 56px 0px 30px 0px;
+    padding: 5.6rem 0px 3rem 0px;
 }
 
 .single-apartament-section__auth{
-    margin-bottom: 45px;
+    margin-bottom: 4.5rem;
 }
 
 .main-write-review__experience-rating__block{
     width: 50%;
-    margin-bottom: 80px;
+    margin-bottom: 8rem;
 }
 .main-write-review__experience-rating__block p{
-    font-size: 19px;
+    font-size: 1.9rem;
     font-weight: 600;
-    padding-bottom: 15px;
+    padding-bottom: 1.5rem;
 }
 
 .main-write-review__experience-rating__block .rating-container .checkbox-container .checkmark:after{
     background-image: url('../img/big-star.svg');
-    top: 9px;
+    top: 0.9rem;
 }
 .main-write-review__experience-rating__block .rating-container .checkbox-container{
-    width: 40px;
-    margin-right: 11px;
+    width: 4rem;
+    margin-right: 1.1rem;
 }
 
 .main-write-review__agree-btn{
-    width: 130px;
-    padding: 10px 0px;
+    width: 13rem;
+    padding: 1rem 0px;
     background-color: #a5a5a5;
     color: #FFF;
     border: none;
@@ -134,28 +134,28 @@
 }
 
 .main-write-review__agree-btn.active{
-    margin-right: 38px;
+    margin-right: 3.8rem;
     background-color: #ff4a49;
 }
 
 .main-write-review__agree-container{
-    padding: 60px 0px;
+    padding: 6rem 0px;
 }
 
 .main-write-review__agree-container span{
-    font-size: 16.5px;
+    font-size: 1.65rem;
     font-weight: 600;
-    padding-top: 5px;
+    padding-top: 0.5rem;
 }
 
 .main-write-review__agree-container .checkbox-container{
-    width: 40px;
-    margin-right: 25px;
+    width: 4rem;
+    margin-right: 2.5rem;
 }
 
 .main-write-review__form .main-write-review__submit-btn{
-    padding: 17px 0px;
-    font-size: 18px;
+    padding: 1.7rem 0px;
+    font-size: 1.8rem;
 }
 
 .main-search-result__block .main-search-result__block__pagination{
