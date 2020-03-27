@@ -310,13 +310,13 @@
 
 @media only screen and (min-width:320px) and (max-width: 374px) {
     html{
-        font-size: 50%;
+        font-size: 52.5%;
     }
 }
 
 @media only screen and (min-width:375px) and (max-width:568px) {
     html{
-        font-size: 60%;
+        font-size: 50%;
     }
 }
 
