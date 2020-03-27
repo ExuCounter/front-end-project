@@ -1,4 +1,4 @@
-/* @media screen and (max-width: 1200px){
+@media screen and (max-width: 1200px){
 
 }
 
@@ -104,9 +104,6 @@
     .main-write-review__form .main-title{
         margin-bottom: 20px;
     }
-    .main-write-review__agree-container{
-        font-size: 14px;
-    }
 }
 
 @media screen and (max-width: 768px){
@@ -130,27 +127,6 @@
         text-align: center;
         margin: 0.8rem;
     }
-    .main-search-result__block__inner-block__description{
-        font-size: 10px;
-    }
-    .main-search-result__block__inner-block__reviewed{
-        font-size: 11px;
-    }
-    .select-selected, .select-items div{
-        font-size: 14px;
-    }
-    .main-search-result__block__inner-block__published-time{
-        font-size: 11px;
-    }
-    .main-search-result__block__inner-block__view-more__btn{
-        font-size: 13px;
-    }
-    .main-search-result__block__inner-block__rating{
-        font-size: 14px;
-    }
-    .main-search-result__block__inner-block__title{
-        font-size: 15px;
-    }
     .main-search-result .lg-btn {
         margin: 34px 15px 30px 15px;
     }
@@ -172,27 +148,6 @@
     }
     .main-write-review__form{
         margin: 0px 15px;
-    }
-    .single-apartament-section__title{
-        font-size: 28px;
-    }
-    .single-apartament-section__address{
-        font-size: 22px;
-    }
-    .single-apartament-section__params-span{
-        font-size: 25px;
-    }
-    .single-apartament-section__overall-span{
-        font-size: 22px;
-    }
-    .main-search-result__block__inner-block__rating{
-        font-size: 20px;
-    }
-    .single-apartament-section__rating-span{
-        font-size: 22px;
-    }
-    .single-apartament-section__rating-list li{
-        font-size: 20px;
     }
     .single-apartament-section__rating-list-scale{
         width: 100%;
@@ -233,9 +188,7 @@
         width: 100%;
         padding-top: 20px !important;
     }
-    .input-file__container span, .input-file__container-inner p{
-        font-size: 12px;
-    }
+
     .main-write-review__agree-container{
         flex-direction: column !important;
     }
@@ -245,21 +198,6 @@
     .main-write-review__form .main-write-review__form__sub-title{
         font-size: 17px;
         padding: 36px 0px 20px 0px;
-    }
-    .main-write-review__btn{
-        font-size: 15px;
-    }
-    .main-write-review__experience-rating__block p {
-        font-size: 17px;
-    }
-    .main-write-review__experience-rating__block{
-        margin-bottom: 40px;
-    }
-    .main-write-review__occupants-btn{
-        font-size: 12px !important;
-    }
-    .main-write-review .default-text{
-        font-size: 16px;
     }
 }
 
@@ -289,53 +227,11 @@
     .home-search-section .input-container {
         width: auto;
     }
-    .main-search-result__block__inner-block__description{
-        font-size: 12px;
-    }
-    .main-search-result__block__inner-block__reviewed{
-        font-size: 13px;
-    }
-    .select-selected{
-        font-size: 16px;
-    }
-    .main-search-result__block__inner-block__published-time{
-        font-size: 14px;
-    }
-    .main-search-result__block__inner-block__view-more__btn{
-        font-size: 15px;
-    }
-    .main-search-result__block__inner-block__rating{
-        font-size: 16px;
-    }
-    .main-search-result__block__inner-block__title{
-        font-size: 17px;
-    }
     .slick-prev{
         left: 22%;
     }
     .slick-next{
         right: 22%;
-    }
-    .single-apartament-section__title{
-        font-size: 24px;
-    }
-    .single-apartament-section__address{
-        font-size: 18px;
-    }
-    .single-apartament-section__params-span{
-        font-size: 21px;
-    }
-    .single-apartament-section__overall-span{
-        font-size: 18px;
-    }
-    .main-search-result__block__inner-block__rating{
-        font-size: 16px;
-    }
-    .single-apartament-section__rating-span{
-        font-size: 19px;
-    }
-    .single-apartament-section__rating-list li{
-        font-size: 17px;
     }
     .single-apartament-section__rating-list-scale{
         width: 100%;
@@ -398,12 +294,6 @@
     .home-search-section .input-container {
         width: auto;
     }
-    .select-selected, .select-items div{
-        font-size: 13px;
-    }
-    .main-search-result__block__inner-block__published-time{
-        font-size: 11px;
-    }
     .slick-prev{
         left: 15%;
     }
@@ -413,9 +303,9 @@
     .main-write-review__occupants .default-text {
         padding: 0px 17px 0px 10px;
     }
-} */
+}
 
-@media screen and (max-width: 720px){
+@media screen and (max-width: 992px){
     .top-bar__row__nav-col{
         position: absolute;
         opacity: 0;
@@ -426,8 +316,33 @@
         display: block;
     }
 }
-@media screen and (max-width: 480px){
+
+@media only screen and (min-width:320px) and (max-width: 374px) {
     html{
         font-size: 50%;
+    }
+}
+
+@media only screen and (min-width:375px) and (max-width:568px) {
+    html{
+        font-size: 80%;
+    }
+}
+
+@media only screen and (min-width:568px) and (max-width: 767px) {
+    html{
+        font-size: 70%;
+    }
+} 
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    html{
+        font-size: 55%;
+    }
+} 
+
+@media only screen and (min-width:992px) and (max-width:1199px) {
+    html{
+        font-size: 60%;
     }
 }
