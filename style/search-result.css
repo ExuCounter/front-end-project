@@ -224,3 +224,8 @@
 .submit-review__btn:hover a{
     color: #f56161;
 }
+
+.other-searches__span{
+    font-size: 15.6px;
+    color: #373737;
+}

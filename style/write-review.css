@@ -157,3 +157,11 @@
     padding: 17px 0px;
     font-size: 18px;
 }
+
+.main-search-result__block .main-search-result__block__pagination{
+    display: none !important;
+}
+
+.main-search-result__block .slick-arrow:before{
+    content: '';
+}
