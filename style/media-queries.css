@@ -54,7 +54,6 @@
         
     }
     .home-search-section__container h1{
-        font-size: 1.55rem;
         text-align: center;
     }
     .main-search-result__block{
@@ -119,11 +118,7 @@
     .footer__row .footer__col:nth-child(3){
         padding-top: 20px;
     }
-    .home-search-section__container h1{
-        font-size: 1.2rem;
-    }
     .home-search-section__container p{
-        font-size: 1rem;
         text-align: center;
         margin: 0.8rem;
     }
@@ -236,10 +231,6 @@
     .single-apartament-section__rating-list-scale{
         width: 100%;
     }
-    .single-apartament-section__rating-list-number{
-        font-size: 18px !important;
-        margin-top: -5px;
-    }
     .main-single-apartament__block__photos > div{
         flex-direction: row;
         flex-wrap: wrap;
@@ -325,7 +316,7 @@
 
 @media only screen and (min-width:375px) and (max-width:568px) {
     html{
-        font-size: 80%;
+        font-size: 60%;
     }
 }
 
