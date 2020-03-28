@@ -194,6 +194,10 @@
     .home-auth-section__row__left-col{
         background-size: auto !important;
     }
+    .main-single-apartament__block, .main-single-apartament__block {
+        padding: 19px 6px;
+        margin: 20px 10px 0px 10px;
+    }
 } 
 
 
@@ -360,9 +364,6 @@
         flex-wrap: wrap;
         justify-content: flex-start;
     }
-    .main-single-apartament__block > div:nth-child(2){
-        padding-left: 4rem;
-    }
 } 
 
 
@@ -452,10 +453,6 @@
     .single-apartament-section__rating-list-scale{
         width: 100%;
     }
-    .main-single-apartament__block {
-        padding: 19px 6px;
-        margin: 20px 10px 0px 10px;
-    }
     .main-single-apartament__block__bottom{
         flex-direction: column;
         align-items: flex-start;
@@ -475,6 +472,7 @@
     .main-write-review__form{
         padding: 35px 25px;
     }
+    
 }
 
 /* LARGE PHONES AND SMALL TABLETS 375PX BETWEEN 568 PX */
