@@ -120,6 +120,10 @@
     margin-right: 1.44em;
 }
 
+.share-btn, .report-btn{
+    align-items: center;
+}
+
 .useful-btn_not img{
     transform: rotate(180deg);
 }
