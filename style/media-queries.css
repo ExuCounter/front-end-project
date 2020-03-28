@@ -128,10 +128,6 @@
     .single-apartament-section__rating-list-scale{
         width: 100%;
     }
-    .single-apartament-section__rating-list-number{
-        font-size: 18px !important;
-        margin-top: -5px;
-    }
     .main-single-apartament__block__published-time, .main-single-apartament__block__recommended, .main-single-apartament__block__verified{
         text-align: left;
         padding: 5px;
@@ -205,21 +201,9 @@
     .single-apartament-section__rating-list-scale{
         width: 100%;
     }
-    .main-single-apartament__block__photos > div{
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-    .main-single-apartament__block__photos > div img{
-        width: 48%;
-        max-height: none;
-        margin: 0px 5px 5px 0px;
-    }
     .main-single-apartament__block {
         padding: 19px 6px;
         margin: 20px 10px 0px 10px;
-    }
-    .main-single-apartament__block__description{
-        font-size: 14px;
     }
     .main-single-apartament__block__bottom{
         flex-direction: column;
@@ -314,6 +298,18 @@
     .slick-prev.slick-arrow, .slick-next.slick-arrow{
         bottom: 0.65rem;
     }
+    .main-single-apartament__block{
+        font-size: 135%;
+    }
+    .main-single-apartament__block__photos > div img {
+        width: 90%;
+    }
+    .main-single-apartament__block__photos > div img{
+        width: 90%;
+        max-height: none;
+        margin: 0px 5px 5px 0px;
+        max-height: auto;
+    }
 }
 
 @media only screen and (min-width:345px) and (max-width: 374px) {
@@ -359,6 +355,21 @@
     .slick-prev.slick-arrow, .slick-next.slick-arrow{
         bottom: 1.05rem;
     }
+    .main-single-apartament__block{
+        font-size: 110%;
+    }
+    .main-single-apartament__block__photos > div img {
+        width: 75%;
+    }
+    .main-single-apartament__block__photos > div img{
+        width: 75%;
+        max-height: none;
+        margin: 0px 5px 5px 0px;
+        max-height: auto;
+    }
+    .review-widget{
+        font-size: 85%;
+    }
 }
 
 @media only screen and (min-width:375px) and (max-width:568px) {
@@ -395,6 +406,15 @@
     .slick-prev.slick-arrow, .slick-next.slick-arrow{
         bottom: 0.85rem;
     }
+    .main-single-apartament__block{
+        font-size: 120%;
+    }
+    .main-single-apartament__block__photos > div img{
+        width: 48%;
+        max-height: none;
+        margin: 0px 5px 5px 0px;
+        max-height: auto;
+    }
 }
 
 @media only screen and (min-width:568px) and (max-width: 767px) {
@@ -409,6 +429,18 @@
     }
     .slick-prev.slick-arrow, .slick-next.slick-arrow{
         bottom: 0.7rem;
+    }
+    .main-single-apartament__block{
+        font-size: 130%;
+    }
+    .main-single-apartament__block__photos > div img{
+        width: 32%;
+        max-height: none;
+        margin: 0px 5px 5px 0px;
+        max-height: auto;
+    }
+    .review-widget{
+        font-size: 75%;
     }
 } 
 
@@ -433,6 +465,19 @@
     }
     .slick-prev.slick-arrow, .slick-next.slick-arrow{
         bottom: 1.05rem;
+    }
+    .main-single-apartament__block{
+        font-size: 110%;
+    }
+    .share-btn img, .report-btn img{
+        height: 1.75em;
+        margin-right: 0.35em;
+    }
+    .share-btn, .report-btn{
+        font-size: 1.25em;
+    }
+    .review-widget{
+        font-size: 80%;
     }
 } 
 
@@ -459,6 +504,31 @@
     .sub-bar__col__write-review, .sub-bar__col-search{
         display: flex;
         align-items: center;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .main-single-apartament__block__photos > div{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .main-single-apartament__block__published-time, .main-single-apartament__block__verified, .main-single-apartament__block__recommended {
+        font-size: 1.1em;
+        padding-left: 0;
+    }
+    .share-btn img, .report-btn img{
+        height: 1.25em;
+        margin-right: 0.35em;
+    }
+    .share-btn, .report-btn{
+        font-size: 1.25em;
+    }
+    .share-btn img, .report-btn img{
+        height: 1.25em;
+        margin-right: 0.35em;
+    }
+    .share-btn, .report-btn{
+        font-size: 1.25em;
     }
 }
 
@@ -499,5 +569,8 @@
     .lg-btn {
         font-size: 1.5em;
         padding: 1.5rem;
+    }
+    .main-single-apartament__block__photos {
+        padding: 0px 0px 1em 0px;
     }
 }
