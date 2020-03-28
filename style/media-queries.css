@@ -54,7 +54,7 @@
     .main-write-review__occupants .d-flex:nth-child(2) .default-text {
         padding: 0px 2.47em 0px 2.5em;
     }
-    .main-write-review .select-selected{
+    .main-write-review .select-selected, .main-write-review .select-items div{
         font-size: 1.3rem;
     }
 
@@ -525,37 +525,41 @@
     .main-write-review__form{
         font-size: 65%;
     }
-    .main-write-review__date, .main-write-review__occupants{
+    .main-write-review__date{
         font-size: 77%;
     }
-    .main-write-review__date > div:nth-child(1),.main-write-review__date > div:nth-child(2) {
-        width: auto;
-        justify-content: flex-start;
-        margin-right: 4em;
+    .main-write-review__occupants{
+        font-size: 72%;
     }
     .main-write-review__date{
         flex-wrap: wrap;
         justify-content: flex-start;
     }
-    .main-write-review__occupants div{
-        width: 100%;
-        justify-content: flex-start;
-    }
-    .main-write-review__occupants .d-flex:nth-child(2) .default-text {
+    .main-write-review__occupants .d-flex .default-text{
         padding: 0em 0.45em 0em 0.8em !important;
     }
-    .main-write-review__occupants .d-flex:nth-child(2){
-        padding-top: 0em;
+    .main-write-review__date .d-flex{
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-write-review__date .d-flex .default-text{
+        padding: 0px 0px 1rem 0rem;
     }
     .main-write-review__date .d-flex{
-        width: 100% !important;
+        width: 43%;
+    }
+    .main-write-review__date > div:nth-child(1) {
+        margin-right: 5em;
     }
     .main-write-review__experience-rating > .d-flex {
         flex-direction: column;
     }
-    .custom-theme-select__col .custom-theme-select {
-        margin-right: 15px;
-        width: 100%;
+    .custom-theme-select__col .custom-theme-select, .custom-theme-select__col{
+        margin-right: 7.5px;
+        width: 100% !important;
+    }
+    .main-write-review__occupants button {
+        padding: 0.82em 2em;
     }
 }
 
@@ -623,8 +627,11 @@
     .main-write-review__form{
         font-size: 65%;
     }
-    .main-write-review__date, .main-write-review__occupants{
-        font-size: 82%;
+    .main-write-review__date{
+        font-size: 72%;
+    }
+    .main-write-review__occupants{
+        font-size: 72%;
     }
     .main-write-review__date{
         flex-wrap: wrap;
@@ -633,19 +640,12 @@
     .main-write-review__form{
         font-size: 55%;
     }
-    .main-write-review__date, .main-write-review__occupants{
-        font-size: 75%;
-        flex-direction: column;
-    }
     .main-write-review__occupants div{
         width: 100%;
         justify-content: flex-start;
     }
     .main-write-review__occupants .d-flex:nth-child(2) .default-text {
         padding: 0em 2.45em 0em 0.3em !important;
-    }
-    .main-write-review__occupants .d-flex:nth-child(2){
-        padding-top: 3em;
     }
     .main-write-review__date{
         flex-wrap: wrap;
@@ -659,6 +659,29 @@
     }
     .main-write-review__experience-rating > .d-flex{
         flex-direction: column;
+    }
+    .main-write-review__occupants button {
+        padding: 0.82em 1.5em;
+    }
+    .main-write-review__occupants .d-flex .default-text{
+        display: none;
+    }
+    .main-write-review__date .d-flex{
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-write-review__date .d-flex .default-text{
+        padding: 0px 0px 1rem 0rem;
+    }
+    .main-write-review__date > div:nth-child(1) {
+        margin-right: 7em;
+    }
+    .main-write-review__experience-rating > .d-flex {
+        flex-direction: column;
+    }
+    .custom-theme-select__col .custom-theme-select, .custom-theme-select__col{
+        margin-right: 7.5px;
+        width: 100% !important;
     }
 }
 
@@ -721,7 +744,6 @@
     }
     .main-write-review__date, .main-write-review__occupants{
         font-size: 75%;
-        flex-direction: column;
     }
     .main-write-review__occupants div{
         width: 100%;
@@ -729,9 +751,6 @@
     }
     .main-write-review__occupants .d-flex:nth-child(2) .default-text {
         padding: 0em 2.45em 0em 0.3em !important;
-    }
-    .main-write-review__occupants .d-flex:nth-child(2){
-        padding-top: 3em;
     }
     .main-write-review__date{
         flex-wrap: wrap;
@@ -745,5 +764,28 @@
     }
     .main-write-review__experience-rating > .d-flex{
         flex-direction: column;
+    }
+    .main-write-review__occupants .d-flex .default-text{
+        display: none;
+    }
+    .main-write-review__occupants button {
+        padding: 0.82em 2em;
+    }
+    .main-write-review__date .d-flex{
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-write-review__date .d-flex .default-text{
+        padding: 0px 0px 1rem 0rem;
+    }
+    .main-write-review__date > div:nth-child(1) {
+        margin-right: 7.5em;
+    }
+    .main-write-review__experience-rating > .d-flex {
+        flex-direction: column;
+    }
+    .custom-theme-select__col .custom-theme-select, .custom-theme-select__col{
+        margin-right: 7.5px;
+        width: 100% !important;
     }
 }
