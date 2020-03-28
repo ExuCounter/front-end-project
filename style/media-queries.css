@@ -103,9 +103,6 @@
 }
 
 @media screen and (max-width: 768px){
-    .top-bar__menu{
-        margin-top: -6px;
-    }
     .burger-menu{
         display: block;
     }
@@ -285,9 +282,9 @@
     }
 }
 
-@media screen and (max-width: 568px){
+@media screen and (max-width: 768px){
     .top-bar__row__nav-col{
-        top: -100vh;
+        left: -100vh;
         height: 100vh;
         position: fixed;
         opacity: 0;
@@ -299,10 +296,19 @@
         justify-content: space-between;
         width: 100%;
         left: 0;
-        transition: 0.2s ease-in-out;
+        transition: all 0.3s;
+    }
+    .top-bar__row__nav-col ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
     }
     .burger-menu{
         display: block;
+    }
+    .burger-menu {
+        top: 1.5em;
     }
 }
 
@@ -321,6 +327,9 @@
     }
     .home-auth-section__row__right-col form {
         width: 100%;
+    }
+    .home-auth-section__login-btn{
+        font-size: 1.5rem;
     }
 }
 
@@ -342,6 +351,9 @@
     }
     .top-bar{
         font-size: 127.5%;
+    }
+    .home-auth-section__login-btn{
+        font-size: 1.9rem;
     }
 }
 
@@ -369,9 +381,6 @@
     }
     .home-instructions__step-title{
         font-size: 2.2rem;
-    }
-    .home-auth-section__row__right-col form {
-        width: 100%;
     }
 } 
 
