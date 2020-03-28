@@ -216,7 +216,6 @@
         padding: 9.1rem 0rem;
     }
     .home-trust-section__list li{
-        font-size: 0.75rem;
         margin-left: 0;
     }
     .home-search-section .input-container {
@@ -312,23 +311,50 @@
     html{
         font-size: 52.5%;
     }
+    .home-search-section__container h1, .home-instructions__title{
+        font-size: 2rem;
+    }
+    .home-search-section__container p{
+        font-size: 1.75rem;
+    }
+    .input-container{
+        padding: 1.2rem;
+    }
 }
 
 @media only screen and (min-width:375px) and (max-width:568px) {
     html{
         font-size: 50%;
     }
+    .home-search-section__container h1{
+        font-size: 2.5rem;
+    }
+    .home-search-section__container p{
+        font-size: 2.25rem;
+    }
+    .input-container{
+        padding: 1.4rem;
+    }
 }
 
 @media only screen and (min-width:568px) and (max-width: 767px) {
     html{
-        font-size: 70%;
+        font-size: 47.5%;
     }
 } 
 
-@media only screen and (min-width:768px) and (max-width:991px) {
+@media only screen and (min-width:768px) and (max-width:992px) {
     html{
         font-size: 55%;
+    }
+    .home-instructions__step{
+        padding: 4rem;
+    }
+    .home-instructions__step p{
+        font-size: 1.8rem;
+    }
+    .home-instructions__step-title{
+        font-size: 2.2rem;
     }
 } 
 
