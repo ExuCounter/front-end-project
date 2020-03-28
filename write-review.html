@@ -39,23 +39,24 @@
     <div class="top-bar">
         <div class="container">
             <div class="top-bar__row row">
-                <div class="col-3 col-sm-4 col-xl-6 col-md-3">
+                <div class="col-3 col-md-3 col-lg-3 col-xl-6 col-md-3">
                     <a href="home.html" class="top-bar__logo">Logo</a>
                 </div>
-                <div class="col-11 col-md-6 col-xl-3 top-bar__row__nav-col">
-                    <ul class='top-bar__nav-menu'>
-                        <li>
-                            <a href="home.html">Home</a>
-                        </li>
-                        <li>
-                            <a href="about-us.html">About Us</a>
-                        </li>
-                        <li>
-                            <a href="contact-us.html">Contact Us</a>
-                        </li>
-                    </ul>
+                <div class="col-12 col-md-6 col-lg-6 col-xl-3 top-bar__row__nav-col">
+                        <ul class='top-bar__nav-menu'>
+                            <li>
+                                <a href="home.html">Home</a>
+                            </li>
+                            <li>
+                                <a href="about-us.html">About Us</a>
+                            </li>
+                            <li>
+                                <a href="contact-us.html">Contact Us</a>
+                            </li>
+                        </ul>
+                   </nav>
                 </div>
-                <div class="col-md-3 col-sm-3 col-7 top-bar__user">
+                <div class="col-md-3 col-lg-3 col-7 top-bar__user top-bar__user">
                     <a href="user.html">
                         <p class="top-bar__user-name">User Name</p>
                         <img src="img/b80249235cab344d4fa92087b0a4b61c029ad6f1.png" alt="user image">
@@ -72,15 +73,15 @@
     <div class="sub-bar">
         <div class="container">
             <div class="sub-bar__row row">
-                <div class="col-lg-5 col-sm-6 col-12 pb-2 pb-lg-0 sub-bar__col sub-bar__col-result">
+                <div class="col-lg-5 col-md-6 col-6 sub-bar__col sub-bar__col-result">
                     <span class="sub-bar__col-result__span pr-4">
                         Ratings and Reviews
                     </span>
                 </div>
-                <div class="col-lg-1 col-0 sub-bar__col">
+                <div class="col-lg-1 col-0 sub-bar__col sub-bar__col_void">
 
                 </div>
-                <div class="col-lg-2 pl-4 pl-lg-0 col-md-3 col-11 sub-bar__col sub-bar__col-search">
+                <div class="col-lg-2 col-md-6 col-5 sub-bar__col sub-bar__col-search">
                     <form action="#">
                         <label class="input-container input-container-sm">
                             <button type="submit" class="input-container__svg-container">
@@ -90,10 +91,10 @@
                         </label>
                     </form>
                 </div>
-                <div class="col-2 sub-bar__col ">
+                <div class="col-2 sub-bar__col sub-bar__col_void">
 
                 </div>
-                <div class="col-2 sub-bar__col ">
+                <div class="col-2 sub-bar__col sub-bar__col_void">
                     
                 </div>
             </div>
@@ -104,10 +105,10 @@
     <section class="single-apartament-section single-apartament-section_review">
         <div class="single-apartament-section__container">
             <div class="single-apartament-section__row row">
-                <div class="col-md-4 col-12 pl-md-0">
+                <div class="col-lg-4 col-sm-6 col-12">
                     <img src="img/a6d4d725ec2bd2f510c107a83c854752de8b93aa.png" alt="Apartament Image" class="single-apartament-section__img">
                 </div>
-                <div class="col-md-8 col-12">
+                <div class="col-lg-8 col-sm-6 col-12">
                     <h3 class="single-apartament-section__title">Building Name</h3>
                     <p class="single-apartament-section__address">21/2 Address New York</p>
                     <div class="d-flex flex-column">
@@ -150,7 +151,7 @@
                     <input type="date">
                 </div>
             </div>
-            <div class="d-flex justify-content-lg-end">
+            <div class="d-flex custom-theme-select__col justify-content-lg-end">
                 <div class="custom-theme-select">
                     <select>
                       <option selected name="search-default">Housing types</option>
@@ -163,11 +164,11 @@
         </div>
         <form class="main-write-review__form">
             <h1 class="main-title">
-                Ratings and reviews
+                Write review of building name
             </h1>
             <div class="d-flex flex-column">
-                <div class="d-flex justify-content-between flex-md-row flex-column mr-5">
-                    <label class="checkbox-container">
+                <div class="d-flex justify-content-lg-between flex-md-row flex-column mr-5">
+                    <label class="checkbox-container mr-5 mr-lg-0">
                         <input type="checkbox" checked>
                         <span class="checkmark"></span>
                         <p>Add basic info</p>
@@ -182,9 +183,9 @@
                     <p class="main-write-review__form__sub-title">
                         How many people stayed in this apartment?
                     </p>
-                    <div class="custom-theme-select" style="width:200px;">
+                    <div class="custom-theme-select">
                         <select>
-                          <option selected name="search-default">Floor Number 1</option>
+                          <option selected name="search-default">No. of people</option>
                           <option>Floor Number 1</option>
                           <option>Floor Number 2</option>
                           <option>Floor Number 3</option>

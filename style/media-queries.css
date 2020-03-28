@@ -1,8 +1,63 @@
-@media screen and (max-width: 1200px){
+/* MEDIA SCREEN 992PX BETWEEN 1199PX */
 
+@media only screen and (min-width:992px) and (max-width:1199px) {
+    html{
+        font-size: 60%;
+    }
 }
 
+/* MEDIA SCREEN LESS 992PX * CONST * */
+
 @media screen and (max-width: 992px){
+    .home-auth-section__row__left-col{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .sub-bar__col_void{
+        display: none;
+    }
+    .sub-bar__col-result{
+        justify-content: center;
+    }
+    .sub-bar__col-result__span{
+        margin-right: 0;
+    }
+    .sub-bar__col__write-review, .sub-bar__col-search{
+        display: flex;
+        align-items: center;
+    }
+    .main-search-result__block-title{
+        font-size: 2.4rem;
+    }
+    .main-search-result__block-address{
+        font-size: 2rem;
+    }
+    .main-search-result__block__params-container{
+        font-size: 1.1rem;
+        padding: 1em 0px 1em 0px;
+    }
+    .main-write-review__date > div:nth-child(2) .default-text {
+        margin-right: 0em;
+    }
+    .main-write-review__date{
+        justify-content: flex-start;
+    }
+    .main-write-review__occupants{
+        padding: 0rem 1.5rem;
+    }
+    .main-write-review__occupants{
+        justify-content: flex-start;
+    }
+    .main-write-review__occupants .d-flex:nth-child(1) .default-text {
+        padding: 0px 2.47em 0px 0.3em;
+    }
+    .main-write-review__occupants .d-flex:nth-child(2) .default-text {
+        padding: 0px 2.47em 0px 2.5em;
+    }
+    .main-write-review .select-selected{
+        font-size: 1.3rem;
+    }
+
     .home-auth-section_login .home-auth-section__row__left-col, .home-auth-section_signup .home-auth-section__row__left-col{
         border-radius: 0px;
         background-size: cover;
@@ -63,25 +118,8 @@
         padding: 25px 15px 0px;
         display: block;
     }
-    .main-write-review__occupants{
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-    }
-    .main-write-review__occupants > div:nth-child(1){
-        padding-bottom: 20px;
-    }
-    .main-write-review__occupants .default-text {
-        padding: 0px 52px 0px 0px;
-    }
-    .main-write-review__date{
-        flex-direction: column;
-    }
     .main-write-review__date > div{
         padding-bottom: 20px;
-    }
-    .main-write-review__occupants .default-text{
-        padding: 0px 32px 0px 15px;
     }
     .main-write-review__date .default-text{
         padding-right: 32px;
@@ -89,17 +127,127 @@
     .main-write-review__date{
         padding-left: 15px;
     }
-    .main-write-review .custom-theme-select .select-selected{
-        padding: 13px 10px;
-        font-size: 14px;
-        width: 280px;
-    }
     .main-write-review__form .main-title{
         margin-bottom: 20px;
     }
 }
 
-@media screen and (max-width: 768px){
+
+/* MEDIA SCREEN 767PX BETWEEN 992PX */
+
+@media only screen and (min-width:767px) and (max-width:992px) {
+    html{
+        font-size: 55%;
+    }
+    .top-bar{
+        font-size: 107.5%;
+    }
+    .main-write-review__form{
+        font-size: 85%;
+    }
+    .main-write-review__date, .main-write-review__occupants{
+        font-size: 75%;
+    }
+    .home-instructions__step{
+        padding: 4rem;
+    }
+    .home-instructions__step p{
+        font-size: 1.8rem;
+    }
+    .home-instructions__step-title{
+        font-size: 2.2rem;
+    }
+    .main-search-result__block{
+        font-size: 110%;
+    }
+    .slick-prev.slick-arrow, .slick-next.slick-arrow{
+        bottom: 1.05rem;
+    }
+    .main-single-apartament__block{
+        font-size: 110%;
+    }
+    .share-btn img, .report-btn img{
+        height: 1.75em;
+        margin-right: 0.35em;
+    }
+    .share-btn, .report-btn{
+        font-size: 1.25em;
+    }
+    .review-widget{
+        font-size: 80%;
+    }
+    .main-single-apartament__block__left-col{
+        padding-left: 0;
+    }
+    .main-write-review__occupants{
+        justify-content: flex-start;
+    }
+    .main-write-review__date > div:nth-child(1) {
+        width: 45%;
+        margin-right: 4em;
+        justify-content: flex-start;
+    }
+    .main-write-review__date > div:nth-child(2) {
+        width: 45%;
+        justify-content: flex-start;
+    }
+} 
+
+
+/* MEDIA SCREEN LESS 767PX * CONST * */
+
+@media screen and (max-width: 767px){
+    .main-single-apartament__block__photos > div{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .main-single-apartament__block__published-time, .main-single-apartament__block__verified, .main-single-apartament__block__recommended {
+        font-size: 1.1em;
+        padding-left: 0;
+    }
+    .share-btn img, .report-btn img{
+        height: 1.25em;
+        margin-right: 0.35em;
+    }
+    .share-btn, .report-btn{
+        font-size: 1.25em;
+    }
+    .share-btn img, .report-btn img{
+        height: 1.25em;
+        margin-right: 0.35em;
+    }
+    .share-btn, .report-btn{
+        font-size: 1.25em;
+    }
+    .top-bar__row__nav-col{
+        transform: translateX(-150vw);    
+        height: 100vh;
+        position: fixed;
+        width: 100vw;
+        justify-content: center;
+        align-items: flex-start;
+        padding-top: 15vh;
+        background-color: #FFF;
+        justify-content: space-between;
+        width: 100%;
+        left: 0;
+        top: 0;
+        transition: all 0.3s ease-in-out;
+        z-index: 1;
+    }
+    .top-bar__row__nav-col ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .burger-menu{
+        display: block;
+    }
+    .top-bar__row__nav-col ul li{
+        margin-bottom: 1.75rem;
+    }
+
     .footer{
         padding: 1.7rem;
     }
@@ -153,27 +301,124 @@
     .community-review-widget > div{
         padding-bottom: 20px;
     }
-    .main-write-review__experience-rating > .d-flex{
-        flex-direction: column;
-    }
-    .main-write-review__experience-rating__block{
-        width: 100%;
-        padding-top: 20px !important;
-    }
-
-    .main-write-review__agree-container{
-        flex-direction: column !important;
-    }
-    .main-write-review__agree-container span{
-        padding-top: 40px;
-    }
     .main-write-review__form .main-write-review__form__sub-title{
-        font-size: 17px;
         padding: 36px 0px 20px 0px;
     }
+
 }
 
+/* MEDIA SCREEN 568PX BETWEEN 767PX */
+
+@media only screen and (min-width:568px) and (max-width: 767px) {
+    html{
+        font-size: 47.5%;
+    }
+    .top-bar{
+        font-size: 127.5%;
+    }
+    .main-search-result__block{
+        font-size: 135%;
+    }
+    .slick-prev.slick-arrow, .slick-next.slick-arrow{
+        bottom: 0.7rem;
+    }
+    .main-single-apartament__block{
+        font-size: 130%;
+    }
+    .main-single-apartament__block__photos > div img{
+        width: 32%;
+        max-height: none;
+        margin: 0px 5px 5px 0px;
+        max-height: auto;
+    }
+    .review-widget{
+        font-size: 75%;
+    }
+    .main-single-apartament__block__left-col{
+        padding-left: 0;
+    }
+    .main-write-review__form{
+        font-size: 75%;
+    }
+    .main-write-review__date, .main-write-review__occupants{
+        font-size: 80%;
+    }
+    .main-write-review__date > div:nth-child(1),.main-write-review__date > div:nth-child(2) {
+        width: auto;
+        justify-content: flex-start;
+        margin-right: 4em;
+    }
+    .main-write-review__date{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+} 
+
+
+/* MEDIA SCREEN 568PX LESS * CONST * */
+
 @media screen and (max-width: 568px){
+    .home-auth-section__row__right-col form {
+        width: 100%;
+    }
+    .home-auth-section__login-btn{
+        font-size: 1.9rem;
+    }
+    .burger-menu {
+        top: 1.5em;
+    }
+    .top-bar{
+        padding: 0.83rem 0.9rem 0.83rem 0rem;
+    }
+    .home-auth-section__row__left-col h1{
+        padding-bottom: 3rem;
+    }
+    .sub-bar__col-review {
+        padding: 0rem 0.75rem;
+    }
+    .home-search-section .input-container {
+        width: auto;
+    }
+    .slick-prev{
+        left: 15%;
+    }
+    .slick-next{
+        right: 15%;
+    }
+    .main-write-review__occupants .default-text {
+        padding: 0px 17px 0px 10px;
+    }
+    .sub-bar__col-search{
+        padding-right: 0;
+    }
+    .lg-btn {
+        font-size: 1.5em;
+        padding: 1.5rem;
+    }
+    .main-single-apartament__block__photos {
+        padding: 0px 0px 1em 0px;
+    }
+    .main-write-review__experience-rating > .d-flex p{
+        font-size: 2.4em;
+    }
+    .main-write-review__form__sub-title{
+        font-size: 3.3em !important;
+    }
+    .checkbox-container .checkmark:after{
+        width: 2.5em;
+        height: 2.5em;
+        background-size: contain;
+    }
+    .main-write-review__agree-btn{
+        font-size: 2.25em;
+    }
+    .input-file__container{
+        font-size: 1.7em;
+    }
+    .input-file__container-inner img{
+        height: 1.7em;
+    }
+
     .main-page-paragraph{
         padding: 0px 1.3rem;
     }
@@ -226,91 +471,86 @@
     }
 }
 
-@media screen and (max-width: 767px){
-    .top-bar__row__nav-col{
-        transform: translateX(-150vw);    
-        height: 100vh;
-        position: fixed;
-        width: 100vw;
-        justify-content: center;
-        align-items: flex-start;
-        padding-top: 15vh;
-        background-color: #FFF;
-        justify-content: space-between;
-        width: 100%;
-        left: 0;
-        top: 0;
-        transition: all 0.3s ease-in-out;
-        z-index: 1;
-    }
-    .top-bar__row__nav-col ul{
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: center;
-    }
-    .burger-menu{
-        display: block;
-    }
-    .top-bar__row__nav-col ul li{
-        margin-bottom: 1.75rem;
-    }
-}
+/* LARGE PHONES AND SMALL TABLETS 375PX BETWEEN 568 PX */
 
-
-@media only screen and (min-width:300px) and (max-width: 345px) {
+@media only screen and (min-width:375px) and (max-width:568px) {
     html{
-        font-size: 45.5%;
+        font-size: 50%;
     }
-    .home-search-section__container h1, .home-instructions__title{
-        font-size: 2rem;
-    }
-    .home-search-section__container p{
-        font-size: 1.75rem;
-    }
-    .input-container{
-        padding: 1.2rem;
-    }
-    .home-auth-section__row__right-col form {
-        width: 100%;
-    }
-    .home-auth-section__login-btn{
-        font-size: 1.5rem;
-    }
-    .burger-menu {
-        top: 2em;
-    }
-    .social-signup-container__button p{
-        font-size: 1.3rem;
-    }
-    .social-signup-container__button img {
-        height: 1.8rem;
+    .top-bar{
+        font-size: 127.5%;
     }
     .sub-bar{
-        font-size: 72.5%
+        font-size: 82.5%
+    }
+    .home-search-section__container h1{
+        font-size: 2.5rem;
+    }
+    .home-search-section__container p{
+        font-size: 2.25rem;
+    }
+    .input-container{
+        padding: 1.4rem;
+    }
+    .home-instructions__title{
+        font-size: 2.5rem;
+    }
+    .social-signup-container__button p{
+        font-size: 1.4rem;
     }
     .sub-bar .input-container{
-        padding: 0.55em;
+        padding: 0.5em;
     }
     .main-search-result__block{
-        font-size: 135%;
+        font-size: 150%;
     }
     .slick-prev.slick-arrow, .slick-next.slick-arrow{
-        bottom: 0.65rem;
+        bottom: 0.85rem;
     }
     .main-single-apartament__block{
-        font-size: 135%;
-    }
-    .main-single-apartament__block__photos > div img {
-        width: 90%;
+        font-size: 120%;
     }
     .main-single-apartament__block__photos > div img{
-        width: 90%;
+        width: 48%;
         max-height: none;
         margin: 0px 5px 5px 0px;
         max-height: auto;
     }
+    .main-write-review__form{
+        font-size: 65%;
+    }
+    .main-write-review__date, .main-write-review__occupants{
+        font-size: 70%;
+    }
+    .main-write-review__date > div:nth-child(1),.main-write-review__date > div:nth-child(2) {
+        width: auto;
+        justify-content: flex-start;
+        margin-right: 4em;
+    }
+    .main-write-review__date{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .main-write-review__occupants{
+        flex-direction: column;
+    }
+    .main-write-review__occupants div{
+        width: 100%;
+        justify-content: flex-start;
+    }
+    .main-write-review__occupants .d-flex:nth-child(2) .default-text {
+        padding: 0em 2.45em 0em 0.3em !important;
+    }
+    .main-write-review__occupants .d-flex:nth-child(2){
+        padding-top: 3em;
+    }
+    .main-write-review__date .d-flex{
+        width: 100% !important;
+    }
 }
+
+
+/* DEFAULT PHONES 345PX BETWEEN 374PX */
 
 @media only screen and (min-width:345px) and (max-width: 374px) {
     html{
@@ -370,217 +610,130 @@
     .review-widget{
         font-size: 85%;
     }
+    .main-write-review__form{
+        font-size: 65%;
+    }
+    .main-write-review__date, .main-write-review__occupants{
+        font-size: 80%;
+    }
+    .main-write-review__date{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .main-write-review__form{
+        font-size: 55%;
+    }
+    .main-write-review__date, .main-write-review__occupants{
+        font-size: 75%;
+        flex-direction: column;
+    }
+    .main-write-review__occupants div{
+        width: 100%;
+        justify-content: flex-start;
+    }
+    .main-write-review__occupants .d-flex:nth-child(2) .default-text {
+        padding: 0em 2.45em 0em 0.3em !important;
+    }
+    .main-write-review__occupants .d-flex:nth-child(2){
+        padding-top: 3em;
+    }
+    .main-write-review__date{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .custom-theme-select__col{
+        width: 100% !important;
+    }
+    .main-write-review__experience-rating__block{
+        width: 50%;
+    }
+    .main-write-review__experience-rating > .d-flex{
+        flex-direction: column;
+    }
 }
 
-@media only screen and (min-width:375px) and (max-width:568px) {
+/* SMALLEST SCREENS 300PX BETWEEN 345PX */
+
+@media only screen and (min-width:300px) and (max-width: 345px) {
     html{
-        font-size: 50%;
+        font-size: 45.5%;
     }
-    .top-bar{
-        font-size: 127.5%;
-    }
-    .sub-bar{
-        font-size: 82.5%
-    }
-    .home-search-section__container h1{
-        font-size: 2.5rem;
+    .home-search-section__container h1, .home-instructions__title{
+        font-size: 2rem;
     }
     .home-search-section__container p{
-        font-size: 2.25rem;
+        font-size: 1.75rem;
     }
     .input-container{
-        padding: 1.4rem;
+        padding: 1.2rem;
     }
-    .home-instructions__title{
-        font-size: 2.5rem;
+    .home-auth-section__row__right-col form {
+        width: 100%;
+    }
+    .home-auth-section__login-btn{
+        font-size: 1.5rem;
+    }
+    .burger-menu {
+        top: 2em;
     }
     .social-signup-container__button p{
-        font-size: 1.4rem;
+        font-size: 1.3rem;
+    }
+    .social-signup-container__button img {
+        height: 1.8rem;
+    }
+    .sub-bar{
+        font-size: 72.5%
     }
     .sub-bar .input-container{
-        padding: 0.5em;
-    }
-    .main-search-result__block{
-        font-size: 150%;
-    }
-    .slick-prev.slick-arrow, .slick-next.slick-arrow{
-        bottom: 0.85rem;
-    }
-    .main-single-apartament__block{
-        font-size: 120%;
-    }
-    .main-single-apartament__block__photos > div img{
-        width: 48%;
-        max-height: none;
-        margin: 0px 5px 5px 0px;
-        max-height: auto;
-    }
-}
-
-@media only screen and (min-width:568px) and (max-width: 767px) {
-    html{
-        font-size: 47.5%;
-    }
-    .top-bar{
-        font-size: 127.5%;
+        padding: 0.55em;
     }
     .main-search-result__block{
         font-size: 135%;
     }
     .slick-prev.slick-arrow, .slick-next.slick-arrow{
-        bottom: 0.7rem;
+        bottom: 0.65rem;
     }
     .main-single-apartament__block{
-        font-size: 130%;
+        font-size: 135%;
+    }
+    .main-single-apartament__block__photos > div img {
+        width: 90%;
     }
     .main-single-apartament__block__photos > div img{
-        width: 32%;
+        width: 90%;
         max-height: none;
         margin: 0px 5px 5px 0px;
         max-height: auto;
     }
-    .review-widget{
+    .main-write-review__form{
+        font-size: 65%;
+    }
+    .main-write-review__date, .main-write-review__occupants{
         font-size: 75%;
+        flex-direction: column;
     }
-} 
-
-@media only screen and (min-width:768px) and (max-width:992px) {
-    html{
-        font-size: 55%;
+    .main-write-review__occupants div{
+        width: 100%;
+        justify-content: flex-start;
     }
-    .top-bar{
-        font-size: 107.5%;
+    .main-write-review__occupants .d-flex:nth-child(2) .default-text {
+        padding: 0em 2.45em 0em 0.3em !important;
     }
-    .home-instructions__step{
-        padding: 4rem;
+    .main-write-review__occupants .d-flex:nth-child(2){
+        padding-top: 3em;
     }
-    .home-instructions__step p{
-        font-size: 1.8rem;
-    }
-    .home-instructions__step-title{
-        font-size: 2.2rem;
-    }
-    .main-search-result__block{
-        font-size: 110%;
-    }
-    .slick-prev.slick-arrow, .slick-next.slick-arrow{
-        bottom: 1.05rem;
-    }
-    .main-single-apartament__block{
-        font-size: 110%;
-    }
-    .share-btn img, .report-btn img{
-        height: 1.75em;
-        margin-right: 0.35em;
-    }
-    .share-btn, .report-btn{
-        font-size: 1.25em;
-    }
-    .review-widget{
-        font-size: 80%;
-    }
-} 
-
-@media only screen and (min-width:992px) and (max-width:1199px) {
-    html{
-        font-size: 60%;
-    }
-}
-
-@media screen and (max-width: 992px){
-    .home-auth-section__row__left-col{
-        padding-left: 1rem;
-        padding-right: 1rem;
-    }
-    .sub-bar__col_void{
-        display: none;
-    }
-    .sub-bar__col-result{
-        justify-content: center;
-    }
-    .sub-bar__col-result__span{
-        margin-right: 0;
-    }
-    .sub-bar__col__write-review, .sub-bar__col-search{
-        display: flex;
-        align-items: center;
-    }
-    .main-search-result__block-title{
-        font-size: 2.4rem;
-    }
-    .main-search-result__block-address{
-        font-size: 2rem;
-    }
-    .main-search-result__block__params-container{
-        font-size: 1.1rem;
-        padding: 1em 0px 1em 0px;
-    }
-}
-
-@media screen and (max-width: 768px){
-    .main-single-apartament__block__photos > div{
-        flex-direction: row;
+    .main-write-review__date{
         flex-wrap: wrap;
+        justify-content: flex-start;
     }
-    .main-single-apartament__block__published-time, .main-single-apartament__block__verified, .main-single-apartament__block__recommended {
-        font-size: 1.1em;
-        padding-left: 0;
+    .custom-theme-select__col{
+        width: 100% !important;
     }
-    .share-btn img, .report-btn img{
-        height: 1.25em;
-        margin-right: 0.35em;
-    }
-    .share-btn, .report-btn{
-        font-size: 1.25em;
-    }
-    .share-btn img, .report-btn img{
-        height: 1.25em;
-        margin-right: 0.35em;
-    }
-    .share-btn, .report-btn{
-        font-size: 1.25em;
-    }
-}
-
-@media screen and (max-width: 568px){
-    .home-auth-section__row__right-col form {
+    .main-write-review__experience-rating__block{
         width: 100%;
     }
-    .home-auth-section__login-btn{
-        font-size: 1.9rem;
-    }
-    .burger-menu {
-        top: 1.5em;
-    }
-    .top-bar{
-        padding: 0.83rem 0.9rem 0.83rem 0rem;
-    }
-    .home-auth-section__row__left-col h1{
-        padding-bottom: 3rem;
-    }
-    .sub-bar__col-review {
-        padding: 0rem 0.75rem;
-    }
-    .home-search-section .input-container {
-        width: auto;
-    }
-    .slick-prev{
-        left: 15%;
-    }
-    .slick-next{
-        right: 15%;
-    }
-    .main-write-review__occupants .default-text {
-        padding: 0px 17px 0px 10px;
-    }
-    .sub-bar__col-search{
-        padding-right: 0;
-    }
-    .lg-btn {
-        font-size: 1.5em;
-        padding: 1.5rem;
-    }
-    .main-single-apartament__block__photos {
-        padding: 0px 0px 1em 0px;
+    .main-write-review__experience-rating > .d-flex{
+        flex-direction: column;
     }
 }

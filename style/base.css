@@ -97,9 +97,9 @@ li{
 }
 
 .input-file__container span{
-    font-size: 1.5rem;
+    font-size: 1.2em;
     color: #a5a5a5;
-    padding-left: 1rem;
+    padding-left: 1em;
 }
 
 .input-file__container-inner{
@@ -112,14 +112,14 @@ li{
 }
 
 .input-file__container-inner p{
-    font-size: 1.5rem !important;
-    padding: 0px 0px 0px 10px !important;
+    font-size: 1.2em !important;
+    padding: 0px 0px 0px 1em;
     margin: 0;
 
 }
 
 .input-file__container-inner{
-    padding: 2rem 1.6rem;
+    padding: 1.5rem 1.1rem;
     border-radius: 0.4rem;
     cursor: pointer;
 }
