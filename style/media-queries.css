@@ -191,6 +191,9 @@
         width: 45%;
         justify-content: flex-start;
     }
+    .home-auth-section__row__left-col{
+        background-size: auto !important;
+    }
 } 
 
 
@@ -304,6 +307,11 @@
     .main-write-review__form .main-write-review__form__sub-title{
         padding: 36px 0px 20px 0px;
     }
+    .checkbox-container .checkmark:after{
+        width: 2.5em;
+        height: 2.5em;
+        background-size: contain;
+    }
 
 }
 
@@ -351,6 +359,9 @@
     .main-write-review__date{
         flex-wrap: wrap;
         justify-content: flex-start;
+    }
+    .main-single-apartament__block > div:nth-child(2){
+        padding-left: 4rem;
     }
 } 
 
@@ -403,11 +414,6 @@
     }
     .main-write-review__form__sub-title{
         font-size: 3.3em !important;
-    }
-    .checkbox-container .checkmark:after{
-        width: 2.5em;
-        height: 2.5em;
-        background-size: contain;
     }
     .main-write-review__agree-btn{
         font-size: 2.25em;
@@ -531,21 +537,25 @@
         flex-wrap: wrap;
         justify-content: flex-start;
     }
-    .main-write-review__occupants{
-        flex-direction: column;
-    }
     .main-write-review__occupants div{
         width: 100%;
         justify-content: flex-start;
     }
     .main-write-review__occupants .d-flex:nth-child(2) .default-text {
-        padding: 0em 2.45em 0em 0.3em !important;
+        padding: 0em 0.45em 0em 0.8em !important;
     }
     .main-write-review__occupants .d-flex:nth-child(2){
-        padding-top: 3em;
+        padding-top: 0em;
     }
     .main-write-review__date .d-flex{
         width: 100% !important;
+    }
+    .main-write-review__experience-rating > .d-flex {
+        flex-direction: column;
+    }
+    .custom-theme-select__col .custom-theme-select {
+        margin-right: 15px;
+        width: 100%;
     }
 }
 
