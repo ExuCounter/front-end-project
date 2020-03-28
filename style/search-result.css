@@ -1,19 +1,19 @@
 .main-search-result__block-title{
-    font-size: 2.2rem;
+    font-size: 2.2em;
     font-weight: 700;
     color: #373737;
-    padding-bottom: 0.8rem;
+    padding-bottom: 0.8em;
 }
 
 .main-search-result__block-address, .main-search-result__block__params-container p{
-    font-size: 1.6rem;
+    font-size: 1.6em;
     color: #373737;
     font-weight: 500;
 }
 
 .main-search-result__block__params-container{
     display: flex;
-    padding: 3rem 0px 1rem 0px;
+    padding: 3em 0px 1em 0px;
     align-items: center;
     justify-content: space-between;
 }
@@ -33,7 +33,7 @@
 }
 
 .main-search-result__block__inner-block{
-    margin: 0px 0.8rem 0px 0px;
+    margin: 0px 0.8em 0px 0px;
     outline: none;
 }
 
@@ -52,7 +52,7 @@
 }
 
 .main-search-result__block__inner-block__title{
-    font-size: 1.24rem;
+    font-size: 1.24em;
     font-weight: 600;
     padding-bottom: 0.9rem;
     line-height: 1.25;
@@ -60,10 +60,10 @@
 }
 
 .star-icon{
-    padding: 0.5rem;
+    padding: 0.5em;
     background-color: #bdbdbd;
-    margin-right: 0.55rem;
-    border-radius: 0.4rem;
+    margin-right: 0.55em;
+    border-radius: 0.4em;
 }
 
 .star-icon.active{
@@ -71,7 +71,7 @@
 }
 
 .main-search-result__block__inner-block__reviewed{
-    font-size: 0.8rem;
+    font-size: 0.8em;
     color: #4a4a4a;
     font-weight: 700;
 }
@@ -82,20 +82,20 @@
 
 .main-search-result__block__inner-block__rating{
     font-weight: 600;
-    font-size: 1.2rem;
+    font-size: 1.2em;
     color: #0989d2
 
 }
 
 .main-search-result__block__inner-block__description{
-    font-size: 0.9rem;
+    font-size: 0.9em;
     font-weight: 500;
     color: #373737;
-    margin-top: 1.7rem;
+    margin-top: 1.7em;
 }
 
 .main-search-result__block__inner-block__published-time{
-    font-size: 0.8rem;
+    font-size: 0.8em;
     color: #373737;
     font-weight: 500;
 }
@@ -103,8 +103,8 @@
 .main-search-result__block__inner-block__view-more__btn{
     background-color: #ff4a49;
     color: #FFF;
-    font-size: 1rem;
-    padding: 0.8rem 1.4rem;
+    font-size: 1em;
+    padding: 0.8em 1.4em;
     border-radius: 0.4rem;
     border: solid 1px transparent;
     transition: 0.1s ease-out;
@@ -182,14 +182,14 @@
 .slick-prev{
     z-index: 1;
     top: unset;
-    bottom: 1.4rem !important;
+    bottom: 1.4rem;
     left:35%;
 }
 
 .slick-next{
     z-index: 1;
     top: unset;
-    bottom: 1.4rem !important;
+    bottom: 1.4rem;
     right:35%;
 }
 

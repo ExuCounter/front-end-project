@@ -14,7 +14,7 @@ $('.main-search-result__block__inner-container').slick({
         }
       },
       {
-        breakpoint: 520,
+        breakpoint: 568,
         settings: {
           slidesToShow: 1
         }
