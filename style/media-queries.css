@@ -191,9 +191,6 @@
     .main-page-paragraph{
         padding: 0px 1.3rem;
     }
-    .social-signup-container__button p{
-        display: none;
-    }
     .home-auth-section__row__left-col{
         padding: 108px 0px 120px 0px;
     }
@@ -255,33 +252,9 @@
     }
 }
 
-@media screen and (max-width: 440px){
-    .top-bar{
-        padding: 0.83rem 0.9rem 0.83rem 0rem;
-    }
-    .home-auth-section__row__left-col h1{
-        padding-bottom: 3rem;
-    }
-    .sub-bar__col-review {
-        padding: 0rem 0.75rem;
-    }
-    .home-search-section .input-container {
-        width: auto;
-    }
-    .slick-prev{
-        left: 15%;
-    }
-    .slick-next{
-        right: 15%;
-    }
-    .main-write-review__occupants .default-text {
-        padding: 0px 17px 0px 10px;
-    }
-}
-
 @media screen and (max-width: 767px){
     .top-bar__row__nav-col{
-        transform: translateX(-100vw);    
+        transform: translateX(-150vw);    
         height: 100vh;
         position: fixed;
         width: 100vw;
@@ -305,15 +278,43 @@
     .burger-menu{
         display: block;
     }
-    .burger-menu {
-        top: 1.5em;
-    }
     .top-bar__row__nav-col ul li{
         margin-bottom: 1.75rem;
     }
 }
 
-@media only screen and (min-width:300px) and (max-width: 374px) {
+
+@media only screen and (min-width:300px) and (max-width: 345px) {
+    html{
+        font-size: 45.5%;
+    }
+    .home-search-section__container h1, .home-instructions__title{
+        font-size: 2rem;
+    }
+    .home-search-section__container p{
+        font-size: 1.75rem;
+    }
+    .input-container{
+        padding: 1.2rem;
+    }
+    .home-auth-section__row__right-col form {
+        width: 100%;
+    }
+    .home-auth-section__login-btn{
+        font-size: 1.5rem;
+    }
+    .burger-menu {
+        top: 2em;
+    }
+    .social-signup-container__button p{
+        font-size: 1.3rem;
+    }
+    .social-signup-container__button img {
+        height: 1.8rem;
+    }
+}
+
+@media only screen and (min-width:345px) and (max-width: 374px) {
     html{
         font-size: 52.5%;
     }
@@ -332,11 +333,23 @@
     .home-auth-section__login-btn{
         font-size: 1.5rem;
     }
+    .burger-menu {
+        top: 2em;
+    }
+    .social-signup-container__button p{
+        font-size: 1.3rem;
+    }
+    .social-signup-container__button img {
+        height: 1.8rem;
+    }
 }
 
 @media only screen and (min-width:375px) and (max-width:568px) {
     html{
         font-size: 50%;
+    }
+    .top-bar{
+        font-size: 127.5%;
     }
     .home-search-section__container h1{
         font-size: 2.5rem;
@@ -347,14 +360,11 @@
     .input-container{
         padding: 1.4rem;
     }
-    .home-auth-section__row__right-col form {
-        width: 100%;
+    .home-instructions__title{
+        font-size: 2.5rem;
     }
-    .top-bar{
-        font-size: 127.5%;
-    }
-    .home-auth-section__login-btn{
-        font-size: 1.9rem;
+    .social-signup-container__button p{
+        font-size: 1.4rem;
     }
 }
 
@@ -395,5 +405,38 @@
     .home-auth-section__row__left-col{
         padding-left: 1rem;
         padding-right: 1rem;
+    }
+}
+
+@media screen and (max-width: 568px){
+    .home-auth-section__row__right-col form {
+        width: 100%;
+    }
+    .home-auth-section__login-btn{
+        font-size: 1.9rem;
+    }
+    .burger-menu {
+        top: 1.5em;
+    }
+    .top-bar{
+        padding: 0.83rem 0.9rem 0.83rem 0rem;
+    }
+    .home-auth-section__row__left-col h1{
+        padding-bottom: 3rem;
+    }
+    .sub-bar__col-review {
+        padding: 0rem 0.75rem;
+    }
+    .home-search-section .input-container {
+        width: auto;
+    }
+    .slick-prev{
+        left: 15%;
+    }
+    .slick-next{
+        right: 15%;
+    }
+    .main-write-review__occupants .default-text {
+        padding: 0px 17px 0px 10px;
     }
 }
