@@ -520,7 +520,7 @@
         font-size: 65%;
     }
     .main-write-review__date, .main-write-review__occupants{
-        font-size: 70%;
+        font-size: 77%;
     }
     .main-write-review__date > div:nth-child(1),.main-write-review__date > div:nth-child(2) {
         width: auto;
@@ -614,7 +614,7 @@
         font-size: 65%;
     }
     .main-write-review__date, .main-write-review__occupants{
-        font-size: 80%;
+        font-size: 82%;
     }
     .main-write-review__date{
         flex-wrap: wrap;
