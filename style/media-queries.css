@@ -3,9 +3,6 @@
 }
 
 @media screen and (max-width: 992px){
-    html{
-        font-size: 20px;
-    }
     .home-auth-section_login .home-auth-section__row__left-col, .home-auth-section_signup .home-auth-section__row__left-col{
         border-radius: 0px;
         background-size: cover;
@@ -274,10 +271,6 @@
     .sub-bar__col-review {
         padding: 0rem 0.75rem;
     }
-    .top-bar__row__nav-col.active ul li {
-        margin-right: 10px;
-        margin-top: 8px;
-    }
     .home-search-section .input-container {
         width: auto;
     }
@@ -292,12 +285,21 @@
     }
 }
 
-@media screen and (max-width: 992px){
+@media screen and (max-width: 568px){
     .top-bar__row__nav-col{
-        position: absolute;
+        top: -100vh;
+        height: 100vh;
+        position: fixed;
         opacity: 0;
-        overflow: hidden;
-        transform: translate(-50%, 0%);
+        width: 100vw;
+        justify-content: center;
+        align-items: flex-start;
+        padding-top: 15vh;
+        background-color: #FFF;
+        justify-content: space-between;
+        width: 100%;
+        left: 0;
+        transition: 0.2s ease-in-out;
     }
     .burger-menu{
         display: block;
@@ -338,17 +340,26 @@
     .home-auth-section__row__right-col form {
         width: 100%;
     }
+    .top-bar{
+        font-size: 127.5%;
+    }
 }
 
 @media only screen and (min-width:568px) and (max-width: 767px) {
     html{
         font-size: 47.5%;
     }
+    .top-bar{
+        font-size: 127.5%;
+    }
 } 
 
 @media only screen and (min-width:768px) and (max-width:992px) {
     html{
         font-size: 55%;
+    }
+    .top-bar{
+        font-size: 107.5%;
     }
     .home-instructions__step{
         padding: 4rem;
