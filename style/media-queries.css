@@ -130,6 +130,10 @@
     .main-write-review__form .main-title{
         margin-bottom: 20px;
     }
+    .main-single-apartament__block, .main-single-apartament__block {
+        padding: 19px 6px;
+        margin: 20px 10px 0px 10px;
+    }
 }
 
 
@@ -193,10 +197,6 @@
     }
     .home-auth-section__row__left-col{
         background-size: auto !important;
-    }
-    .main-single-apartament__block, .main-single-apartament__block {
-        padding: 19px 6px;
-        margin: 20px 10px 0px 10px;
     }
 } 
 
