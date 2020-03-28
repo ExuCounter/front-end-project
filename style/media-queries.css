@@ -505,6 +505,16 @@
         display: flex;
         align-items: center;
     }
+    .main-search-result__block-title{
+        font-size: 2.4rem;
+    }
+    .main-search-result__block-address{
+        font-size: 2rem;
+    }
+    .main-search-result__block__params-container{
+        font-size: 1.1rem;
+        padding: 1em 0px 1em 0px;
+    }
 }
 
 @media screen and (max-width: 768px){
