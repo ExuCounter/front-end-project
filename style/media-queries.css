@@ -1,3 +1,17 @@
+/* MEDIA SCREEN 1400PX */
+@media only screen and (max-width:1300px){
+    .main__sidebars-sidebar{
+        display: none;
+    }
+    .main_sidebars{
+        justify-content: center;
+        max-width: 856px !important;
+    }
+    .main_sidebars .main__container{
+        width: 100%;
+    }
+}
+
 /* MEDIA SCREEN 992PX BETWEEN 1199PX */
 
 @media only screen and (min-width:992px) and (max-width:1199px) {
@@ -130,8 +144,7 @@
     .main-write-review__form .main-title{
         margin-bottom: 20px;
     }
-    .main-single-apartament__block, .main-single-apartament__block {
-        padding: 19px 6px;
+    .main-single-apartament__block, .main-single-apartament__block, .main-write-review__form{
         margin: 20px 10px 0px 10px;
     }
 }
@@ -471,6 +484,9 @@
     }
     .main-write-review__form{
         padding: 35px 25px;
+    }
+    .write-review__container .write-review__btn, .main-search-result__block__building-info .write-review__btn{
+        padding: 0.7em 0.9em;
     }
     
 }

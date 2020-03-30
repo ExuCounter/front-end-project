@@ -38,7 +38,7 @@
 }
 
 
-.main-search-result__block__inner-block img{
+.main-search-result__block__inner-block__image{
     width: 100%;
     border-top-right-radius: 0.4rem;
     border-top-left-radius: 0.4rem;
@@ -228,4 +228,37 @@
 
 #slick-slide-control00{
     padding: 0.5rem 1.3rem;
+}
+
+.main-search-result__block .write-review__btn{
+    height: fit-content;
+}
+
+.main-search-result__block__building-info .write-review__btn{
+    padding: 0.7em 1.3em;
+    font-size: 1.5rem;
+}
+
+.main-search-result__block__building-info{
+    justify-content: space-between;
+}
+
+.main__sidebars-sidebar{
+    width: 193px;
+    margin: 0px 15px;
+}
+
+.main_sidebars__right-sidebar{
+    margin-top: 29rem;
+}
+
+.google-ads__container{
+    max-width: 971px;
+    margin: 0 auto;
+    padding-bottom: 6rem;
+}
+
+.google-ads__container img{
+    width: 100%;
+    padding: 0px 15px;
 }

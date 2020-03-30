@@ -34,9 +34,11 @@
 }
 
 .write-review__btn{
+    max-width: 156px;
+    text-align: center;
     font-size: 0.94em;
     font-weight: 600;
-    padding: 0.72em;
+    padding: 0.72em 0em;
     color: #FFF !important;
     background-color: #ff4a49;
     border: solid 1px transparent;

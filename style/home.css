@@ -52,6 +52,8 @@
 
 .home-instructions__step img{
     margin-right: auto;
+    display: block;
+    max-height: 36px;
 }
 
 .home-instructions__step{

@@ -10,8 +10,8 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300i,400,500,600,700&display=swap" rel="stylesheet">
   
     <!-- SLICK SLIDER-->
-     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
  
     <link rel="stylesheet" href="style/fonts.css">
     <link rel="stylesheet" href="style/base.css">
@@ -99,14 +99,21 @@
     </div>
 
     <!-- MAIN -->
-    <main class='main main-search-result'>
+    <main class='main_sidebars main-search-result'>
+        <div class="main_sidebars__left-sidebar main__sidebars-sidebar">
+        </div>
         <div class="main__container">
             <p class="lg-btn submit-review__btn" href="submit-review.html">
                 <span>Cannot find your Apartment?</span><a href="submit-review.html"> Submit a new review</a>
             </p>
             <div class="main-search-result__block">
-                <h5 class="main-search-result__block-title">Building Name</h5>
-                <p class="main-search-result__block-address">21/2 Address New York</p>
+                <div class="d-flex main-search-result__block__building-info">
+                    <div>
+                        <h5 class="main-search-result__block-title">Building Name</h5>
+                        <p class="main-search-result__block-address">21/2 Address New York</p>
+                    </div>
+                    <a href="write-review.html" class="write-review__btn">Write a Review</a>
+                </div>
                 <div class="main-search-result__block__params-container">
                     <p>10 floors with 50 apartments</p>
                     <div class="custom-theme-select">
@@ -326,8 +333,13 @@
                 </div>
             </div>
             <div class="main-search-result__block pt-4">
-                <h5 class="main-search-result__block-title">Building Name</h5>
-                <p class="main-search-result__block-address">21/2 Address New York</p>
+                <div class="d-flex main-search-result__block__building-info">
+                    <div>
+                        <h5 class="main-search-result__block-title">Building Name</h5>
+                        <p class="main-search-result__block-address">21/2 Address New York</p>
+                    </div>
+                    <a href="write-review.html" class="write-review__btn">Write a Review</a>
+                </div>
                 <div class="main-search-result__block__params-container">
                     <p>10 floors with 50 apartments</p>
                     <div class="custom-theme-select">
@@ -546,9 +558,14 @@
                     </div>
                 </div>
             </div>
-            <div class="main-search-result__block pt-4 pb-4">
-                <h5 class="main-search-result__block-title">Building Name</h5>
-                <p class="main-search-result__block-address">21/2 Address New York</p>
+            <div class="main-search-result__block pt-4">
+                <div class="d-flex main-search-result__block__building-info">
+                    <div>
+                        <h5 class="main-search-result__block-title">Building Name</h5>
+                        <p class="main-search-result__block-address">21/2 Address New York</p>
+                    </div>
+                    <a href="write-review.html" class="write-review__btn">Write a Review</a>
+                </div>
                 <div class="main-search-result__block__params-container">
                     <p>10 floors with 50 apartments</p>
                     <div class="custom-theme-select">
@@ -768,7 +785,14 @@
                 </div>
             </div>
         </div>
+        <div class="main_sidebars__right-sidebar main__sidebars-sidebar">
+            <img src="https://via.placeholder.com/193x805.png/ff4a49/FFFFFF/?text=Google+Ads" alt="Google Ad">
+        </div>
     </main>
+
+    <div class="google-ads__container">
+        <img src="https://via.placeholder.com/941x170.png/ff4a49/FFFFFF/?text=Google+Ads" alt="Google Ad">
+    </div>
 
     <!-- FOOTER -->
     <footer class="footer">
@@ -826,7 +850,7 @@
     src="https://code.jquery.com/jquery-3.4.1.js"
     integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
     crossorigin="anonymous"></script>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src='js/select.js'></script>
     <script src="js/slick-apartments.js"></script>
     <script src="js/script.js"></script>
