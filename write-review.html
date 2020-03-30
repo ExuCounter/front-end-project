@@ -27,7 +27,7 @@
     <link rel="stylesheet" href="style/checkbox.css">
     <link rel="stylesheet" href="style/write-review.css">
     <link rel="stylesheet" href="style/single-apartment.css">
-    
+    <link rel="stylesheet" href="style/modal.css">
 
     <link rel="stylesheet" href="style/burger-menu.css">
     <link rel="stylesheet" href="style/media-queries.css">
@@ -162,7 +162,7 @@
                   </div>
             </div>
         </div>
-        <form class="main-write-review__form">
+        <form class="main-write-review__form" action="#">
             <h1 class="main-title">
                 Write review of building name
             </h1>
@@ -197,17 +197,17 @@
                         Contact preference
                     </p>
                     <label class="checkbox-container">
-                        <input type="checkbox" checked>
+                        <input name='contact-preference' type="radio" checked>
                         <span class="checkmark"></span>
                         <p>Phone</p>
                     </label>
                     <label class="checkbox-container">
-                        <input type="checkbox">
+                        <input name='contact-preference' type="radio">
                         <span class="checkmark"></span>
                         <p>Email</p>
                     </label>
                     <label class="checkbox-container">
-                        <input type="checkbox">
+                        <input name='contact-preference' type="radio">
                         <span class="checkmark"></span>
                         <p>None</p>
                     </label>
@@ -548,8 +548,6 @@
                         </div>
                     </div>
                 </div>
-
-
                 <div class="d-flex flex-column">
                     <p class="main-write-review__form__sub-title">
                         Your review
@@ -593,7 +591,7 @@
                         Ipsum has been the industry`s 
                     </span>
                 </div>
-                <button class="main-write-review__submit-btn lg-btn">
+                <button type="submit" class="main-write-review__submit-btn lg-btn">
                     Submit review
                 </button>
             </div>
@@ -815,6 +813,34 @@
      
     </main>
 
+    <!-- SUBMIT REVIEW MODAL -->
+
+    <div class="custom-modal submit-review-modal">
+        <div class="custom-modal__content">
+            <img src="img/close.svg" alt="close button" class="close-btn">
+            <h1 class="main-title">
+                Your review has been Submitted
+            </h1>
+            <div class="d-flex flex-column">
+                <div class="d-flex justify-content-center">
+                    <a href='user.html' class="submit-review-modal__btn">
+                        Get Verified
+                    </a>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <a href="javascript:void(0)" class="submit-review-modal__btn">
+                        Don`t want
+                    </a>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <a href="javascript:void(0)" class="submit-review-modal__btn">
+                        Do it later
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- FOOTER -->
     <footer class="footer">
         <div class="container">
@@ -873,6 +899,8 @@
     crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="js/slick-apartments.js"></script>
+    <script src='js/modal.js'></script>
+    <script src="js/write-review.js"></script>
     <script src="js/checkbox.js"></script>
     <script src='js/select.js'></script>
     <script src="js/script.js"></script>

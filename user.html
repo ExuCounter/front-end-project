@@ -1,0 +1,597 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>User</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300i,400,500,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/fonts.css">
+    <link rel="stylesheet" href="style/base.css">
+    <link rel="stylesheet" href="style/top-bar.css">
+    <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="style/buttons.css">
+    <link rel="stylesheet" href="style/auth.css">
+    <link rel="stylesheet" href="style/text.css">
+    <link rel="stylesheet" href="style/sub-bar.css">
+    <link rel="stylesheet" href="style/select.css">
+    <link rel="stylesheet" href="style/search-result.css">
+    <link rel="stylesheet" href="style/single-apartment.css">
+    <link rel="stylesheet" href="style/review-widget.css">
+    <link rel="stylesheet" href="style/user.css">
+    <link rel="stylesheet" href="style/write-review.css">
+    <link rel="stylesheet" href="style/checkbox.css">
+    <link rel="stylesheet" href="style/modal.css">
+    
+    <link rel="stylesheet" href="style/burger-menu.css">
+    <link rel="stylesheet" href="style/media-queries.css">
+</head>
+<body>
+
+<body>
+
+    <!-- TOP BAR -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="top-bar__row row">
+                <div class="col-3 col-md-3 col-lg-3 col-xl-6 col-md-3">
+                    <a href="home.html" class="top-bar__logo">Logo</a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6 col-xl-3 top-bar__row__nav-col">
+                        <ul class='top-bar__nav-menu'>
+                            <li>
+                                <a href="home.html">Home</a>
+                            </li>
+                            <li>
+                                <a href="about-us.html">About Us</a>
+                            </li>
+                            <li>
+                                <a href="contact-us.html">Contact Us</a>
+                            </li>
+                        </ul>
+                   </nav>
+                </div>
+                <div class="col-md-3 col-lg-3 col-7 top-bar__user top-bar__user">
+                    <a href="user.html" class="active">
+                        <p class="top-bar__user-name">User Name</p>
+                        <img src="img/b80249235cab344d4fa92087b0a4b61c029ad6f1.png" alt="user image">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <button class="burger-menu">
+            <span></span>
+        </button>
+    </div>
+
+    <!-- SUB BAR -->
+    <div class="sub-bar sub-bar_user">
+        <div class="container">
+            <div class="sub-bar__row row">
+                <div class="col-6 pl-lg-0 sub-bar__col sub-bar__col-result">
+                    <span class="sub-bar__col-result__span">
+                        Profile
+                    </span>
+                </div>
+                <div class="col-6 sub-bar__col sub-bar__col__write-review">
+                    <a class="write-review__btn" href="write-review.html">
+                        Write a Review
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- USER SECTION -->
+    <section class="user-section">
+        <div class="user-section__container">
+            <div class="d-flex justify-content-between align-items-center">
+                <div>
+                    <div class="user-section__info">
+                        <img src="img/b80249235cab344d4fa92087b0a4b61c029ad6f1.png" alt="User image" class="user-section__info-img">
+                        <p class="user-section__info-name">User Name</p>
+                    </div>
+                    <button class="user-section__info__change-btn">
+                        Change photo
+                    </button>
+                </div>
+                <button class="user-section__get-verified-btn">
+                    Get verified
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- USER FORM -->
+    <section class="user-form">
+        <div class="user-form__container">
+            <h1 class="main-title">
+                Profile details
+            </h1>
+            <a href="edit-profile.html" class="md-link edit-profile-link">
+                Edit profile
+            </a>
+            <form class="row user-form__form">
+                <div class="col-sm-8 col-12 user-form__form__left-col">
+                    <label>
+                        <p>
+                            Name
+                        </p>
+                        <input type="text" placeholder="Name" required>
+                    </label>
+                    <label>
+                        <p>
+                            First Name
+                        </p>
+                        <input type="text" placeholder="First Name" required>
+                    </label>
+                    <label>
+                        <p>
+                            Email
+                        </p>
+                        <input type="email" placeholder="Email" required>
+                    </label>
+                    <label>
+                        <p>
+                            Phone Number <span>( Optional )</span>
+                        </p>
+                        <input type="number" placeholder="number">
+                    </label>
+                    <label>
+                        <p>
+                            Password
+                            <a href="javascript:void(0)" class="md-link ml-5">
+                                Change password?
+                            </a>
+                        </p>
+                        <input type="password" placeholder="Email" required>
+                    </label>
+                    <button type='submit' value="Save">Save</button>
+                </div>
+                <div class="col-sm-4 col-12 user-form__form__right-col">
+                    <div class="d-flex flex-column">
+                        <p class="user-form__form__sub-title">
+                            Contact preference
+                        </p>
+                        <label class="checkbox-container">
+                            <input name='contact-preference' type="radio" checked>
+                            <span class="checkmark"></span>
+                            <p>Phone</p>
+                        </label>
+                        <label class="checkbox-container">
+                            <input name='contact-preference' type="radio">
+                            <span class="checkmark"></span>
+                            <p>Email</p>
+                        </label>
+                        <label class="checkbox-container">
+                            <input name='contact-preference' type="radio">
+                            <span class="checkmark"></span>
+                            <p>None</p>
+                        </label>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- MAIN -->
+    <main class='main main-single-apartament main-user'>
+        <div class="main__container">
+            <div class="d-flex justify-content-between rating-and-reviews__container">
+                <h1 class="main-title">
+                    My previous reviews (2)
+                </h1>
+            </div>
+            <div class="main-single-apartament__block row">
+                <div class="col-sm-3 col-12 main-single-apartament__block__left-col">
+                    <span class="main-single-apartament__block__overall-span">Score Review</span>
+                    <div class="d-flex align-items-baseline flex-column pt-2">
+                        <div class="d-flex">
+                            <img src="img/star.svg" alt="star icon" class='star-icon active'>
+                            <img src="img/star.svg" alt="star icon" class='star-icon active'>
+                            <img src="img/star.svg" alt="star icon" class='star-icon active'>
+                            <img src="img/star.svg" alt="star icon" class='star-icon'>
+                            <img src="img/star.svg" alt="star icon" class='star-icon'>
+                        </div>
+                        <span class="main-search-result__block__inner-block__rating pt-1">
+                            4.50/5.00
+                        </span>
+                    </div>
+                    <ul class="main-single-apartament__block__rating-list">
+                        <li>
+                            <div class="d-flex justify-content-between">
+                                Comfort
+                                <p class="single-apartament-section__rating-list-number">5/5</p>
+                            </div>
+                            <div class="d-flex">
+                                <div class="single-apartament-section__rating-list-scale services-scale-5"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="d-flex justify-content-between">
+                                Staff
+                                <p class="single-apartament-section__rating-list-number">3/5</p>
+                            </div>
+                            <div class="d-flex">
+                                <div class="single-apartament-section__rating-list-scale services-scale-3"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="d-flex justify-content-between">
+                                Services
+                                <p class="single-apartament-section__rating-list-number">4/5</p>
+                            </div>
+                            <div class="d-flex">
+                                <div class="single-apartament-section__rating-list-scale services-scale-4"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="d-flex justify-content-between">
+                                Neighbours
+                                <p class="single-apartament-section__rating-list-number">2/5</p>
+                            </div>
+                            <div class="d-flex">
+                                <div class="single-apartament-section__rating-list-scale services-scale-2"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="d-flex justify-content-between">
+                                Noicy
+                                <p class="single-apartament-section__rating-list-number">3/5</p>
+                            </div>
+                            <div class="d-flex">
+                                <div class="single-apartament-section__rating-list-scale services-scale-5"></div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="d-flex justify-content-center mb-3 mb-sm-0">
+                        <button class="contact-reviewer-btn">
+                            Contact reviewer
+                        </button>
+                    </div>
+                </div>
+                <div class="col-sm-9 col-12">
+                    <div class="d-flex justify-content-between mt-3 mt-lg-0 flex-column flex-md-row">
+                        <div class="d-flex flex-column">
+                            <div class="d-flex align-items-center">
+                                <img src="img/b80249235cab344d4fa92087b0a4b61c029ad6f1.png" alt="Autor image" class="main-single-apartament__block__autor-img">
+                                <p class="main-single-apartament__block__reviewed">John Matthew <span>Reviewed</span></p>
+                                <span class='main-single-apartament__block__stayed-span'>Stayed - 1 Year</span>
+                            </div>
+                            <p class="main-single-apartament__block__description">
+                                Lorem Ipsum is simply dummy text of the
+                                printing and typesetting industry. Lorem
+                                Ipsum has been the industry`s standart 
+                                dummy text ever since the 1500s Lorem
+                                Ipsum is simply dummy text of the printing
+                                and typesetting industry as been the industry`s standart 
+                                dummy text ever since the 1500s Lorem Ipsum is simply.
+                                <a href="#" class="sm-link">Translate</a>
+                            </p>
+                        </div>
+                        <div class="d-flex flex-column mb-2 mt-2 pt-md-0 pb-md-0">
+                            <span class="main-single-apartament__block__published-time">
+                                Published:<br> 26.08.2018-10:30AM
+                            </span>
+                            <span class="main-single-apartament__block__recommended">
+                                <img src="img/like-blue.svg">
+                                Recommended
+                            </span>
+                            <span class="main-single-apartament__block__verified">
+                                <img src="img/shield.svg">
+                                Verified
+                            </span>
+                        </div>
+                    </div>
+                    <div class="main-single-apartament__block__photos">
+                        <p>Photos</p>
+                        <div class="d-flex">
+                            <img src="img/a9e205a3e5f38e7503611a82da748c0e0177cad2.png" alt="Apartament image">
+                            <img src="img/a6d4d725ec2bd2f510c107a83c854752de8b93aa.png" alt="Apartament image">
+                            <img src="img/a9e205a3e5f38e7503611a82da748c0e0177cad2.png" alt="Apartament image">
+                            <img src="img/a6d4d725ec2bd2f510c107a83c854752de8b93aa.png" alt="Apartament image">
+                            <img src="img/a9e205a3e5f38e7503611a82da748c0e0177cad2.png" alt="Apartament image">
+                        </div>
+                    </div>
+                    <div class="main-single-apartament__block__bottom">
+                        <div class="d-flex">
+                            <button class="useful-btn">
+                                <img src="img/like.svg">
+                                Useful
+                            </button>
+                            <button class="useful-btn useful-btn_not">
+                                <img src="img/like.svg">
+                                Not useful
+                            </button>
+                        </div>
+                        <div class="d-flex">
+                            <button class="share-btn">
+                                <img src="img/share.svg">
+                                Share
+                            </button>
+                            <button class="report-btn">
+                                <img src="img/warning.svg">
+                                Report
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-single-apartament__block mb-5 row">
+                <div class="col-sm-3 col-12 main-single-apartament__block__left-col">
+                    <span class="main-single-apartament__block__overall-span">Score Review</span>
+                    <div class="d-flex align-items-baseline flex-column pt-2">
+                        <div class="d-flex">
+                            <img src="img/star.svg" alt="star icon" class='star-icon active'>
+                            <img src="img/star.svg" alt="star icon" class='star-icon active'>
+                            <img src="img/star.svg" alt="star icon" class='star-icon active'>
+                            <img src="img/star.svg" alt="star icon" class='star-icon'>
+                            <img src="img/star.svg" alt="star icon" class='star-icon'>
+                        </div>
+                        <span class="main-search-result__block__inner-block__rating pt-1">
+                            4.50/5.00
+                        </span>
+                    </div>
+                    <ul class="main-single-apartament__block__rating-list">
+                        <li>
+                            <div class="d-flex justify-content-between">
+                                Comfort
+                                <p class="single-apartament-section__rating-list-number">5/5</p>
+                            </div>
+                            <div class="d-flex">
+                                <div class="single-apartament-section__rating-list-scale services-scale-5"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="d-flex justify-content-between">
+                                Staff
+                                <p class="single-apartament-section__rating-list-number">3/5</p>
+                            </div>
+                            <div class="d-flex">
+                                <div class="single-apartament-section__rating-list-scale services-scale-3"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="d-flex justify-content-between">
+                                Services
+                                <p class="single-apartament-section__rating-list-number">4/5</p>
+                            </div>
+                            <div class="d-flex">
+                                <div class="single-apartament-section__rating-list-scale services-scale-4"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="d-flex justify-content-between">
+                                Neighbours
+                                <p class="single-apartament-section__rating-list-number">2/5</p>
+                            </div>
+                            <div class="d-flex">
+                                <div class="single-apartament-section__rating-list-scale services-scale-2"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="d-flex justify-content-between">
+                                Noicy
+                                <p class="single-apartament-section__rating-list-number">3/5</p>
+                            </div>
+                            <div class="d-flex">
+                                <div class="single-apartament-section__rating-list-scale services-scale-5"></div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="d-flex justify-content-center mb-3 mb-sm-0">
+                        <button class="contact-reviewer-btn">
+                            Contact reviewer
+                        </button>
+                    </div>
+                </div>
+                <div class="col-sm-9 col-12">
+                    <div class="d-flex justify-content-between mt-3 mt-lg-0 flex-column flex-md-row">
+                        <div class="d-flex flex-column">
+                            <div class="d-flex align-items-center">
+                                <img src="img/b80249235cab344d4fa92087b0a4b61c029ad6f1.png" alt="Autor image" class="main-single-apartament__block__autor-img">
+                                <p class="main-single-apartament__block__reviewed">John Matthew <span>Reviewed</span></p>
+                                <span class='main-single-apartament__block__stayed-span'>Stayed - 1 Year</span>
+                            </div>
+                            <p class="main-single-apartament__block__description">
+                                Lorem Ipsum is simply dummy text of the
+                                printing and typesetting industry. Lorem
+                                Ipsum has been the industry`s standart 
+                                dummy text ever since the 1500s Lorem
+                                Ipsum is simply dummy text of the printing
+                                and typesetting industry as been the industry`s standart 
+                                dummy text ever since the 1500s Lorem Ipsum is simply.
+                                <a href="#" class="sm-link">Translate</a>
+                            </p>
+                        </div>
+                        <div class="d-flex flex-column mb-2 mt-2 pt-md-0 pb-md-0">
+                            <span class="main-single-apartament__block__published-time">
+                                Published:<br> 26.08.2018-10:30AM
+                            </span>
+                            <span class="main-single-apartament__block__recommended">
+                                <img src="img/like-blue.svg">
+                                Recommended
+                            </span>
+                            <span class="main-single-apartament__block__verified">
+                                <img src="img/shield.svg">
+                                Verified
+                            </span>
+                        </div>
+                    </div>
+                    <div class="main-single-apartament__block__photos">
+                        <p>Photos</p>
+                        <div class="d-flex">
+                            <img src="img/a9e205a3e5f38e7503611a82da748c0e0177cad2.png" alt="Apartament image">
+                            <img src="img/a6d4d725ec2bd2f510c107a83c854752de8b93aa.png" alt="Apartament image">
+                            <img src="img/a9e205a3e5f38e7503611a82da748c0e0177cad2.png" alt="Apartament image">
+                            <img src="img/a6d4d725ec2bd2f510c107a83c854752de8b93aa.png" alt="Apartament image">
+                            <img src="img/a9e205a3e5f38e7503611a82da748c0e0177cad2.png" alt="Apartament image">
+                        </div>
+                    </div>
+                    <div class="main-single-apartament__block__bottom">
+                        <div class="d-flex">
+                            <button class="useful-btn">
+                                <img src="img/like.svg">
+                                Useful
+                            </button>
+                            <button class="useful-btn useful-btn_not">
+                                <img src="img/like.svg">
+                                Not useful
+                            </button>
+                        </div>
+                        <div class="d-flex">
+                            <button class="share-btn">
+                                <img src="img/share.svg">
+                                Share
+                            </button>
+                            <button class="report-btn">
+                                <img src="img/warning.svg">
+                                Report
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- MODAL -->
+    <div class="custom-modal verify-modal">
+        <div class="custom-modal__content">
+            <img src="img/close.svg" alt="close button" class="close-btn">
+            <h1 class="main-title">
+                Get verified
+            </h1>
+            <p class="main-title__desc">
+                To be verified you need to show proof of your identity by sending (ID, Passport, PDF or tenancy contract, utility bills under your name showing address and apt number)
+            </p>
+            <div class="verification-steps">
+                <div class="verification-steps__row row">
+                    <div class="col-sm-6 col-12 verification-steps__col">
+                        <h5 class="verification-steps__col-title">
+                            Step 1
+                        </h5>
+                        <h5 class="verification-steps__col-desc">
+                            Please upload the proof of your<br> ID Or Passport
+                        </h5>
+                        <span class="verification-steps__col-span">
+                            Add Photos
+                        </span>
+                        <div class="input-file__container">
+                            <input type="file" id="file">
+                            <label class="input-file__container-inner" for="file">
+                                <img src="img/camera.svg">
+                                <p>Choose file</p>
+                            </label>
+                            <span>Passport copy.png</span>
+                        </div>
+                        <div class="attached-file">
+                            <img src="img/85921642322a12d539434f2837b5dff507cf791d.png" alt="document image">
+                            <span>Remove</span>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-12 verification-steps__col">
+                        <h5 class="verification-steps__col-title">
+                            Step 2
+                        </h5>
+                        <h5 class="verification-steps__col-desc">
+                            Please upload the proof of your utility bills or
+                            tenancy contract under your name showing
+                            address and apt number
+                        </h5>
+                        <span class="verification-steps__col-span">
+                            Add Photos
+                        </span>
+                        <div class="input-file__container">
+                            <input type="file" id="file">
+                            <label class="input-file__container-inner" for="file">
+                                <img src="img/camera.svg">
+                                <p>Choose file</p>
+                            </label>
+                            <span>Bills.png</span>
+                        </div>
+                        <div class="d-flex">
+                            <div class='mr-4 attached-file attached-file_double'>
+                                <img src="img/85921642322a12d539434f2837b5dff507cf791d.png" alt="document image">
+                                <span>Remove</span>
+                            </div>
+                            <div class="attached-file attached-file_double">
+                                <img src="img/85921642322a12d539434f2837b5dff507cf791d.png" alt="document image">
+                                <span>Remove</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="custom-modal__done-btn" type="submit">
+                Done
+            </button>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+            <div class="container">
+                <div class="footer__row row">
+                    <div class="col-sm-6 col-12 col-lg-5 footer__col">
+                        <a href="home.html" class="footer__logo">Logo</a>
+                        <p class='footer__company-description'>
+                            Lorem Ipsum is simply dummy text of the
+                            printing and typesetting industry. Lorem
+                            Ipsum has been the industry`s standart 
+                            dummy text ever since the 1500s Lorem
+                            Ipsum is simply dummy text of the printing
+                            and typesetting industry.
+                        </p>
+                    </div>
+                    <div class="col-sm-6 col-12 col-lg-3 col-4 footer__col">
+                        <span class="footer__col-title">Important Links</span>
+                        <ul class="footer__menu">
+                            <li>
+                                <a href="about-us.html">About Us</a>
+                            </li>
+                            <li>
+                                <a href="terms.html">Terms and Conditions</a>
+                            </li>
+                            <li>
+                                <a href="privacy.html">Privacy Policy</a>
+                            </li>
+                            <li>
+                                <a href="contact-us.html">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-lg-3 footer__col">
+                        <span class="footer__col-title">Contact Us</span>
+                        <ul class="footer__menu">
+                            <li>
+                                <a href="mailto:sample@mail.com">Contact Us</a>
+                            </li>
+                            <li>
+                                <a href="tel:971123464788">+971 123 464788</a>
+                            </li>
+                            <li>
+                                <a class="write-review__btn" href="write-review.html">
+                                    Write a Review
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    </footer>
+
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src='js/select.js'></script>
+    <script src='js/modal.js'></script>
+    <script src='js/user.js'></script>
+    <script src="js/slick-apartments.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

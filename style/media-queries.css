@@ -3,9 +3,14 @@
     .main__sidebars-sidebar{
         display: none;
     }
+    .main-search-result.main_sidebars{
+        max-width: 856px !important;
+    }
+    .main_sidebars .main__container{
+        margin: 0;
+    }
     .main_sidebars{
         justify-content: center;
-        max-width: 856px !important;
     }
     .main_sidebars .main__container{
         width: 100%;
@@ -147,8 +152,10 @@
     .main-single-apartament__block, .main-single-apartament__block, .main-write-review__form{
         margin: 20px 10px 0px 10px;
     }
+    .user-form__container{
+        padding: 0px 15px;
+    }
 }
-
 
 /* MEDIA SCREEN 767PX BETWEEN 992PX */
 
@@ -176,6 +183,9 @@
     }
     .main-search-result__block{
         font-size: 110%;
+    }
+    .main-single-apartament__search-container .input-container{
+        margin: 0px 10px;
     }
     .slick-prev.slick-arrow, .slick-next.slick-arrow{
         bottom: 1.05rem;
@@ -212,7 +222,6 @@
         background-size: auto !important;
     }
 } 
-
 
 /* MEDIA SCREEN LESS 767PX * CONST * */
 
@@ -329,12 +338,17 @@
         height: 2.5em;
         background-size: contain;
     }
+    .submit-review-modal .custom-modal__content{
+        width: 95vw;
+        max-height: 90vh;
+        overflow-y: scroll;
+    }
 
 }
 
 /* MEDIA SCREEN 568PX BETWEEN 767PX */
 
-@media only screen and (min-width:568px) and (max-width: 767px) {
+@media only screen and (min-width:578px) and (max-width: 767px) {
     html{
         font-size: 47.5%;
     }
@@ -349,6 +363,9 @@
     }
     .main-single-apartament__block{
         font-size: 130%;
+    }
+    .submit-report-modal__btn{
+        font-size: 1.75rem;
     }
     .main-single-apartament__block__photos > div img{
         width: 32%;
@@ -379,15 +396,66 @@
     }
 } 
 
+/* MEDIA SCREEN 578PX LESS * CONST * */
 
-/* MEDIA SCREEN 568PX LESS * CONST * */
-
-@media screen and (max-width: 568px){
+@media screen and (max-width: 578px){
     .home-auth-section__row__right-col form {
         width: 100%;
     }
     .home-auth-section__login-btn{
         font-size: 1.9rem;
+    }
+    .custom-modal__content .input-file__container{
+        margin: 2em 0em;  
+    }
+    .custom-modal__content .input-file__container{
+        font-size: 1em;
+    }
+    .no-reviews{
+        padding-bottom: 14rem;
+    }
+    .about-us-section__row-title{
+        padding-top: 3rem;
+        font-size: 2.4rem;
+    }
+    .about-us-section_gray .about-us-section__row-desc{
+        padding-top: 1rem;
+    }
+    .about-us-section_transparent .row div:nth-child(1){
+        order: 2;
+    }
+    .main-contact-us__heading{
+        flex-direction: column;
+    }
+    .main-contact-us__info {
+        margin-bottom: 2rem;
+    }
+    .main-contact-us__form textarea{
+        margin-top: 2rem;
+        height: 9.5rem;
+    }
+    .header{
+        padding: 7rem 0rem;
+    }
+    .main-contact-us__info a{
+        text-align: left;
+    }
+    .about-us-section_transparent img{
+        margin-top: 6rem;
+    }
+    .about-us-section_transparent .about-us-section__row-desc{
+        padding: 1rem 0rem 3rem;
+    }
+    .about-us-section_transparent{
+        padding-top: 0;
+    }
+    .user-section__get-verified-btn{
+        margin-right: 0;
+        font-size: 1.5rem;
+        padding: 1.2rem 2.55rem;
+    }
+    .sub-bar__col-search input{
+        max-width: 80px;
     }
     .burger-menu {
         top: 1.5em;
@@ -488,12 +556,26 @@
     .write-review__container .write-review__btn, .main-search-result__block__building-info .write-review__btn{
         padding: 0.7em 0.9em;
     }
-    
+    .user-form__form__left-col{
+        order: 1;
+        margin-top: 2rem;
+        padding: 1.5rem 2rem;
+    }
+    .user-form__form__right-col{
+        padding: 0;
+    }
+    .user-section__info img{
+        width: 10rem;
+        height: 10rem;
+    }
+    .user-form__form__sub-title{
+        padding-bottom: 1rem;
+    }
 }
 
-/* LARGE PHONES AND SMALL TABLETS 375PX BETWEEN 568 PX */
+/* LARGE PHONES AND SMALL TABLETS 375PX BETWEEN 578 PX */
 
-@media only screen and (min-width:375px) and (max-width:568px) {
+@media only screen and (min-width:375px) and (max-width:578px) {
     html{
         font-size: 50%;
     }
@@ -505,6 +587,9 @@
     }
     .home-search-section__container h1{
         font-size: 2.5rem;
+    }
+    .submit-report-modal__btn{
+        font-size: 1.55rem;
     }
     .home-search-section__container p{
         font-size: 2.25rem;
@@ -577,7 +662,6 @@
     }
 }
 
-
 /* DEFAULT PHONES 345PX BETWEEN 374PX */
 
 @media only screen and (min-width:345px) and (max-width: 374px) {
@@ -586,6 +670,14 @@
     }
     .home-search-section__container h1, .home-instructions__title{
         font-size: 2rem;
+    }
+    .user-section__get-verified-btn{
+        margin-right: 0;
+        font-size: 1.2rem;
+        padding: 0.8rem 1.15rem;
+    }
+    .submit-report-modal__btn{
+        font-size: 1.35rem;
     }
     .home-search-section__container p{
         font-size: 1.75rem;
@@ -598,6 +690,9 @@
     }
     .home-auth-section__login-btn{
         font-size: 1.5rem;
+    }
+    .sub-bar__col-search input {
+        max-width: 70px;
     }
     .burger-menu {
         top: 2em;
@@ -708,6 +803,11 @@
     .home-search-section__container h1, .home-instructions__title{
         font-size: 2rem;
     }
+    .user-section__get-verified-btn{
+        margin-right: 0;
+        font-size: 1.2rem;
+        padding: 0.8rem 1.15rem;
+    }
     .home-search-section__container p{
         font-size: 1.75rem;
     }
@@ -728,6 +828,9 @@
     }
     .social-signup-container__button img {
         height: 1.8rem;
+    }
+    .submit-report-modal__btn{
+        font-size: 1.25rem;
     }
     .sub-bar{
         font-size: 72.5%
@@ -801,5 +904,37 @@
     .custom-theme-select__col .custom-theme-select, .custom-theme-select__col{
         margin-right: 7.5px;
         width: 100% !important;
+    }
+    .sub-bar__col-search input{
+        max-width: 60px;
+    }
+}
+
+/* HEIGHT LESS THAN 1100PX */
+
+@media only screen and (max-height:1100px){
+    .review-info-modal .custom-modal__content{
+        max-height: 90vh;
+        overflow-y: scroll;
+    }
+}
+
+/* HEIGHT LESS THAN 850PX */
+
+@media only screen and (max-height:850px){
+    .verify-modal .custom-modal__content{
+        width: 95vw;
+        max-height: 90vh;
+        overflow-y: scroll;
+    }
+}
+
+/* HEIGHT LESS THAN 720PX */
+
+@media only screen and (max-height:710px){
+    .submit-report-modal .custom-modal__content{
+        width: 95vw;
+        max-height: 90vh;
+        overflow-y: scroll;
     }
 }

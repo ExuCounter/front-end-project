@@ -1,5 +1,5 @@
-let burgerMenu = document.querySelector('.burger-menu');
-let topBarNavCol = document.querySelector('.top-bar__row__nav-col');
+let burgerMenu = document.querySelector('.burger-menu'); // BURGER
+let topBarNavCol = document.querySelector('.top-bar__row__nav-col'); // CONTAINER
 
 burgerMenu.addEventListener('click', ()=>{
     if(!(topBarNavCol.classList.contains('active'))){  

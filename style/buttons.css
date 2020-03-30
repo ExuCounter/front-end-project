@@ -61,7 +61,7 @@
     transition: 0.1s ease-out;
 }
 
-.sign-up-btn:hover, .lg-btn:hover, .write-review__btn:hover, .write-review__btn:hover, .xs-btn-login:hover, .lg-btn:hover {
+.sign-up-btn:hover, .lg-btn:hover, .no-reviews__notify-btn:hover, .main-contact-us__form button[type='submit']:hover, .submit-review-modal__btn:hover, .write-review__btn:hover, .user-form__form__left-col button[type='submit']:hover, .user-section__get-verified-btn:hover, .write-review__btn:hover, .xs-btn-login:hover, .lg-btn:hover {
     color: #ff4a49 !important;
     background-color: transparent;
     border: solid 0.09em #ff4a49;

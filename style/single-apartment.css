@@ -258,3 +258,56 @@
     padding: 0.7em 1.3em;
     font-size: 1.5rem;
 }
+
+.no-reviews{
+    padding: 0px 10px 28rem 10px;
+}
+
+.no-reviews__title{
+    font-size: 2.07rem;
+    font-weight: 600;
+    text-align: center;
+    display: block;
+    padding: 7.9rem 0rem 9.3rem;
+    color: #4d5a67;
+    font-family: "SF Text", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.no-reviews img{
+    display: block;
+    margin: 0 auto;
+}
+
+.no-reviews__desc{
+    font-size: 1.9rem;
+    font-weight: 600;
+    text-align: center;
+    display: block;
+    color: #000000;
+    padding: 6.5rem 0em 4.2rem 0em;
+}
+
+.no-reviews__notify-btn{
+    padding: 1.5rem 8rem 2rem 8rem;
+    color: #FFF;
+    background: #ff4a49;
+    font-weight: 500;
+    border: solid 1.5px transparent;
+    margin: 0 auto;
+    display: block;
+    font-size: 2.07rem;
+    font-family: "SF Text", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.main-single-apartament  .main__sidebars-sidebar{
+    width: 259px;
+}
+
+.main-single-apartament  .main__sidebars-sidebar img, .review-info-modal__info-img{
+    max-width: 259px;
+}
+
+.main-single-apartament .main_sidebars__right-sidebar{
+    margin-top: 21rem;
+}

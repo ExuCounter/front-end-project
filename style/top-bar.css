@@ -31,6 +31,7 @@
     text-transform: uppercase;
     font-family: "SF Text Bold";
     color: #1d1d1d;
+    margin-left: -5px;
 }
 
 .top-bar__menu ul{
@@ -73,12 +74,18 @@
     color: #8c8c8c;
 }
 
+.top-bar__user a.active{
+    color: #0989d2;
+}
+
 .top-bar__user img{
     width: 2.66em;
     height: 2.66em;
     border-radius: 2.66em;
     border: solid 0.1em #0989d2;
     margin-left: 1.5em;
+    object-position: top;
+    object-fit: cover;
 }
 
 .top-bar__row__nav-col.active{

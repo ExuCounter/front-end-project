@@ -33,3 +33,18 @@
     margin-right: 3.33em;
 
 }
+
+.sub-bar_user .container{
+    max-width: 856px;
+    margin: 0 auto;
+}
+
+.sub-bar_user .sub-bar__col-result{
+    justify-content: flex-start;
+}
+
+.sub-bar_user .sub-bar__col__write-review{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 4rem;
+}
