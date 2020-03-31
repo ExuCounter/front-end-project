@@ -617,7 +617,7 @@
     }
     .main-single-apartament__block__photos > div img{
         width: 48%;
-        max-height: none;
+        max-height: 125px;
         margin: 0px 5px 5px 0px;
         max-height: auto;
     }
@@ -726,7 +726,7 @@
     }
     .main-single-apartament__block__photos > div img{
         width: 75%;
-        max-height: none;
+        max-height: 100px;
         margin: 0px 5px 5px 0px;
         max-height: auto;
     }
@@ -852,7 +852,7 @@
     }
     .main-single-apartament__block__photos > div img{
         width: 90%;
-        max-height: none;
+        max-height: 100px;
         margin: 0px 5px 5px 0px;
         max-height: auto;
     }

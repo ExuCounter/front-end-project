@@ -1,7 +1,5 @@
 .home-auth-section_login .home-auth-section__row__left-col{
-    background: url('../img/1.jpg');
-    border-top-right-radius: 43rem;
-    border-bottom-right-radius: 9rem;
+    background: url('../img/login_bg1.png');
 }
 
 .home-auth-section .home-auth-section__row__left-col{
@@ -10,9 +8,8 @@
 }
 
 .home-auth-section_signup .home-auth-section__row__left-col{
-    background: url('../img/2.jpg');
-    border-top-right-radius: 35rem;
-    border-bottom-right-radius: 15rem;
+    background: url('../img/login_bg2.png');
+    background-repeat: no-repeat;
 }
 
 .home-auth-section_signup .social-signup-container{

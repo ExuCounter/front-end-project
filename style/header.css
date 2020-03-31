@@ -3,14 +3,14 @@
 }
 
 .header-about-us{
-    background: url('../img/4.jpg');
+    background: url('../img/about_us_header.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .header-contact-us{
-    background: url('../img/4.jpg');
+    background: url('../img/contact_us_header.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
